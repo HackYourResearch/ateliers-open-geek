@@ -1,5 +1,7 @@
 # Collaboration et suivi des développements
 
+Framapad live du cours : https://lite5.framapad.org/p/atelier_open_geek_3
+
 ## Objectifs
 
 - Travailler à plusieurs sur un même code
