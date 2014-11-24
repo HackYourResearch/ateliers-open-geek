@@ -369,17 +369,17 @@ Il implore donc votre aide pour cela.
 
 Si l'on ouvre le fichier concerné avec un editeur de texte, on va découvrir la syntaxe un peu étrange mettant en exergue les conflits :
 
-<<<<<<< HEAD
-  1: # LE RENARD ET LE BOUC #
-  2: 
-  3: Capitaine Renard allait de compagnie
-=======
-# LE RENARD ET LE BOUC #
+    <<<<<<< HEAD
+      1: # LE RENARD ET LE BOUC #
+      2: 
+      3: Capitaine Renard allait de compagnie
+    =======
+    # LE RENARD ET LE BOUC #
 
-*Jean de la Fontaine*
+    *Jean de la Fontaine*
 
-Capitaine Renard allait de compagnie
->>>>>>> Quelques modifications sur le renard et bouc
+    Capitaine Renard allait de compagnie
+    >>>>>>> Quelques modifications sur le renard et bouc
 
 La première partie, entre "<<<" et "===" montre le fichier tel qu'il se trouve sur le serveur, et donc les modifications apportées par nos collaborateurs.
 
