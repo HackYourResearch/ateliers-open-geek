@@ -204,6 +204,11 @@ GitHub est un service sur internet qui permet d'héberger facilement des espaces
 
 On peut accéder au code mis en ligne sur GitHub sans se créer de compte, mais travailler collaborativement sur cette plateforme nécessite d'en créer un. [Let's go !](https://github.com/)
 
+### COnfiguration de Git pour GitHub
+
+    $ git config --global user.name Monpseudo
+    $ git config --global user.email Monpseudo@users.noreply.github.com
+
 ### L'espace de travail
 
 Rendons-nous sur l'espace de travail que nous allons utiliser dans la suite de cet atelier :
