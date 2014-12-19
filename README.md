@@ -9,4 +9,6 @@ Liste des ateliers:
 
 [Atelier #3: Git et GitHub](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier%233.md)
 
+[Atelier #4: Carthographie sociale](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier%234.md)
+
 Pour s'inscrire sur la mailling list, rendez-vous sur le [Google Group](https://groups.google.com/forum/#!forum/open-geek).
