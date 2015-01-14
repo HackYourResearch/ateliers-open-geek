@@ -28,7 +28,7 @@ Différence entre répertoire et un fichier :
 
 **Comment interagir avec l'ordinateur (sans parler en 0 et 1) ?**
 
-A la base, carte perforée (année 1950)
+A la base, carte perforée (année 1950),
 maintenant langages utilisant la ligne de commande
 
 ligne de commande: 
@@ -42,9 +42,9 @@ pas de sous-entendu chez l'ordinateur.
 
 **Ouvrir une fenêtre de commande**
 
-pour ouvrir une fenêtre de commande 
-Sous Mac : répertoire application> Utilitaires/Utilities>Terminal
-Sous Windows : win+R puis cmd on peut aussi utiliser powershell (installation quand on met git) 
+pour ouvrir une fenêtre de commande  
+- sous Mac : répertoire application> Utilitaires/Utilities>Terminal
+- sous Windows : win+R puis cmd on peut aussi utiliser powershell (installation quand on met git) 
     Afficher un bureau window depuis un navigateur
     On peut choisir son système d'exploitation sur la partie droite.
     
@@ -56,10 +56,10 @@ Trouver la racine :
 Conseil dans votre finder (indiquez votre disque dur : la racine) et afficher la barre de chemin d'accès
 
 **Système de fichier** 
-    alphabet avec lequel on écrit les données sur le disque dur 
-    problème pas compatible parfois entre Windows, Linux et Mac 
-    le Fat32 est compris par tous mais limite à 4Go
-    le NTFS passe entre Linux et Windows pas Mac 
+    alphabet avec lequel on écrit les données sur le disque dur  
+    problème pas compatible parfois entre Windows, Linux et Mac  
+    le Fat32 est compris par tous mais limite à 4Go  
+    le NTFS passe entre Linux et Windows pas Mac
     
 **Lignes de commande : la base**
     
@@ -158,10 +158,10 @@ Pour ouvrir dans la fenêtre de commande: "ipython notebook"
 **Ipython Notebook** 
 
 [http://ipython.org/notebook.html](http://ipython.org/notebook.html) 
-pour quitter ipython notebook ctrl c
+pour quitter ipython notebook : `ctrl c` dans la fenetre du terminal où on l'a lancé.
 
 le cahier peut aider à communiquer avec les autres utilisateurs (possibilité d'écrire en markdown)
-on peut exporter ensuite le ipy en différent format .py .html 
+on peut exporter ensuite le notebook ipython en différent format .py .html 
 
 
 ##Résumé du dernier atelier 
