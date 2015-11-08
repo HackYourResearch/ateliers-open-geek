@@ -442,3 +442,11 @@ BONUS TODO :
     + la récupération facile de dépendances avec pip (et le fichier requirements.txt)
     + path.py pour s'amuser
     + un peu de code python, parce que c'est cool 
+
+AUTRES RESSOURCES:
+- [Livre officiel de Git en français](http://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide)
+- [git - the simple guide (en anglais)](http://rogerdudler.github.io/git-guide/)
+- [Git Immersion (en anglais)](http://gitimmersion.com)
+- [GitHub classes (en anglais)](https://training.github.com/classes/)
+
+- 
