@@ -1,15 +1,46 @@
 # Retour sur les Bases
+
+## Histoire de l'informatique
+À la racine de l'informatique se trouve la volonté d'automatiser.
+Automatiser, c'est faire faire à la machine les tâches répétitives, où l'humain est bien moins efficace que la machine, pour le laisser se concentrer sur des tâches plus complexes.
+
+Aux premiers pas de l'automatisation, on trouve les automates, sortes de robots mécaniques.
+Il faut noter qu'aux tout débuts de l'automatisation, et avant son utilisation massive dans l'industrie, on réalisait surtout des automates à des fins d'amusement et le divertissement.
+
+On peut voir un automate comme un ensemble d'états et des règles de transition entre les états.
+
+Par exemple : Les fantômes de PacMan commencent leur vie en chassant PacMan (état 1) et se mettent à le fuire (état 2) quand PacMan mange un point blanc (transition).
+
+L'avantage de l'ordinateur sur l'automate mécanique, est la possibilité de créer "facilement" + d'états et + de transition, tout en étant à même de les modifier après coup.
+
+Basiquement, la base dun ordinateur est une machine à registre, c'est à dire une machine possédant des "récipients", contenant des "objets" et étant capable de faire des opérations sur ces récipients et ces objets : enlever un objet d'un récipient, ajouter un objet à un récipient, vérifier si un objet est vide ...
+
+Toutes ces choses simples permettent de faire les opérations logiques qui permettent ensuite d'ouvrir la porte à tous les besoins en automatisation qu'on a.
+C'est ce qu'a démontré Turing, en définissant l'ensemble d'opération minimal qui permettait de "tout" faire.
+
+Ce "tout" est toutefois limité par le nombre de registre et leur taille. Un ordinateur avec une infinité de registres de taille infinie est donc en théorie capable de réaliser n'importe quelle opération.
+
+Pour aller plus loin que ces "opérations minimales", on défini, dans un ordinateur, des registres spéciaux, qui vont, lorsqu'ils sont utilisés, réaliser un ensemble d'opérations données. On dit qu'on rajoute de l'abstraction.
+
+On parle de "niveaux d'abstraction" ou de "couches d'abstraction" pour d'écrire la superposition de tels registres, groupant des opérations afin de faciliter la vie à l'utilisateur.
+
+Ainsi, on trouve les opérations de Turing sur la première couche, puis on va trouver des langages un peu plus complexes, comme l'assembleur, quelques couches plus haut, puis des langages comme Python sur des couches encore supérieures et les fenêtres d'interface tout en haut.
+
+Au coeur des ordinateurs modernes, on trouve ces registres dans ce qu'on appel la **mémoire**. Et les opérations sur ces registres sont réalisées par le **processeur**.
+
 ## Votre Ordinateur
 
 ### Le matériel
 le **processeur** manipule des 0 et des 1 écrits en mémoire en suivant une instruction.
 
-La **mémoire** de votre ordinateur :
+La **mémoire** de votre ordinateur peut être de différents types et se trouver sur différents supports.
 
- - la mémoire vive (l'information s'efface quand on coupe le courant)
- - le disque dur (l'information reste tant que pas modifiée)
+Comme le cerveau humain, certaines mémoires à long terme sont stables dans le temps mais sont un peu plus lentes que des mémoires plus rapides mais ayant une durée de vie limitée.
 
-Les **langages** informatiques permettent d'écrire des instructions de façon un peu moins pénible qu'avec des suites de 0 et de 1 :
+ - la mémoire vive est une mémoire rapide, de travail, mais  dont l'information s'efface quand on coupe le courant
+ - le disque dur est une mémoire à long terme, où l'information reste tant qu'on ne la re-modifie pas
+
+Les **langages** informatiques sont les "couches d'abstractions" qui permettent d'écrire des instructions de façon un peu moins pénible qu'avec des suites de 0 et de 1 :
 
  - [cartes perforées](http://fr.wikipedia.org/wiki/Carte_perfor%C3%A9e) (soyez heureux d'avoir un clavier au lieu d'une poinçonneuse !)
  - (explosion de langages pour des usages plus ou moins spécifiques)
