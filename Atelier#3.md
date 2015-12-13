@@ -16,7 +16,8 @@ Framapad live du cours : https://lite5.framapad.org/p/atelier_open_geek_3
 
 ## Git : Installation
 
-[Téléchargement](http://git-scm.com/downloads) pour Windows / Mac / Linux
+[Téléchargement git](http://git-scm.com/downloads) pour Windows / Mac / Linux
+[Téléchargement GUI (Graphical User Interface)](http://git-scm.com/downloads/guis) pour Windows / Mac / Linux
 
 ## Git : Fonctionnement
 
@@ -54,11 +55,117 @@ On effectue ensuite quelques modifications dans le fichier file_1.py et on les *
 
 Il est important de se rappeler qu'avec un outil comme Git, on manipule des "états" de notre projet et non pas les fichiers eux-même, comme affiché dans les extraits ci-dessus.
 
-La commande pour sauvegarder l'état d'un projet est :
+### Initialisation d'un projet
+
+Avant de pouvoir utiliser git, il faut l'initialiser dans le répertoire dont on veut suivre les modifications.
+
+Reprenons l'exemple précédent. Nous avons commençé à travailler et avons créé deux fichiers python :
+
+    $ cd exemple/
+    $ ls
+    file_1.py  file_2.py
+
+Pour initialiser git dans ce répertoire, et pouvoir commencer à en suivre les modifications, on utilise la commande :
+
+    $ git init
+    Dépôt Git vide initialisé dans exemple/.git/
+
+L'initialisation prépare le répertoire pour pouvoir y utiliser git, mais ne fait pas tout. Par exemple, il ne choisit pas automatiquement les fichiers qu'on veut versionner.
+
+### Informations sur l'état courant
+
+Pour s'y retrouver facilement, il est important de connaitre quelques commandes permettant de demander à Git des informations sur l'état courant.
+
+    $ git status
+    Sur la branche master
+    
+    Validation initiale
+    
+    Fichiers non suivis:
+      (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+    
+        file_1.py
+        file_2.py
+    
+    aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+
+Les commandes de git sont souvent très informatives, car en plus de faire le job qu'on leur demande, elles donnent également de nombreux conseils sur les commandes qu'on pourrait vouloir taper ensuite.
+
+Ici, on a par exemple les informations suivantes :
+
+- `Validation initiale` nous informe que l'espace de travail vient d'être initialisé
+- `Fichiers non suivis` indique que des fichiers se trouvent dans l'espace de travail mais que git ne les prend pas encore en charge
+
+git donne également des conseils sur les commandes qui pourraient nous être utiles, comme ici `git add <fichier>...` qui nous permet de choisir les fichiers à prendre en charge.
+
+Pour cette phase d'initialisation, ajoutons tous les fichiers non suivis :
+
+    $ git add .            // Le "." indique le répertoire courant. Nous ajoutons tous les fichiers du répertoire courant
+
+Le status prend désormais en compte cet ajout :
+
+    $ git status
+    Sur la branche master
+
+    Validation initiale
+
+    Modifications qui seront validées :
+      (utilisez "git rm --cached <fichier>..." pour désindexer)
+
+        nouveau fichier : file_1.py
+        nouveau fichier : file_2.py
+
+Il ne reste plus qu'à valider ce premier état de notre environnement :
+
+    $ git commit -m 'Initialisation'
+    [master (commit racine) 5ebb615] Initialisation
+     2 files changed, 0 insertions(+), 0 deletions(-)
+     create mode 100644 file_1.py
+     create mode 100644 file_2.py
+
+Le status courant est alors mis à jour :
+
+    $ git status
+    Sur la branche master
+    rien à valider, la copie de travail est propre
+
+### Suivi des modifications
+
+#### Ajout d'un fichier
+
+Apporter de nouvelles modifications sur les fichiers va alors changer le status courant, de nouveau.
+
+Ajoutons par exemple un fichier `file_3.py`.
+
+    $ git status
+    Sur la branche master
+    Fichiers non suivis:
+      (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+    
+        file_3.py
+    
+    aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+
+git nous informe qu'il n'a pas pris en compte automatiquement ce fichier, et qu'il faut à nouveau faire un ajout si l'on veut le suivre.
+
+    $ git add file_3.py
+    $ git status
+    Sur la branche master
+    Modifications qui seront validées :
+      (utilisez "git reset HEAD <fichier>..." pour désindexer)
+
+        nouveau fichier : file_3.py
+
+Si nous changeons d'avis, et que ce fichier ne devrait finalement pas être suivi, git nous informe que nous pouvons faire la commande `git reset HEAD file_3.py`
+
+#### Enregistrement de l'état courant
+
+Une fois satisfait de l'état courant, nous pouvons le sauvegarder. La commande pour sauvegarder l'état d'un projet est :
     
     $ git commit
-
-[Exemple par la pratique #1 : Premier commit](http://pcottle.github.io/learnGitBranching/?NODEMO)
+    [master 5c0f14e] Ajout du fichier file_3.py
+     1 file changed, 0 insertions(+), 0 deletions(-)
+     create mode 100644 file_3.py
 
 En pratique, on définit également un "message" avec le *commit* pour exliquer les changements qui ont eu lieu. La commande `git commit` ouvrira un éditeur de texte pour vous demander ce message.
 
@@ -66,55 +173,110 @@ Vous pouvez aussi le préciser directement avec :
 
     $ git commit -m 'Ajout du fichier file_3.py'
 
-### Informations sur l'espace de travail
+#### Modification d'un fichier
 
-Pour s'y retrouver facilement, il est important de connaitre quelques commandes permettant de demander à Git des informations sur l'état courant, les états précédents, etc.
+On pourrait aussi, plutôt que d'ajouter un fichier, en modifier un existant. Par exemple, modifions file_1.py et file_2.py.
 
-Commençons par la commande décrivant l'état courant :
+    Sur la branche master
+    Modifications qui ne seront pas validées :
+      (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+      (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
+    
+        modifié :         file_1.py
+        modifié :         file_2.py
+    
+    aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
 
+Si les fichier sont biens suivis par git, il faut tout de même dire annoncer à celui-ci qu'on veut prendre en compte les modifications apportées, en "indexant" les modifications avec la commande `git add`, à nouveau.
+
+Cette étape supplémentaire peut paraitre pénible, mais elle cache en réalité une fonctionnalité qui permet de travailler plus proprement.
+
+Imaginons que nous avons modifiés fiel_1.py et file_2.py d'une traite, mais que ces modifications n'ont rien à voir. Il serait dommage d'enregistrer ces changements dans un seul et unique état (commit).
+
+Avec l'indexation sélective, on va donc pouvoir procéder en deux fois ...
+
+... en commençant par enregistrer les modifications sur file_1.py :
+
+    $ git add file_1.py
     $ git status
     Sur la branche master
-    Votre branche est à jour avec 'origin/master'.
-
     Modifications qui seront validées :
       (utilisez "git reset HEAD <fichier>..." pour désindexer)
+    
+        modifié :         file_1.py
+    
+    Modifications qui ne seront pas validées :
+      (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+      (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
+    
+        modifié :         file_2.py
+    
+    $ git commit -m 'Modification de file_1.py'
+    [master fe1a8cd] Modification de file_1.py
+     1 file changed, 1 insertion(+)
+    $ git status
+    Sur la branche master
+    Modifications qui ne seront pas validées :
+      (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+      (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
+    
+        modifié :         file_2.py
 
-        modified:   ../file_1.py
+... puis en enregistrant les modifications sur file_2.py :
 
-    Fichiers non suivis:
-      (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+    $ git add file_2.py
+    $ git status
+    Sur la branche master
+    Modifications qui seront validées :
+      (utilisez "git reset HEAD <fichier>..." pour désindexer)
+    
+        modifié :         file_2.py
+    
+    $ git commit -m 'Modification de file_2.py'
+    [master f812b6f] Modification de file_2.py
+     1 file changed, 1 insertion(+)
+    $ git status
+    Sur la branche master
+    rien à valider, la copie de travail est propre
 
-        ../file_draft.py
-
-Les commandes de git sont souvent très informatives, car en plus de faire le job qu'on leur demande, elles donnent également de nombreux conseils sur les commandes qu'on pourrait vouloir taper ensuite.
-
-Ici, on apprend par exemple :
-
-- Que le fichier file_1.py a été modifié et que ces modifications seront sauvegardées dans l'état si l'on fait un *commit*.
-- Qu'on peut éviter cette sauvegarde en executant la commande `git reset HEAD file_1.py`
-- Qu'on a un fichier file_draft.py qui a été modifié ou créé et que lui ne sera pas sauvegardé en faisant un commit.
-- Qu'on peut l'ajouter aux fichiers dont l'état sera sauvegardé en tapant la commande `git add file_draft.py`
+### Informations sur l'état précédent
 
 Une autre information utile concerne également l'historique des états précédents :
 
     $ git log
-    commit 888a8b4c28b229fa22fe72400c1bac37bbf9eaaa
+    commit f812b6f
+    Author: Florian B <f.b@example.com>
+    Date:   Sun Dec 13 16:27:31 2015 +0100
+    
+        Modification de file_2.py
+    
+    commit fe1a8cd
+    Author: Florian B <f.b@example.com>
+    Date:   Sun Dec 13 16:25:19 2015 +0100
+    
+        Modification de file_1.py
+    
+    commit 888a8b4
     Author: Florian B <f.b@example.com>
     Date:   Mon Nov 10 11:51:37 2014 +0100
-
-        Add file_3.py
-
-    commit a892a269442de2f1ff26c48a1cc173a82377f400
+    
+        Ajout du fichier file_3.py
+    
+    commit a892a26
     Author: Florian B <f.b@example.com>
     Date:   Mon Nov 10 11:51:19 2014 +0100
-
-        Initial commit : add file_1.py and file_2.py
+    
+        Initialisation
+    
 
 On peut visionner ça d'une façon un peu plus concise avec :
 
     $ git log --graph --decorate --oneline
-    * 888a8b4 (HEAD, master) Add file_3.py
-    * a892a26 Initial commit : add file_1.py and file_2.py
+    * f812b6f (HEAD -> master) Modification de file_2.py
+    * fe1a8cd Modification de file_1.py
+    * 5c0f14e Ajout du fichier file_3.py
+    * 5ebb615 Initialisation
+
 
 ### Naviguer dans Git
 
