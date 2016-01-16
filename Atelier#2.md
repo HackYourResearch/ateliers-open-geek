@@ -96,9 +96,10 @@ Exemples :
 **Afficher le nom, le contenu et changer de répertoire courant**
 
 langage|nom|contenu|changer
--------|--------|--------|--
+-------|---|-------|-------
 dos|chdir|dir|chdir
 bash|pwd|ls|cd
+
 python module os|os.getcwd()|os.listdir()|os.chdir
 
 `Essayez ces manipulations en ligne de commande avec votre système`  
