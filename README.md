@@ -35,7 +35,7 @@ Liste des ateliers 2016/2017 :
 
 [Atelier #13 (samedi 11 mars 2017) : "Séance culture général geek" - Café vie privée/ chiffrement](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_13/Atelier_13.md)
 
-[Atelier #13 (mardi 1 2017) : "Séance Python" - Machine learning 101](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_14/Atelier_14.md)
+[Atelier #13 (mardi 21 mars 2017) : "Séance Python" - Machine learning 101](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_14/Atelier_14.md)
 
 Liste des ateliers 2015/2016 :
 ==============================
