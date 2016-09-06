@@ -1,19 +1,19 @@
 Liste des ateliers 2015/2016 :
 ==============================
 
-[Atelier #1 (20/10/2015) : Introduction au cycle - exemple de Markdown](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier%231.md)
+[Atelier #1 (20/10/2015) : Introduction au cycle - exemple de Markdown](https://github.com/HackYourPhd/ateliers-open-geek/blob/2015-2016/Atelier%231.md)
 
-[Atelier #2 (17/11/2015) : Ordinateur, réseau, programme, fichier ... Késako ?](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier%232.md)
+[Atelier #2 (17/11/2015) : Ordinateur, réseau, programme, fichier ... Késako ?](https://github.com/HackYourPhd/ateliers-open-geek/blob/2015-2016/Atelier%232.md)
 
-[Atelier #3 (15/12/2015) : Introduction à la collaboration - Git & GitHub](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier%233.md)
+[Atelier #3 (15/12/2015) : Introduction à la collaboration - Git & GitHub](https://github.com/HackYourPhd/ateliers-open-geek/blob/2015-2016/Atelier%233.md)
 
-[Atelier #4 (19/01/2015) & Atelier #5 (16/02/2015) : Introduction à la programmation  Python & Structures de données de base en Python](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/atelier5.ipynb)
+[Atelier #4 (19/01/2015) & Atelier #5 (16/02/2015) : Introduction à la programmation  Python & Structures de données de base en Python](https://github.com/HackYourPhd/ateliers-open-geek/blob/2015-2016/atelier5.ipynb)
 
-[Atelier #6 (15/03/2015) : Accès aux données](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/atelier6.ipynb)
+[Atelier #6 (15/03/2015) : Accès aux données](https://github.com/HackYourPhd/ateliers-open-geek/blob/2015-2016/atelier6.ipynb)
 
-[Atelier #7 (19/04/2015) : Introduction à la visualisation de données - Matplotlib/Pandas](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_7/atelier7.ipynb)
+[Atelier #7 (19/04/2015) : Introduction à la visualisation de données - Matplotlib/Pandas](https://github.com/HackYourPhd/ateliers-open-geek/blob/2015-2016/Atelier_7/atelier7.ipynb)
 
-[Atelier #8 (17/05/2015) : Analyse de données - Machine Learning 101](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/OpenGeek8-MachineLearning101.ipynb)
+[Atelier #8 (17/05/2015) : Analyse de données - Machine Learning 101](https://github.com/HackYourPhd/ateliers-open-geek/blob/2015-2016/OpenGeek8-MachineLearning101.ipynb)
 
 
 Archive des ateliers 2015 :
