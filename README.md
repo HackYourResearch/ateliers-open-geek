@@ -37,8 +37,8 @@ Liste des ateliers 2016/2017 :
 
 [Atelier #13 (mardi 21 mars 2017) : "Séance Python" - Machine learning 101](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_14/Atelier_14.md)
 
-Liste des ateliers 2015/2016 :
-==============================
+Archive des ateliers 2015/2016 :
+================================
 
 [Atelier #1 (20/10/2015) : Introduction au cycle - exemple de Markdown](https://github.com/HackYourPhd/ateliers-open-geek/blob/2015-2016/Atelier%231.md)
 
@@ -55,8 +55,8 @@ Liste des ateliers 2015/2016 :
 [Atelier #8 (17/05/2015) : Analyse de données - Machine Learning 101](https://github.com/HackYourPhd/ateliers-open-geek/blob/2015-2016/OpenGeek8-MachineLearning101.ipynb)
 
 
-Archive des ateliers 2015 :
-===========================
+Archive des ateliers 2014/2015 :
+================================
 
 [Atelier #1: Bases, Markdown, Installation, Python](https://github.com/HackYourPhd/ateliers-open-geek/blob/2014_2015/Atelier%231.md)
 
