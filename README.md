@@ -5,7 +5,7 @@ Pour s'inscrire sur la mailling list, rendez-vous sur le [Google Group](https://
 
 
 Liste des ateliers 2016/2017 :
-==============================
+===============================
 
 [Atelier #00 (samedi 17 septembre 2016) : "Séance culture générale geek" - Rencontre et présentation des ateliers pour l'année 2016-2017](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_00/Atelier_00.md)
 
