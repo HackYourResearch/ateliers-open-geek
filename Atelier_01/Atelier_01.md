@@ -168,12 +168,12 @@ Exemples :
 
 **Afficher le nom, le contenu et changer de répertoire courant, créer un nouveau répertoire**
 
-Les instructions changent en fonction de votre installation
+Les instructions changent en fonction du système d'exploitation installé sur votre ordinateur
 
-langage|nom|contenu|changer |creer
--------|--------|--------|---|---
-dos|chdir|dir|chdir| md ou mkdir
-bash|pwd|ls|cd| mkdir
+système|langage|nom|contenu|changer |creer
+-------|-------|--------|--------|---|---
+windows|dos|chdir|dir|chdir| md ou mkdir
+unix donc mac|bash|pwd|ls|cd| mkdir
 
 Donc on ne va pas s'embêter et on va passer en python où les commandes seront les même quelque soit votre système d'exploitation !
 
