@@ -115,6 +115,26 @@ linux|terminal emulator,xterm,...|se loguer, ctrl+alt+t|bash, tcsh,...
 
 Plutôt que de travailler chacun avec un langage différent selon votre machine
 
+#### ligne de commande pyhton frustre
++ pour windows  
+utilisez la fonction de recherche pour lancer "Anaconda Prompt"
++ pour les unix (dont mac)  
+tapez dans votre terminal la commande suivante
+```bash
+python
+```
+
+#### ligne de commande python plus sympa :
+** IPyhton = Interactive Python**  
+avec plein de petites fonctionnalités utiles dont une aide en ligne plus détaillée.
+
++ pour windows  
+utilisez la fonction de recherche pour lancer "IPython"
++ pour les unix (dont mac)  
+tapez dans votre terminal la commande suivante
+```bash
+ipython
+```
 
 ### L'arborescence des fichiers
 C'est une façon de se représenter et d'organiser l'information stockée sur le disque dur  
