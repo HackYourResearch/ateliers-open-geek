@@ -182,6 +182,7 @@ Donc on ne va pas s'embêter et on va passer en python où les commandes seront 
 #### Le module `os`
 
 #### `import os`
+Le module `os` contient tout un ensemble de fonctions qui servent à interagir avec le système d'exploitation de votre ordinateur, notamment les manipulations de base sur les dossiers et les fichiers
 
 #### fonctions python accessibles quand le module est importé
 
