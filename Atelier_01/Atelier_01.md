@@ -122,11 +122,11 @@ C'est une façon de se représenter et d'organiser l'information stockée sur le
 
 **Concepts clef** :
 - hierarchie : comme pour une adresse postale, afin d'indentifier quelqu'un à qui remettre un document, on part de l'échelle la plus haute et on spécifie un contenant particulier à chaque niveau d'organisation. Par exemple, on vous trouve sur terre, dans tel pays, dans telle ville, dans telle rue, dans tel bâtiment, dans telle pièce.
-- racine : c'est le point de départ de l'organisation des informations (particularité de windows : il peut y en avoir plusieurs)
-- repertoire : c'est un contenant qui peut contenir des fichiers ou d'autres répertoires
-- fichier : en simplifiant ça correspond à une zone de mémoire où sont stockées des informations (texte,video,données, script,...)
-- chemin (ou _path_) : c'est la description de là où se trouve un répertoire ou un fichier en partant de la racine. Comme pour une adresse postale, c'est la suite des
-- répertoire courant : c'est l'endroit où on se trouve à un instant donné dans l'arborescence, c'est là qu'on cherchera à ouvrir ou à écrire un fichier si on ne précise rien de plus
+- **racine** : c'est le point de départ de l'organisation des informations (particularité de windows : il peut y en avoir plusieurs)
+- **dossier** ou **repertoire** : c'est un contenant qui peut contenir des fichiers ou d'autres répertoires
+- **fichier** : en simplifiant ça correspond à une zone de mémoire où sont stockées des informations (texte,video,données, script,...)
+- **chemin** ou **path** : c'est la description de là où se trouve un répertoire ou un fichier en partant de la racine. Comme pour une adresse postale, c'est la suite des
+- **répertoire courant** : c'est l'endroit où on se trouve à un instant donné dans l'arborescence, c'est là qu'on cherchera à ouvrir ou à écrire un fichier si on ne précise rien de plus
 - chemin relatif : le chemin à partir du répertoire courant
 
 **Remarques** :
@@ -198,6 +198,6 @@ python module os|os.getcwd()|os.listdir()|os.chdir() | os.mkdir()
 3. déplacez-vous dans un répertoire où ça ne pose pas de problème de faire des tests
 4.  créez un répertoire open_geek_2016_2017 dans un endroit approprié
 5. allez dans ce répertoire
-6. créez dans ce répertoire
+6. créez dans ce répertoire un répertoire
 
 #### Maintenant, le grand jeu sera de comprendre les erreurs affichées par python
