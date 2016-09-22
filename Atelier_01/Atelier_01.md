@@ -17,6 +17,8 @@ Exemples :
 
 #### Les premiers automates
 
+Comme leur nom l'indique, il s'agit de systèmes mécaniques conçus pour effectuer une série d'opérations
+
 -87 : Machine d'Anticythère
 
 ![calculateur analogique antiquite](images/Machine_Anticythere.jpg)
@@ -35,39 +37,36 @@ XVIIème siècle : la folie des automates
 
 #### Un peu de théorie
 
-##### Les automates
+**Les automates**  
+Un automate est défini par un ensemble d'état et de règles de transitions entre ces états.
 
-États et transitions entre états.
-
-##### [La machine de Turing](https://fr.wikipedia.org/wiki/Machine_de_Turing)
+[**La machine de Turing**](https://fr.wikipedia.org/wiki/Machine_de_Turing)  
 Objet théorique défini par [Alan Turing](https://fr.wikipedia.org/wiki/Alan_Turing)  
 Le truc minimal qui permette d'implémenter n'importe quel programme.
 
-##### Les machines à registres
+**Les machines à registres**  
 Tout est expliqué par [Daniel Dennett](https://fr.wikipedia.org/wiki/Daniel_Dennett) [ici](http://sites.tufts.edu/rodrego/files/2011/03/Secrets-of-Computer-Power-Revealed-2008.pdf)
 
 #### Les grands principes
 
-##### Un système déterministe
+**Un système déterministe**  
 L'informatique marche bien sur ce qui est régulier. Les exceptions seront toujours pénibles à gérer.
 
-##### Un ensemble réduit d'instructions de bases
+**Un ensemble réduit d'instructions de bases**  
 
-##### Compositionalité
+**Compositionalité**  
 Analogie : apprendre la musique  
 Différents niveaux d'intégration co-existent
 
 #### L'implémentation électronique
-
-##### les grilles
-
-##### transistors, semi-conducteurs et micro-électronique
++ calculateurs analogiques
++ transistors, semi-conducteurs et micro-électronique
 
 #### actuellement
 
-le **processeur** manipule des 0 et des 1 écrits en mémoire en suivant des instructions.
+**Le processeur** manipule des 0 et des 1 écrits en mémoire en suivant des instructions.
 
-La **mémoire** de votre ordinateur :
+**La mémoire** de votre ordinateur :
 
  - la mémoire vive (l'information s'efface quand on coupe le courant)
  - le disque dur (l'information reste tant que pas modifiée)
@@ -115,7 +114,7 @@ linux|terminal emulator,xterm,...|se loguer, ctrl+alt+t|bash, tcsh,...
 
 Plutôt que de travailler chacun avec un langage différent selon votre machine
 
-#### ligne de commande pyhton frustre
+#### ligne de commande python frustre
 + pour windows  
 utilisez la fonction de recherche pour lancer "Anaconda Prompt"
 + pour les unix (dont mac)  
@@ -125,7 +124,7 @@ python
 ```
 
 #### ligne de commande python plus sympa :
-** IPyhton = Interactive Python**  
+** Ipython = Interactive Python**  
 avec plein de petites fonctionnalités utiles dont une aide en ligne plus détaillée.
 
 + pour windows  
