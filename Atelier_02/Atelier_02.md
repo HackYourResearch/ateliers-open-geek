@@ -5,7 +5,8 @@ Nous utilisons Internet tous les jours, mais qui sait vraiment comment ça march
 * Que se passe-t-il quand on se connecte à **Internet** ?
 * Comment marche un **site web** ?
 * Qu’est-ce qu’il y a derrière **Firefox** ou **Skype** ?
-* Comment marche un **moteur de recherche** ? * Qu’est-ce qu’une app ?
+* Comment marche un **moteur de recherche** ?
+* Qu’est-ce qu’une **app** ?
 * Que savent de mes voyages sur la toile mon **fournisseur d’accès**, **Google** ou la **NSA** ?
 * Comment conserver un semblant de **vie privée** ?
 
