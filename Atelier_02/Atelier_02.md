@@ -22,11 +22,11 @@ De quoi naviguer en sachant vraiment où on met les pieds, en toute tranquillit�
 * &#x1f441; De mon ordinateur à la page web
 
 #### [Serveurs et protocoles](#serveurs-et-protocoles-1)
-* **&#65311;** Internet = InterconnectedNetwork
 * **&#65311;** Protocole de communication
 * **&#65311;** HTTP
 
 #### [World Wide Web](#world-wide-web-1)
+* **&#65311;** Internet = InterconnectedNetwork
 * &#x1f441; Le World Wide Web
 * &#x261e; HTTP et le web
 
@@ -70,12 +70,40 @@ Internet, est une technologie qui nécessite plusieurs éléments pour arriver j
 
 ##### &#x1f441; De mon ordinateur à la page web
 
+Mais sur le réseau au delà de nos murs s'étendent de nombreux autres éléments nécessaire au fonctionnement et à l'utilisation d'Internet.
+
+Un bon moyen d'explorer ce vaste monde est de décomposer ce qu'il se passe lorsqu'on accède à une page web dans un navigateur. Cette aventure est UN exemple d'utilisation d'Internet, plus précisément une exploration du "World Wide Web" (ou plus simplement le Web), une sous-partie d'Internet.
+
+Ordinateur allumé, branché à Internet, navigateur lançé (logiciel client - Chrome, Firefox, Internet Explorer, ...), nous allons "naviguer" vers un site du "World Wide Web", par exemple `http://perdu.com/` en tappant celà dans la barre d'adresse du navigateur.
+
+Celà, c'est une adresse web. Un ensemble d'informations qui désignent à la fois une "ressource" disponible sur internet, et comment y accéder.
+
+`perdu.com` désigne la ressource, sous une forme facile à mémoriser et utiliser pour un humain : le nom de domaine. `http` désigne le 'protocole' que l'on va utiliser pour accéder à cette ressource. Le protocole c'est les conventions qui font qu'on arrive à communiquer : quel language on va communiquer, est-ce qu'on se sert la main avant de se présenter, est-ce qu'on enlève son chapeau pour respecter son hôte, ... ?
+
+Quand on va naviguer, le client va envoyer un message suivant le protocole fourni, à une entité sur internet qui va analyser le nom de domaine pour indiquer au navigateur à qui parler pour avoir la page web. Cette entité c'est le "serveur DNS" (DNS : Domain Name Service).
+
+Pour identifier "à qui on parle", sur Internet, on utilise une adresse un peu moins lisible que le nom de domaine, c'est l'adresse IP, un ensemble de nombre sous la forme suivante : `208.97.177.124`.
+
+Let's play : le site http://ping.eu/nslookup/ permet d'obtenir l'adresse IP liée à un nom de domaine.
+
+Nom de domaine   | Adresse IP
+---------------- | ----------------
+perdu.com        | 208.97.177.124
+google.com       | 172.217.22.174
+fr.wikipedia.org | 91.198.174.192
+
+Armé du protocole et de l'IP de notre serveur de destination, le navigateur va pouvoir aller interroger ce serveur pour récupérer la ressource et l'afficher. Dans notre cas, afficher une page web.
+
 #### Serveurs et protocoles
-##### **&#65311;** Internet = InterconnectedNetwork
+
 ##### **&#65311;** Protocole de communication
+
+
+
 ##### **&#65311;** HTTP
 
 #### World Wide Web
+##### **&#65311;** Internet = InterconnectedNetwork
 ##### &#x1f441; Le World Wide Web
 ##### &#x261e; HTTP et le web
 
