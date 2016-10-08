@@ -15,18 +15,18 @@ De quoi naviguer en sachant vraiment où on met les pieds, en toute tranquillit�
 
 ## Sommaire
 
-### &#x1f441; De mon ordinateur à la page web
-* **&#65311;** C'est comme au restaurant !
-* **&#65311;** De quoi a-t-on besoin pour se connecter à l'Internet?
-* **&#x1f441;** Le navigateur et sa barre d'adresse
-* **&#65311;** Protocoles de communication
-    * Le HTTP : HyperText Transfer Protocol
-* &#x1f441; L'adresse web, qu'est ce qu'on en fait ?
+### De mon ordinateur à la page web
+* Client-Serveur : C'est comme au restaurant !
+* De quoi a-t-on besoin pour se connecter à l'Internet?
+* Le navigateur et sa barre d'adresse
+* Protocoles de communication
+    + Le HTTP : HyperText Transfer Protocol
+* L'adresse web, qu'est ce qu'on en fait ?
     * Let's play
-* En cuisine
+* En cuisine : le boulot du serveur
 * Le HTML, l'ingrédient préféré du World Wide Web
 ### Internet, ce n'est pas que les pages web
-
+* Les protocoles d'Internet
 
 ### [Moteur de recherche](#moteur-de-recherche-1)
 * &#128249; Comment marche un moteur de recherche?
@@ -34,21 +34,15 @@ De quoi naviguer en sachant vraiment où on met les pieds, en toute tranquillit�
 * &#x1f577; Les algorithmes de recherche et de ciblage
 * &#127850; Données personnelles, cookies
 
-### [Les "évolutions" du web](#les-évolutions-du-web-1)
-* Web 1.0: documents
-* Web 2.0: personnes
-* Web 3.0 **&#x1f577;**: sémantique (sens)
-* Web&#xb2;: physique (objets)
-
 ### [Censure et vie privée](#censure-et-vie-privée-1)
 * &#x1f512; Techniques de censure
 
 
 ## Contenu
 
-### &#x1f441; De mon ordinateur à la page web
+### De mon ordinateur à la page web
 
-#### **&#65311;** C'est comme au restaurant !
+#### C'est comme au restaurant !
 
 Quand on navigue sur le web, on évolue généralement dans ce qu'on appelle un `environnement client-serveur`. En gros, un restaurant. Ce concept présente d'un côté le `client`, celui qui va demander quelque chose (une crème au chocolat, un cocktail ou une page web) et le `serveur`, qui va faire ce qu'il faut pour lui apporter.
 
@@ -58,7 +52,7 @@ Le `client` est à l'origine de la demande, pointe son nez dans le restaurant, d
 
 Le serveur va prendre notre commande si elle est à la carte, puis vas s'enquérir d'aller chercher notre plat, éventuellement en demandant à différents collègues de lui assembler les ingrédients nécessaires.
 
-#### **&#65311;** De quoi a-t-on besoin pour se connecter à l'Internet?
+#### De quoi a-t-on besoin pour se connecter à l'Internet?
 
 Internet, est une technologie qui nécessite plusieurs éléments pour arriver jusqu'à nous. Une partie de ces éléments sont directement à notre contact et constituent donc le minimum à posséder pour explorer ce vaste monde. Techniquement, on troque donc la tenue correcte, la carte bleue et l'estomac affamé contre les choses  suivantes :
 
@@ -68,7 +62,7 @@ Internet, est une technologie qui nécessite plusieurs éléments pour arriver j
 - Un accès internet, via un fournisseur d'accès internet (FAI), qui est une entité qui gère ce réseau de télécommunication et vous en autorise l'accès tout en assurant sa gestion technique, son entretien
 - Un modem et un routeur, souvent contenus dans la box du FAI, qui assurent la liaison entre chez nous et le réseau de télécommunication ; ils servent à la fois de douanier, de tour-operator, de police des frontières, d'ambassade ... ;)
 
-#### **&#x1f441;** Le navigateur et sa barre d'adresse
+#### Le navigateur et sa barre d'adresse
 
 Ça y est, on est faim prêt, on peut entrer dans le restaurant. Pour se faciliter la vie, on a regardé la carte, avant de venir et on sait ce qu'on veut : une bonne part de `http://perdu.com`, l'adresse web qui nous fait envie. On lance donc notre navigateur web et on annonce ce qu'on veut en rentrant cette adresse dans la barre ... d'adresse.
 
@@ -76,7 +70,7 @@ Cette adresse, elle contient deux informations :
 - `perdu.com` désigne ce qu'on est venu chercher. Cela représente une ressource, disponible quelque part sur internet, un plat que le restaurant présente à la carte ;
 - `http` est le protocole, c'est à dire les conventions qu'on va utiliser pour discuter avec les employés du restaurant, pour que tout se passe bien : j'enlève mon chapeau en rentrant, j'ai mit une belle cravate pour venir au McDo, je parle poliment, j'ai de quoi payer dans mes poches, je parle la même mangue que le serveur ...
 
-#### **&#65311;** Protocoles de communication
+#### Protocoles de communication
 
 De protocoles, dans les "télécommunications", il y en a partout ! Et l'informatique, ça fricotte pas mal avec les télécommunications. Donc on en trouve partout !
 Certains sont des protocoles pour faire communiquer les appareils, et donc sont des éléments préalables au fonctionnement d'Internet, par exemple :
@@ -98,7 +92,7 @@ Ces actions, ce sont par exemple :
 
 Finalement, quand on tape `http://perdu.com`, notre client, le navigateur, envoie une `requête` `GET` sur Internet pour récupérer la ressource `perdu.com`.
 
-##### &#x1f441; L'adresse web, qu'est ce qu'on en fait ?
+##### L'adresse web, qu'est ce qu'on en fait ?
 
 Au restaurant, passer commande est assez facile : le serveur se pointe à la table et fait des ronds de jambe, puis écoute vos désirs.
 
@@ -183,18 +177,3 @@ Mais Internet est bien plus vaste que ça. En effet, un serveur est aussi capabl
 - WebDAV permet de gérer des évènements et des calendriers
 - LDAP permet de gérer un annuaire et des listes de comptes, pour gérer des droits d'accès par exemple
 - etc.
-
-### Moteur de recherche
-##### &#128249; Comment marche un moteur de recherche?
-##### &#x1f577; Collecter, Indexer, classer: le robot-araignée
-##### &#x1f577; Les algorithmes de recherche et de ciblage
-##### &#127850; Données personnelles, cookies
-
-### Les "évolutions" du web
-##### Web 1.0: documents
-##### Web 2.0: personnes
-##### Web 3.0 **&#x1f577;**: sémantique (sens)
-##### Web&#xb2;: physique (objets)
-
-### Censure et vie privée
-##### &#x1f512; Techniques de censure
