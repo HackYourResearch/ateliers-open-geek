@@ -15,26 +15,18 @@ De quoi naviguer en sachant vraiment où on met les pieds, en toute tranquillit�
 
 ## Sommaire
 
-### [Internet](#internet-1)
+### &#x1f441; De mon ordinateur à la page web
+* **&#65311;** C'est comme au restaurant !
+* **&#65311;** De quoi a-t-on besoin pour se connecter à l'Internet?
+* **&#x1f441;** Le navigateur et sa barre d'adresse
+* **&#65311;** Protocoles de communication
+    * Le HTTP : HyperText Transfer Protocol
+* &#x1f441; L'adresse web, qu'est ce qu'on en fait ?
+    * Let's play
+* En cuisine
+* Le HTML, l'ingrédient préféré du World Wide Web
+### Internet, ce n'est pas que les pages web
 
-#### [Réseaux domestiques, FAI](#réseaux-domestiques-fai-1)
-* **&#65311;**De quoi a-t-on besoin pour se connecter à l'Internet?
-* &#x1f441; De mon ordinateur à la page web
-
-#### [Serveurs et protocoles](#serveurs-et-protocoles-1)
-* **&#65311;** Protocole de communication
-* **&#65311;** HTTP
-
-#### [World Wide Web](#world-wide-web-1)
-* **&#65311;** Internet = InterconnectedNetwork
-* &#x1f441; Le World Wide Web
-* &#x261e; HTTP et le web
-
-#### [Le site web](#le-site-web-1)
-* &#x1f441; Le site web
-* &#x1f441; Client/Serveur
-* &#x1f441; Les éléments d'un site web
-* &#x261e; Ma première page HTML
 
 ### [Moteur de recherche](#moteur-de-recherche-1)
 * &#128249; Comment marche un moteur de recherche?
@@ -83,7 +75,6 @@ Internet, est une technologie qui nécessite plusieurs éléments pour arriver j
 Cette adresse, elle contient deux informations :
 - `perdu.com` désigne ce qu'on est venu chercher. Cela représente une ressource, disponible quelque part sur internet, un plat que le restaurant présente à la carte ;
 - `http` est le protocole, c'est à dire les conventions qu'on va utiliser pour discuter avec les employés du restaurant, pour que tout se passe bien : j'enlève mon chapeau en rentrant, j'ai mit une belle cravate pour venir au McDo, je parle poliment, j'ai de quoi payer dans mes poches, je parle la même mangue que le serveur ...
-
 
 #### **&#65311;** Protocoles de communication
 
@@ -144,22 +135,54 @@ Si tout le monde sait à peu près ce que sont ces derniers types de fichiers, l
 
 ##### Le HTML, l'ingrédient préféré du World Wide Web
 
-Le HTML
+Le HTML, c'est un langage de description de contenu. Presque comme un langage de programmation, mais fait pour décrire un contenu plutôt qu'écrire un algorithme.
 
+Sur la page `http://perdu.com`, faites un clic-droit et 'Inspecter l'élément' ou 'Éxaminer l'élément' (ou faites Ctrl-Shift-I avec votre clavier). Un panneau spécial du navigateur s'ouvre, qui permet d'aller plonger au coeur de la page web, de quoi elle est constituée.
 
+Ce qu'on voit alors apparaitre, c'est le HTML qui compose cette page :
 
-##### **&#65311;** HTTP
+```HTML
+<html>
+  <head>
+    <title>
+      Vous Etes Perdu ?
+    </title>
+  </head>
+  <body>
+    <h1>
+      Perdu sur l'Internet ?
+    </h1>
+    <h2>
+      Pas de panique, on va vous aider
+    </h2>
+    <strong>
+      <pre>    * &lt;----- vous êtes ici</pre>
+    </strong>
+  </body>
+</html>
+```
 
-#### World Wide Web
-##### **&#65311;** Internet = InterconnectedNetwork
-##### &#x1f441; Le World Wide Web
-##### &#x261e; HTTP et le web
+Nous entrerons plus en détail sur comment fonctionne le HTML, dans un atelier ultérieur, sur le webmining, mais on peut déjà identifier les choses suivantes : le HTML déclare des mots clés, des "éléments", qui permettent de baliser le contenu et qu'on reconnait aux chevrons qui les encadrent : `<html>` ou `<h2>` par exemple.
 
-#### Le site web
-##### &#x1f441; Le site web
-##### &#x1f441; Client/Serveur
-##### &#x1f441; Les éléments d'un site web
-##### &#x261e; Ma première page HTML
+`html` balise les limites de la page web, `body` représente les frontière du contenu visible de la page, tandis que `head` encadre des éléments d'en-tête, c'est à dire des métadonnées, des informations complémentaires au contenu. `h1` et `h2` vont entourer des titres de premier et de second niveau (des grands titres et des titres un peu moins grands ;))
+
+Les grands copains du HTML, ce sont :
+- le CSS (`Cascading Style Sheet` ou `Feuilles de Style en Cascade`), un langage de style, qui s'occupe de rendre joli le contenu défini en HTML. Un bon moyen d'explorer ça est le site http://www.csszengarden.com/ qui propose un même HTML décliné selon différentes feuilles de style ;
+- le JS (`JavaScript`), un langage de programmation qui fourni tout ce qu'il faut pour manipuler et transformer le HTML, et donc qui permet de rendre dynamique les pages web : faire bouger des éléments, en changer le contenu, offrir de l'interactivité, etc.
+
+### Internet, ce n'est pas que les pages web
+
+Une page web, c'est une ressource du World Wide Web, une partie d'Internet où le HTTP (et sa version **S**écurisée, le HTTP**S**) est roi et où le contenu multimédia est présenté au milieu de pages écrites en HTML, CSS et JS.
+
+Mais Internet est bien plus vaste que ça. En effet, un serveur est aussi capable de parler en suivant d'autres protocoles, et donc par exemple de fournir autre chose que des pages web :
+- FTP permet de déposer des fichiers sur un serveur comme si c'était un disque de notre ordinateurs
+- IMAP, POP3 ou SMTP permettent d'échanger des courriers électroniques, de gérer des boites e-mail
+- IRC ou XMPP permettent de créer des salons de discussions, de faire des profils personnels, etc (Google Hangout ou Facebook Messenger sont basés sur XMPP)
+- SIP ou VoIP permettent de faire de la "voix su IP", c'est à dire de la téléphonie ou de la visio-conférence
+- SSH permet de travailler sur un serveur distant comme si on était sur son propre ordinateur
+- WebDAV permet de gérer des évènements et des calendriers
+- LDAP permet de gérer un annuaire et des listes de comptes, pour gérer des droits d'accès par exemple
+- etc.
 
 ### Moteur de recherche
 ##### &#128249; Comment marche un moteur de recherche?
