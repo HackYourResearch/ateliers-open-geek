@@ -15,18 +15,18 @@ De quoi naviguer en sachant vraiment où on met les pieds, en toute tranquillit�
 
 ## Sommaire
 
-### De mon ordinateur à la page web
-* Client-Serveur : C'est comme au restaurant !
-* De quoi a-t-on besoin pour se connecter à l'Internet?
-* Le navigateur et sa barre d'adresse
-* Protocoles de communication
-    + Le HTTP : HyperText Transfer Protocol
-* L'adresse web, qu'est ce qu'on en fait ?
-    * Let's play
-* En cuisine : le boulot du serveur
-* Le HTML, l'ingrédient préféré du World Wide Web
-### Internet, ce n'est pas que les pages web
-* Les protocoles d'Internet
+### [De mon ordinateur à la page web](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#de-mon-ordinateur-à-la-page-web-1)
+* [Client-Serveur : C'est comme au restaurant !](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#cest-comme-au-restaurant-)
+* [De quoi a-t-on besoin pour se connecter à l'Internet?](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#de-quoi-a-t-on-besoin-pour-se-connecter-à-linternet)
+* [Le navigateur et sa barre d'adresse](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#le-navigateur-et-sa-barre-dadresse)
+* [Protocoles de communication](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#protocoles-de-communication)
+    + [Le HTTP : HyperText Transfer Protocol](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#le-http--hypertext-transfer-protocol)
+* [L'adresse web, qu'est ce qu'on en fait ?](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#ladresse-web-quest-ce-quon-en-fait-)
+    * [Let's play](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#lets-play)
+* [En cuisine : le boulot du serveur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#cest-comme-au-restaurant-)
+* [Le HTML, l'ingrédient préféré du World Wide Web](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#le-html-lingrédient-préféré-du-world-wide-web)
+### [Internet, ce n'est pas que les pages web](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#internet-ce-nest-pas-que-les-pages-web)
+* [Les protocoles d'Internet](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#cest-comme-au-restaurant-)
 
 ### [Moteur de recherche](#moteur-de-recherche-1)
 * &#128249; Comment marche un moteur de recherche?
@@ -42,7 +42,7 @@ De quoi naviguer en sachant vraiment où on met les pieds, en toute tranquillit�
 
 ### De mon ordinateur à la page web
 
-#### C'est comme au restaurant !
+#### Client-Serveur : C'est comme au restaurant !
 
 Quand on navigue sur le web, on évolue généralement dans ce qu'on appelle un `environnement client-serveur`. En gros, un restaurant. Ce concept présente d'un côté le `client`, celui qui va demander quelque chose (une crème au chocolat, un cocktail ou une page web) et le `serveur`, qui va faire ce qu'il faut pour lui apporter.
 
@@ -114,7 +114,7 @@ perdu.com        | 208.97.177.124
 google.com       | 172.217.22.174
 fr.wikipedia.org | 91.198.174.192
 
-##### En cuisine
+##### En cuisine : le boulot du serveur
 
 Une fois équipé de cette adresse IP, votre navigateur peut continuer son périple : envoyer sa requête au serveur `208.97.177.124`.
 
