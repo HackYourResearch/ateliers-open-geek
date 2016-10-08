@@ -1,17 +1,19 @@
 ## Internet
-Començons par le commencement
+Commençons par le commencement
 
 ### De quoi a-t-on besoin pour se connecter à l'Internet?
 
-* un ordinateur
-* un téléphone
+* un ordinateur (terminal)
+* un téléphone (telephone)
 * une box (**routeur**)
-* et évidemment un abonnement à Internet! (prise tel)
-qui nous donne accès à Internet
+* et évidemment un abonnement à Internet! (**FAI**/prise tel)
+
+avec un  **FAI** qui nous donne accès à Internet
 
 Tout cela constitue notre **réseau domestique minimal** (HOME)
 ![](./schema.png)
-Notre FAI nous attribue une adresse IP unique externe ()
+
+Notre FAI nous attribue une **adresse IP** unique externe ()
 
 Evidemment on peut ajouter:
 * un téléphone portable connecté en **WiFi**,
@@ -86,27 +88,5 @@ Dans le détail, pour que ca aille plus vite et que ce soit sécurisé: le proto
 * le message
 * le numéro du paquet
 
-Dans le cas d'un message sécurisé le message est crypté avec un mot de passe unique communiqué autrement par l'expéditeur et que seul le destinataire connaît. **PGP**?????
-
-
-#### Le site web
-* &#x1f441; Le site web
-* &#x1f441; Client/Serveur
-* &#x1f441; Les éléments d'un site web
-* &#x261e; Ma première page HTML
-
-## Moteur de recherche
-* &#128249; Comment marche un moteur de recherche?
-* &#x1f577; Collecter, Indexer, classer: le robot-araignée
-* &#x1f577; Les algorithmes de recherche et de ciblage
-* &#127850; Données personnelles, cookies
-
-## Les ```évolutions``` du web
-* Web 1.0: documents
-* Web 2.0: personnes
-* Web 3.0 **&#x1f577;**: sémantique (sens)
-* Web&#xb2;: physique (objets)
-
-## Censure et vie privée
-* &#x1f512; Techniques de censure
-* &#x1f512; Bonnes pratiques pour sauvegarder sa vie privée
+Dans le cas d'un message sécurisé le message est crypté avec un mot de passe unique communiqué autrement par l'expéditeur et que seul le destinataire connaît.
+Par exemple **PGP**
