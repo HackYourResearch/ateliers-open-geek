@@ -45,6 +45,9 @@ De quoi naviguer en sachant vraiment où on met les pieds, en toute tranquillit�
 
 Quand on navigue sur le web, on évolue généralement dans ce qu'on appelle un `environnement client-serveur`. En gros, un restaurant. Ce concept présente d'un côté le `client`, celui qui va demander quelque chose (une crème au chocolat, un cocktail ou une page web) et le `serveur`, qui va faire ce qu'il faut pour lui apporter.
 
+![Environnement client-serveur](client_serveur.gif)
+(*crédits : http://noamb.free.fr/presentation_web/fonctionnement/default.htm*)
+
 Naviguer sur internet, cela revient donc à un échange entre le `client` et le `serveur`, ponctués de discussions et d'actions.
 
 Le `client` est à l'origine de la demande, pointe son nez dans le restaurant, demande au placeur où s'asseoir puis fait une `requête` au serveur, en suivant certains protocoles. Pas question de mal parler au serveur, auquel cas il risque de crasher dans notre plat.
@@ -52,6 +55,9 @@ Le `client` est à l'origine de la demande, pointe son nez dans le restaurant, d
 Le serveur va prendre notre commande si elle est à la carte, puis vas s'enquérir d'aller chercher notre plat, éventuellement en demandant à différents collègues de lui assembler les ingrédients nécessaires.
 
 ### De quoi a-t-on besoin pour se connecter à l'Internet?
+
+![Se connecter à Internet](equipements2.gif)
+(*crédits : http://noamb.free.fr/presentation_web/fonctionnement/default.htm*)
 
 Internet, est une technologie qui nécessite plusieurs éléments pour arriver jusqu'à nous. Une partie de ces éléments sont directement à notre contact et constituent donc le minimum à posséder pour explorer ce vaste monde. Techniquement, on troque donc la tenue correcte, la carte bleue et l'estomac affamé contre les choses  suivantes :
 
@@ -118,6 +124,9 @@ fr.wikipedia.org | 91.198.174.192
 Une fois équipé de cette adresse IP, votre navigateur peut continuer son périple : envoyer sa requête au serveur `208.97.177.124`.
 
 Le serveur va recevoir cette requête, comprendre ce qu'on lui demande, filer la commande à son cuistot. Le cuistot va identifier les ingrédients, filer des instructions à ses commis, mettre tout ça dans une assiette, avec un peu de cuisson soupoudré sur le tout et le serveur, le plat en main, va le rapporter au client.
+
+![Client Serveur DNS](client-serveur.gif)
+(*crédits : http://articles.nissone.com/2008/05/html-internet/*)
 
 La tambouille en cuisine, c'est ce qu'on appelle le "développement backend". Les trucs qu'on voit pas. On peut faire ça en Python, en PHP, en Java, bref, en un peu prêt n'importe quel langage de programmation. On peut même en utiliser plusieurs à la fois : le cuisto et les commis ont leur propres techniques, leur propre savoir faire.
 En plus du petit personnel, on va trouver plein d'autres choses indispensables : bases de données (les réfrigérateurs), autres serveurs qui vont fournir des ressources essentielles à la composition de la ressource demandée (un peu comme un restaurant, qui est lui même client de ses fournisseurs d'ingrédients bruts).
