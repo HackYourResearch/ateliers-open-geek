@@ -15,18 +15,18 @@ De quoi naviguer en sachant vraiment où on met les pieds, en toute tranquillit�
 
 ## Sommaire
 
-### [De mon ordinateur à la page web](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#de-mon-ordinateur-à-la-page-web-1)
-* [Client-Serveur : C'est comme au restaurant !](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#cest-comme-au-restaurant-)
-* [De quoi a-t-on besoin pour se connecter à l'Internet?](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#de-quoi-a-t-on-besoin-pour-se-connecter-à-linternet)
-* [Le navigateur et sa barre d'adresse](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#le-navigateur-et-sa-barre-dadresse)
-* [Protocoles de communication](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#protocoles-de-communication)
-    + [Le HTTP : HyperText Transfer Protocol](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#le-http--hypertext-transfer-protocol)
-* [L'adresse web, qu'est ce qu'on en fait ?](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#ladresse-web-quest-ce-quon-en-fait-)
-    * [Let's play](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#lets-play)
-* [En cuisine : le boulot du serveur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#cest-comme-au-restaurant-)
-* [Le HTML, l'ingrédient préféré du World Wide Web](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#le-html-lingrédient-préféré-du-world-wide-web)
-### [Internet, ce n'est pas que les pages web](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#internet-ce-nest-pas-que-les-pages-web)
-* [Les protocoles d'Internet](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_02/Atelier_02.md#cest-comme-au-restaurant-)
+### [De mon ordinateur à la page web](#de-mon-ordinateur-à-la-page-web-1)
+* [Client-Serveur : C'est comme au restaurant !](#cest-comme-au-restaurant-1)
+* [De quoi a-t-on besoin pour se connecter à l'Internet?](#de-quoi-a-t-on-besoin-pour-se-connecter-à-linternet-1)
+* [Le navigateur et sa barre d'adresse](#le-navigateur-et-sa-barre-dadresse-1)
+* [Protocoles de communication](#protocoles-de-communication-1)
+    + [Le HTTP : HyperText Transfer Protocol](#le-http--hypertext-transfer-protocol-1)
+* [L'adresse web, qu'est ce qu'on en fait ?](#ladresse-web-quest-ce-quon-en-fait-1)
+    * [Let's play](#lets-play-1)
+* [En cuisine : le boulot du serveur](#cest-comme-au-restaurant-1)
+* [Le HTML, l'ingrédient préféré du World Wide Web](#le-html-lingrédient-préféré-du-world-wide-web-1)
+### [Internet, ce n'est pas que les pages web](#internet-ce-nest-pas-que-les-pages-web-1)
+* [Les protocoles d'Internet](#les-protocoles-dinternet-1)
 
 ### [Moteur de recherche](#moteur-de-recherche-1)
 * &#128249; Comment marche un moteur de recherche?
@@ -165,6 +165,8 @@ Les grands copains du HTML, ce sont :
 - le JS (`JavaScript`), un langage de programmation qui fourni tout ce qu'il faut pour manipuler et transformer le HTML, et donc qui permet de rendre dynamique les pages web : faire bouger des éléments, en changer le contenu, offrir de l'interactivité, etc.
 
 ### Internet, ce n'est pas que les pages web
+
+#### Les protocoles d'Internet
 
 Une page web, c'est une ressource du World Wide Web, une partie d'Internet où le HTTP (et sa version **S**écurisée, le HTTP**S**) est roi et où le contenu multimédia est présenté au milieu de pages écrites en HTML, CSS et JS.
 
