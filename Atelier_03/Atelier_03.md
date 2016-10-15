@@ -1,14 +1,7 @@
 `Atelier 03`
 # A la découverte du TextMining
 
-* Petit rappel: le textmining implique de sortir la pelle, la pioche, les ciseaux le marteau on se concentre sur la forme des mots et non sur le sens. On utilise les règles de morphologie, de grammaire et de syntaxe que l'on peut observer. Les traitements qu'on fait dessus sont des traitements **statistiques** et non pas **sémantiques**.
 
-||LINGUISTIQUE|SEMANTIQUE|
-|: | :| :|
-|Ce qu'on regarde|**forme**| **sens**|
-|Example| invention, inventeur, inventer| exact, vrai, correct
-|Détail | pluriel, verbe, adjectifs| synonyme, antonyme|
-| Procédé | recherche de motif/règles + enquete statistique | recherche de liens/sens + croisement de données|
 
 
 
@@ -77,7 +70,7 @@ print(salut[-3:-1])
 String est un type de données et lui sont attachées un ensemble de méthodes propres
 * on peut les unir ensemble +
 * les multiplier * 3
-* changer la casse
+* changer la casse:
 
 lower()
 upper()
@@ -87,9 +80,9 @@ title()
 
 texte.replace("world", "everybody")
 * le découper avec un séparateur
-
 texte.split(" ")
-Comme la string est une liste de caractère on peut aussi utiliser les methodes des listes
+
+Comme la string est une `liste` de caractère on peut aussi utiliser les methodes des listes
 
 listes,boucle, dictionnaires
 
@@ -97,11 +90,59 @@ listes,boucle, dictionnaires
 * input(): lire de données entrées par l'utilisateur
 * variable: copier coller un texte
 * document: lire un fichier
-* base de données: récupérer des données
+* base de données: récupérer des données par requete et Croisement
+* web, mail, logs
 
-* Exercice3: Pour un texte donné afficher compter le nombre de mot
+* Exercice 3: Pour un texte donné afficher compter le nombre de mot
 
 
-* Exercice4: Afficher les lettres de l'alphabet chaque lettre sur une nouvelle ligne
+* Exercice 4: Afficher les lettres de l'alphabet chaque lettre sur une nouvelle ligne
 
 ### Textmining: procédure
+* Petit rappel: le *textmining* ou la fouille de texte implique de sortir la pelle, la pioche, les ciseaux le marteau on se concentre sur la **forme** des mots et non sur le sens. On utilise les règles:
+  * de morphologie
+  * de grammaire
+  * de syntaxe
+
+L'ensemble de motifs que l'on peut observer dans leur apparition. Les traitements qu'on fait dessus sont des traitements **statistiques** et non pas **sémantiques**.
+
+On parle alors de `traitement automatique de langue` (TAL) ou en anglais Natural Langage Processing (NLP). Il s'agit bien d'observer l'ensemble des faits statistiques d'un corpus de données et d'en tirer des conclusions.
+On s'éloigne en cela de la sémantique qui regarde à quoi les mots réfèrent et leur relation de sens.
+
+||LINGUISTIQUE|SEMANTIQUE|
+|: | :| :|
+|Ce qu'on regarde|**forme**| **sens**|
+|Exemple| invention, inventeur, inventer| exact, vrai, correct
+|Type d'observation | pluriel, verbe, adjectifs| synonyme, antonyme|
+| Procédé | forme/ motif /règles/occurences/position | reférence/catégorie/lien/sens|
+|Approche méthodologie| Enquête statistique et induction| Croisement de données et déduction |
+||Fréquence, décompte| Ontologie et hiérarchie|
+
+Un dernier exemple:
+un traitement statistique ne nous permettra pas dans un premier temps de répondre automatiquement à la question: Quelle est la couleur du cheval blanc d'Henri IV?
+
+En revanche on pourra déterminer qu'il s'agit d'une question en se concentrant sur le signe '?', déterminer la longeur de la phrase, garder les mots-clés tels que les noms communs et leur position dans la phrase ou  encore analyser des occurences .
+
+Si le traitement sémantique vous intéresse il peut faire l'objet d'un autre atelier pour faire vite le fonctionnement repose sur des 'dictionnaires' des tables de références un peu particulières qu'on appelle des ontologies. Les archivistes et bibliothécaires travaillent à la constitution de ces ontologies.
+Les technologies du Web Sémantique par exemple utilise une manière particulière de stocker les informations sous forme de triplet SUJET PREDICAT OBJET qui souligne le type de relation qu'entretiennent le sujet et l'objet.
+
+Le cheval est blanc relie un animal à une couleur par une relation d'identité.
+
+Mais traiter un corpus textuel requiert avant ce type d'analyse un peu plus poussé du traitement automatique de langue traditionnellement issu de la linguistique informatique (statistiques)
+
+Les principales étapes pour une enquête sur un corpus de données textuelles sont:
+
+* le parsing (lecture et sauvegarde) soit parcourir et enregister le texte de manière à ce qu'on puisse facilement y accéder
+
+* le formatage et le nettoyage: s'assurer que le texte a une forme manipulable facilement
+on utilise pour cela les méthodes propres au texte, ou liste et aussi un langage/notation/racourci pour détecter des motifs
+
+* chunking/ tokenizing/ stemming : découper le texte en petite unité lexicale ou syntaxique:
+  - mots clés
+  - motifs récurrents
+  - catégorie grammaticale
+  - forme simplifiée
+
+* indexer, classer, mettre en contexte,
+
+On applique ensuite un ensemble de traitements en fonction de l'analyse qu'on souhaite faire et du contexte qu'on veut prendre en compte pour dégager des caractéristiques du texte.
