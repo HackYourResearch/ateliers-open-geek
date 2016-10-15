@@ -127,22 +127,43 @@ Si le traitement sémantique vous intéresse il peut faire l'objet d'un autre at
 Les technologies du Web Sémantique par exemple utilise une manière particulière de stocker les informations sous forme de triplet SUJET PREDICAT OBJET qui souligne le type de relation qu'entretiennent le sujet et l'objet.
 
 Le cheval est blanc relie un animal à une couleur par une relation d'identité.
+Dans le cas d'un livre dans une bibliothèque il est classé par thématique, par époque et ensuite par auteur (ordre alphabétique). Un plan de classement qui suit un ou plusieurs standard. Le XML-TEI reprend ces concepts et les applique au texte.
 
 Mais traiter un corpus textuel requiert avant ce type d'analyse un peu plus poussé du traitement automatique de langue traditionnellement issu de la linguistique informatique (statistiques)
 
 Les principales étapes pour une enquête sur un corpus de données textuelles sont:
 
-* le parsing (lecture et sauvegarde) soit parcourir et enregister le texte de manière à ce qu'on puisse facilement y accéder
+* le `parsing` lecture et sauvegarde: soit parcourir et enregister le texte de manière à ce qu'on puisse facilement y accéder
 
-* le formatage et le nettoyage: s'assurer que le texte a une forme manipulable facilement
-on utilise pour cela les méthodes propres au texte, ou liste et aussi un langage/notation/racourci pour détecter des motifs
+* le `formatage` et le nettoyage: nettoyer et convertir pour s'assurer que le texte a une forme manipulable facilement et transférable selon un standard.
+On utilise pour cela les méthodes propres au texte, ou liste et aussi un langage/notation/racourci pour détecter des motifs dans le but de produire un texte dans un format particulier et détecter ce qui nous intéresse.
 
-* chunking/ tokenizing/ stemming : découper le texte en petite unité lexicale ou syntaxique:
+=> **Regex** , la voie "royale"?
+
+
+* la `segmentation` le découpage et la simplification: segmentation/ tokenisation/ balisage/ stemming : découper le texte en petite unité lexicale ou syntaxique et simplifier les formes:
   - mots clés
-  - motifs récurrents
-  - catégorie grammaticale
+  - ngrams
   - forme simplifiée
 
-* indexer, classer, mettre en contexte,
+=> **NLTK**, la boite à outil en python pour le TAL
+* le `filtrage`, l'`étiquetage et la categorisation`:
 
-On applique ensuite un ensemble de traitements en fonction de l'analyse qu'on souhaite faire et du contexte qu'on veut prendre en compte pour dégager des caractéristiques du texte.
+  - motifs récurrents
+  - catégorie grammaticale
+  - champs lexicaux
+
+* l'`indexation et le classement`
+pour mettre en contexte
+à ce stade on utilise:
+  *  les métadonnées ou données contextuelles de notre corpus comme les champs descriptifs ou la source
+  * des tables de correspondances (dictionnaires, base de données) produites par des tiers et enrichie automatiquement à partir de corpus qui permettent de classer.
+  * des algorithmes et des méthodes statistiques pour chercher, ranger, classer
+
+On applique ensuite un ensemble de traitements en fonction de l'analyse qu'on souhaite faire et du contexte qu'on veut prendre en compte pour dégager des caractéristiques du texte ou faire emerger un ordre.
+
+* Reconnaissance d'entités nommées
+* Extraction de relations
+* Résumé automatique
+* Analyse factorielle de correspondances
+* Anlayse de sentiment
