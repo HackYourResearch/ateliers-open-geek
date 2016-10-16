@@ -1,0 +1,135 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0V96IOY009788
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 10:06:18 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0V92P51009402
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 10:06:18 +0100
+Received: from serv108.segi.ulg.ac.be ([139.165.32.111])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id uZ6H1k00B2PrXoT01Z6HRQ; Thu, 31 Jan 2013 10:06:18 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 139.165.32.111
+Received: (qmail 2707 invoked from network); 31 Jan 2013 10:06:17 +0100
+Received: from unknown (HELO [10.9.208.125]) (u301267@[10.9.208.125])
+          (envelope-sender <Bernard.Pochet@ulg.ac.be>)
+          by serv108.segi.ulg.ac.be (qmail-ldap-1.03) with AES128-SHA encrypted SMTP
+          for <accesouvert@groupes.renater.fr>; 31 Jan 2013 10:06:17 +0100
+Mime-Version: 1.0 (Apple Message framework v1085)
+Content-Type: text/plain; charset=windows-1252
+From: Bernard Pochet <Bernard.Pochet@ulg.ac.be>
+X-Priority: 3 (Normal)
+In-Reply-To: <02257e45e2fffa46b53ca9c980a0d561.squirrel@webmail.espci.fr>
+Date: Thu, 31 Jan 2013 10:06:21 +0100
+Message-Id: <110280FB-EB67-47D3-8419-F03D62BA51E2@ulg.ac.be>
+References: <CAPZ1826n=rmqg7-8MrP5m51P1T0UiYVWZYyn5NBn4mKirr8V3Q@mail.gmail.com>,<20130130215139.ofn3plnof4kwkwo8@mail.math.jussieu.fr> <BAA8B464-5519-4597-9559-245D367750E6@cnrs.fr> <02257e45e2fffa46b53ca9c980a0d561.squirrel@webmail.espci.fr>
+To: accesouvert@groupes.renater.fr
+X-Mailer: Apple Mail (2.1085)
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by listes.cru.fr id r0V96IOY009788
+Subject: Re: [accesouvert] =?ISO-8859-1?Q?Co=FBts_de_publication_en_libre_?=
+ =?ISO-8859-1?Q?acc=E8s_selon_les_=E9diteurs_et_les_revues_=28tarifs_indic?=
+ =?ISO-8859-1?Q?atifs_de_janvier_2013=29?=
+
+Voilà plusieurs jours que je lis les échanges, certains m'ont particulièrement énervé (dont : "Je sais bien (ou au moins j'ose esperer) que cette liste NE PARLE PAS du Gold Open Access (que Pierre
+Dac aurait qualifie de "publication `a compteur d'eau" :-)") … l'OA c'est le gold (le vrai) et le green (le vrai, avec les full text). ... beaucoup de confusions !
+
+Ce n'est pas parce que nos amis les requins ont trouvé une nouvelle opportunité pour augmenter leur chiffre d'affaire que le gold est n'est pas de l'OA … il existe depuis 1990 : consultez le DOAJ, allez sur revues.org ou sur PoPuPS (initiative plus modeste de l'université de Liège : http://popups.ulg.ac.be). La majorité des revues gold sont gratuites pour les auteurs aussi. Celles qui pratiquent le modèle inversé (auteur-payeur), plus ou moins 35 %, demandent en moyenne 220 € par article accepté. On est donc loin des sommes demandées par nos amis les requins.
+
+En ce qui nous concerne, nous n'avons pas encore adopté de modèle inversé. Nos bailleurs de fonds nous suivent encore (jusqu'à présent). 
+
+Pour répondre à la question du coût, pour une revue de niveau international, modeste mais néanmoins reprise dans le JCR (c'est pas obligé mais c'est bien quand-même), il faut regarder les dépenses indispensables (je parle de : http://www.pressesagro.be/base/)
+
+- un mi-temps (bac +3) pour le secrétariat (réception des articles, courrier aux auteurs et aux lecteurs…)
+- un mi-temps (bac + 3) pour la mise en page (en pdf avec InDesign et en html avec Lodel)
+… c'est chez nous la même personne qui fait les deux - comptez 25.000 €
+- un mi-temps (bac +5) pour le travail rédactionnel : première lecture avant transmission au comité de rédaction, recherche des reviewers, relecture après corrections et relecture avant publication (+ questions aux auteurs, biblio…) - comptez 18.000 €
+- quelques frais (téléphone cartouches…) - comptez 2.000 €
+- les frais d'impression sont couverts par les abonnements, les frais d'expédition sont de +/- 4000 € par an … ces postes pourraient être supprimés avec une diffusion uniquement électronique … on y songe, je ne les compte pas.
+le rédac chef, le secrétaire du comité de rédaction, les membres du comité de rédaction, les reviewers, le président du comité scientifique, les membres du comité scientifique … ne sont pas payés
+
+On a donc 25 + 18 + 2 = 45.000 € pour travailler correctement. Somme à diviser par le nombre d'articles publiés (60) chaque année = on est quand-même à un coût vérité de 750 € par article. Loin des 3.000 de nos amis les requins (qui doivent aussi rémunérer leurs pauvres actionnaires, ce n'est pas la crise pour tout le monde) mais ce n'est pas négligeable. Les coûts peuvent difficilement être compressés sans réduire la qualité. Il y a les subventions qui les réduisent mais on peut aussi publier plus (mais il n'y a que 24h dans une journée) et, publier plus, c'est aussi plus de travail … enfin, voilà l'équation telle que je la vois.
+
+Cordialement
+
+B. Pochet, PhD
+
+Université de Liège - Gembloux Agro-Bio Tech
+Bibliothèque des Sciences agronomiques
+& Presses agronomiques de Gembloux
+
+2 Passage des Déportés
+B 5030 GEMBLOUX (Belgium)
+tel.: +32(0)81 62 21 02
+fax : +32(0)81 62 25 52
+GSM : +32(0)496 85 41 30
+
+
+http://www.ulg.ac.be/cms/j_5871/repertoires?uid=U301267
+
+
+
+
+Le 31 janv. 2013 à 08:55, Catherine Kounelis a écrit :
+
+> Bonjour
+> 
+> Je poserais la question autrement : Quel est le coût d'un journal? (porté
+> par l'éditeur, sans compter le temps passé par l'auteur)
+> Quelqu'un a des éléments?
+> 
+> Catherine Kounelis
+> 
+> 
+> 
+>> Une autre  question: y-a-t-il des différences de coût qui expliqueraient
+>> ces différences de prix?
+>> SB
+>> 
+>> Envoyé d'un téléphone portable, désolé pour le caractère cavalier...
+>> 
+>> Le 30 janv. 2013 à 21:51, "allouche@math.jussieu.fr"
+>> <allouche@math.jussieu.fr> a écrit :
+>> 
+>>> Bonsoir
+>>> 
+>>> Merci pour ces interessantes donnees. `A propos,
+>>> un argument que l'on n'entend pas souvent pour repondre aux
+>>> editeurs commerciaux qui affirment que le modele auteur-payeur
+>>> coutera moins cher aux universites : qui peut croire un seul
+>>> instant que les editeurs commerciaux vont sciemment mettre
+>>> en oeuvre une politique pour gagner moins d'argent ?
+>>> 
+>>> jean-paul
+>>> 
+>>> 
+>>> Hans Dillaerts <dillaerts.hans@gmail.com> a écrit :
+>>> 
+>>>> Pour info.
+>>>> 
+>>>> Ci-joint une petite synthèse (3 pages) réalisée par Laurence Dedieu sur
+>>>> les
+>>>> coûts du modèle "auteur-payeur".
+>>>> 
+>>>> Source :
+>>>> http://coop-ist.cirad.fr/actualites/les-couts-de-publication-en-libre-acces
+>>>> 
+>>>> --
+>>>> Hans Dillaerts
+>>>> Docteur en S.I.C
+>>>> DICEN CNAM
+>>>> Numéro de téléphone : 06.17.69.48.69
+>>>> http://www.microblogging.infodocs.eu/
+>>>> http://open-access.infodocs.eu/
+>>>> Twitter : @infodocs
+>>> 
+>>> 
+>>> 
+>>> 
+>> 
+>> 
+> 
+
+

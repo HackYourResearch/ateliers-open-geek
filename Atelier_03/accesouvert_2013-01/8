@@ -1,0 +1,733 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0THZPnQ020003
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 18:35:25 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0THXjVh032152
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 18:35:25 +0100
+Received: from smtp22.services.sfr.fr ([93.17.128.11])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id ttbR1k0080EtF7901tbRGF; Tue, 29 Jan 2013 18:35:25 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 93.17.128.11
+Received: from filter.sfr.fr (localhost [127.0.0.1])
+	by msfrf2207.sfr.fr (SMTP Server) with ESMTP id 2B49070000F0;
+	Tue, 29 Jan 2013 18:35:25 +0100 (CET)
+Received: from [127.0.0.1] (237.11.176.95.rev.sfr.net [95.176.11.237])
+	by msfrf2207.sfr.fr (SMTP Server) with ESMTP id 159D470000A1;
+	Tue, 29 Jan 2013 18:35:19 +0100 (CET)
+X-SFR-UUID: 20130129173520886.159D470000A1@msfrf2207.sfr.fr
+Message-ID: <51080854.5000705@gmail.com>
+Date: Tue, 29 Jan 2013 18:35:16 +0100
+From: Hans Dillaerts <dillaerts.hans@gmail.com>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:17.0) Gecko/20130107
+	Thunderbird/17.0.2
+MIME-Version: 1.0
+To: Thierry Chanier <thierry.chanier@univ-bpclermont.fr>
+CC: accesouvert@groupes.renater.fr
+References: <CAHWhSusTc5fs5JDQuvQ5KHnwz6aB7AKqHX4d=zn-NQtGgDj_mA@mail.gmail.com>
+	<201301291651.r0TGkTqi030135@mx.cru.fr>
+In-Reply-To: <201301291651.r0TGkTqi030135@mx.cru.fr>
+X-Antivirus: avast! (VPS 130129-1, 29/01/2013), Outbound message
+X-Antivirus-Status: Clean
+Content-Type: multipart/alternative;
+	boundary=------------020202000809000403020003
+Subject: Re: [accesouvert] =?ISO-8859-1?Q?L=27acc=E8s_ouvert=2C_des___oppo?=
+ =?ISO-8859-1?Q?rtunit__=E9s_=E0_saisir?=
+
+This is a multi-part message in MIME format.
+--------------020202000809000403020003
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Bonjour,
+
+« /Je m'interroge à propos du livre de Duber : pourquoi n'y a-t-il pas 
+une version en accès libre ?/ »
+
+L'ouvrage sera accessible gratuitement à partir de juin 2013. Encore 
+quelques mois de patience donc.
+
+Cordialement,
+
+Hans Dillaerts
+
+
+
+Le 29/01/2013 17:51, Thierry Chanier a écrit :
+> Merci Jean-Christophe pour cette ouverture et pour la mention de ce livre.
+>
+> Je m'interroge à propos du livre de Duber : pourquoi n'y a-t-il pas 
+> une version en accès libre ?
+>
+> En effet, si l'on regarde les livres tels que ceux de Lessig (Fre 
+> Culture, par exemple , http://fr.feedbooks.com/book/2750/free-culture 
+> <http://fr.feedbooks.com/book/2750/free-culture>) ou Boyle (the public 
+> domaine, 
+> http://fr.feedbooks.com/book/3471/the-public-domain-enclosing-the-commons-of-the-mind 
+> )  ou le mien ( http://archivesic.ccsd.cnrs.fr/sic_00001103/ 
+> <http://archivesic.ccsd.cnrs.fr/sic_00001103/>) ils sont diffusés par 
+> les moyens traditionnels (papier, Penguin, payant, kindle payant) et 
+> en epubs gratuit.s Cela parait en conformité avec l'esprit et le sujet 
+> traité.
+>
+> Cela permet également de faire réfléchir sur le fait que les deux 
+> modèles ne sont pas nécessairement incompatibles.
+>
+> Il est important d'avancer dans cette discussion et de sortir des 
+> discours sur l'accès libre ... qui n'en sont pas !
+>
+> Cordialement
+> Thierry Chanier
+>
+>
+>
+> At 12:18 29/01/2013, Jean-Christophe Peyssard wrote:
+>> Chers collègues,
+>> Les 5e journées Open Access organisées par Couperin la semaine 
+>> dernière nous ont permis de nous retrouver réunis sur cette liste. 
+>> Vous êtes déjà 333 abonnés. C'est un beau succès de l'accès ouvert, 
+>> et de Couperin, que de parvenir à tous nous réunir en si peu de temps 
+>> autour d'un enjeu stratégique pour la communauté scientifique.
+>> Dans son excellent livre que Peter Suber a tout simplement intitulé 
+>> /Open Access/ <http://mitpress.mit.edu/books/open-access 
+>> <http://mitpress.mit.edu/books/open-access>>, une partie est 
+>> intitulée "OA as seizing opportunities", que je traduirais par 
+>> "l'Accès ouvert, des opportunités à saisir".
+>> Peter Suber nous y explique que trop souvent les débats et 
+>> discussions autour de l'accès ouvert sont "sinistres, terre à terre 
+>> et centrés sur les problèmes". Il nous dit que cette tendance devrait 
+>> être systématiquement contre balancée par des discussions "joyeuses, 
+>> pleines de curiosité et centrées sur les opportunités à saisir". Pour 
+>> Peter Suber, les problèmes, aussi importants soient-ils, ne doivent 
+>> pas occulter les magnifiques opportunités que nous promet l'accès ouvert.
+>>
+>> Je vous propose donc de débuter nos échanges sur cette liste dans 
+>> cette dynamique :
+>> - Quelles sont les actions et réalisations positives que vous êtes 
+>> parvenus à réaliser en faveur de l'accès ouvert ?
+>> - Quelles sont, d'après vous, les stratégies et méthodes qui 
+>> permettent l'accès ouvert et la libre circulation des résultats de la 
+>> recherche ?
+>> - Quelles sont pour vous les exemples de réussites dans le domaine de 
+>> l'accès ouvert ?
+>>
+>> En attendant de vous lire, je vous signale que Peter Suber vient 
+>> d'annoncer <http://bit.ly/suber-gplus> que son livre est un "livre 
+>> vivant" et qu'il continue à le mettre à jour et l'enrichir à 
+>> l'adresse suivante : 
+>> http://cyber.law.harvard.edu/hoap/Open_Access_(the_book) 
+>> <http://cyber.law.harvard.edu/hoap/Open_Access_%28the_book%29>
+>> Bien cordialement,
+>> Jean-Christophe Peyssard
+>>
+>> -- 
+>> Jean-Christophe Peyssard
+>> OpenEdition, responsable du pôle /freemium/
+>>
+>> Services aux bibliothèques / Services to libraries
+>> http://www.openedition.org/services-libraries 
+>> <http://www.openedition.org/services-libraries>
+>>
+>> CNRS - EHESS - Aix-Marseille Université (AMU) - Université d'Avignon
+>> 3, place Victor Hugo, Case n°86, 13331 Marseille Cedex 3 - France
+>> T : +33 (0)4 13 55 09 80 M : +33 (0)6 51 38 90 33 F : +33 (0)4 13 55 
+>> 03 41
+>> Skype : jc.peyssard - Gmail video chat : 
+>> jean-christophe.peyssard@openedition.org 
+>> <mailto:jean-christophe.peyssard@openedition.org>
+>> Twitter : http://twitter.com/#!/ghaylam 
+>> <http://twitter.com/#%21/ghaylam>
+>> http://www.openedition.org <http://www.openedition.org/> 
+
+
+-- 
+Hans Dillaerts
+Docteur en S.I.C
+DICEN CNAM
+TEl: 06.17.69.48.69
+http://www.microblogging.infodocs.eu/
+http://open-access.infodocs.eu/
+Twitter : @infodocs <http://twitter.com/Infodocs>
+
+--------------020202000809000403020003
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1"
+      http-equiv="Content-Type">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <div class="moz-cite-prefix">
+      <meta http-equiv="Content-Type" content="text/html;
+        charset=ISO-8859-1">
+      <p class="MsoNormal">Bonjour,<br>
+        <br>
+      </p>
+      <p class="MsoNormal">&laquo;&nbsp;<i>Je m'interroge &agrave; propos du livre de
+          Duber : pourquoi
+          n'y a-t-il pas une version en acc&egrave;s libre ?</i>&nbsp;&raquo;</p>
+      <p class="MsoNormal">L&#8217;ouvrage sera accessible gratuitement &agrave;
+        partir de juin
+        2013. Encore quelques mois de patience donc.<br>
+        <br>
+      </p>
+      Cordialement,<br>
+      <br>
+      <p class="MsoNormal">Hans Dillaerts</p>
+      <meta name="ProgId" content="Word.Document">
+      <meta name="Generator" content="Microsoft Word 12">
+      <meta name="Originator" content="Microsoft Word 12">
+      <link rel="File-List"
+href="file:///C:%5CUsers%5CSeven%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_filelist.xml">
+      <link rel="themeData"
+href="file:///C:%5CUsers%5CSeven%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx">
+      <link rel="colorSchemeMapping"
+href="file:///C:%5CUsers%5CSeven%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml">
+      <!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Normal</w:View>
+  <w:Zoom>0</w:Zoom>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>FR</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+      <style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style><!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Tableau Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin-top:0cm;
+	mso-para-margin-right:0cm;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0cm;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--><br>
+      <br>
+      Le 29/01/2013 17:51, Thierry Chanier a &eacute;crit&nbsp;:<br>
+    </div>
+    <blockquote cite="mid:201301291651.r0TGkTqi030135@mx.cru.fr"
+      type="cite">
+      Merci Jean-Christophe pour cette ouverture et pour la mention de
+      ce
+      livre.<br>
+      <br>
+      Je m'interroge &agrave; propos du livre de Duber : pourquoi n'y a-t-il
+      pas une
+      version en acc&egrave;s libre ?<br>
+      <br>
+      En effet, si l'on regarde les livres tels que ceux de Lessig (Fre
+      Culture, par exemple ,
+      <a moz-do-not-send="true"
+        href="http://fr.feedbooks.com/book/2750/free-culture"
+        eudora="autourl">
+        http://fr.feedbooks.com/book/2750/free-culture</a>) ou Boyle
+      (the public
+      domaine,
+      <a moz-do-not-send="true"
+href="http://fr.feedbooks.com/book/3471/the-public-domain-enclosing-the-commons-of-the-mind"
+        eudora="autourl">
+http://fr.feedbooks.com/book/3471/the-public-domain-enclosing-the-commons-of-the-mind</a>
+      )&nbsp; ou le mien (
+      <a moz-do-not-send="true"
+        href="http://archivesic.ccsd.cnrs.fr/sic_00001103/"
+        eudora="autourl">
+        http://archivesic.ccsd.cnrs.fr/sic_00001103/</a>) ils sont
+      diffus&eacute;s par
+      les moyens traditionnels (papier, Penguin, payant, kindle payant)
+      et en
+      epubs gratuit.s Cela parait en conformit&eacute; avec l'esprit et le
+      sujet
+      trait&eacute;.<br>
+      <br>
+      Cela permet &eacute;galement de faire r&eacute;fl&eacute;chir sur le fait que les deux
+      mod&egrave;les
+      ne sont pas n&eacute;cessairement incompatibles. <br>
+      <br>
+      Il est important d'avancer dans cette discussion et de sortir des
+      discours sur l'acc&egrave;s libre ... qui n'en sont pas !<br>
+      <br>
+      Cordialement<br>
+      Thierry Chanier<br>
+      <br>
+      <br>
+      <br>
+      At 12:18 29/01/2013, Jean-Christophe Peyssard wrote:<br>
+      <blockquote type="cite" class="cite" cite="">Chers coll&egrave;gues,<br>
+        Les 5e journ&eacute;es Open Access organis&eacute;es par Couperin la semaine
+        derni&egrave;re
+        nous ont permis de nous retrouver r&eacute;unis sur cette liste. Vous
+        &ecirc;tes d&eacute;j&agrave;
+        333 abonn&eacute;s. C'est un beau succ&egrave;s de l'acc&egrave;s ouvert, et de
+        Couperin, que
+        de parvenir &agrave; tous nous r&eacute;unir en si peu de temps autour d'un
+        enjeu
+        strat&eacute;gique pour la communaut&eacute; scientifique. <br>
+        Dans son excellent livre que Peter Suber a tout simplement
+        intitul&eacute;
+        <i>Open Access</i>
+        &lt;<a moz-do-not-send="true"
+          href="http://mitpress.mit.edu/books/open-access">
+          http://mitpress.mit.edu/books/open-access</a>&gt;, une partie
+        est
+        intitul&eacute;e "OA as seizing opportunities", que je traduirais par
+        "l'Acc&egrave;s ouvert, des opportunit&eacute;s &agrave; saisir".<br>
+        Peter Suber nous y explique que trop souvent les d&eacute;bats et
+        discussions
+        autour de l'acc&egrave;s ouvert sont "sinistres, terre &agrave; terre et
+        centr&eacute;s
+        sur les probl&egrave;mes". Il nous dit que cette tendance devrait &ecirc;tre
+        syst&eacute;matiquement contre balanc&eacute;e par des discussions "joyeuses,
+        pleines de curiosit&eacute; et centr&eacute;es sur les opportunit&eacute;s &agrave; saisir".
+        Pour Peter Suber, les probl&egrave;mes, aussi importants soient-ils, ne
+        doivent
+        pas occulter les magnifiques opportunit&eacute;s que nous promet
+        l'acc&egrave;s
+        ouvert.<br>
+        <br>
+        Je vous propose donc de d&eacute;buter nos &eacute;changes sur cette liste
+        dans cette
+        dynamique :<br>
+        - Quelles sont les actions et r&eacute;alisations positives que vous
+        &ecirc;tes
+        parvenus &agrave; r&eacute;aliser en faveur de l'acc&egrave;s ouvert ? <br>
+        - Quelles sont, d'apr&egrave;s vous, les strat&eacute;gies et m&eacute;thodes qui
+        permettent
+        l'acc&egrave;s ouvert et la libre circulation des r&eacute;sultats de la
+        recherche ?
+        <br>
+        - Quelles sont pour vous les exemples de r&eacute;ussites dans le
+        domaine de
+        l'acc&egrave;s ouvert ?<br>
+        <br>
+        En attendant de vous lire, je vous signale que Peter Suber vient
+        d'annoncer
+        &lt;<a moz-do-not-send="true" href="http://bit.ly/suber-gplus">http://bit.ly/suber-gplus</a>&gt;
+que
+        son livre est un "livre vivant" et qu'il continue &agrave; le
+        mettre &agrave; jour et l'enrichir &agrave; l'adresse suivante :
+        <a moz-do-not-send="true"
+          href="http://cyber.law.harvard.edu/hoap/Open_Access_%28the_book%29">
+          http://cyber.law.harvard.edu/hoap/Open_Access_(the_book)</a><br>
+        Bien cordialement,<br>
+        Jean-Christophe Peyssard<br>
+        <br>
+        -- <br>
+        Jean-Christophe Peyssard<br>
+        OpenEdition, responsable du p&ocirc;le <i>freemium</i><br>
+        <br>
+        Services aux biblioth&egrave;ques / Services to libraries<br>
+        <a moz-do-not-send="true"
+          href="http://www.openedition.org/services-libraries">
+          http://www.openedition.org/services-libraries</a><br>
+        <br>
+        CNRS - EHESS - Aix-Marseille Universit&eacute; (AMU) - Universit&eacute;
+        d'Avignon<br>
+        3, place Victor Hugo, Case n&deg;86, 13331 Marseille Cedex 3 -
+        France<br>
+        T : +33 (0)4 13 55 09 80 M : +33 (0)6 51 38 90 33 F : +33 (0)4
+        13 55 03
+        41<br>
+        Skype : jc.peyssard - Gmail video chat :
+        <a moz-do-not-send="true"
+          href="mailto:jean-christophe.peyssard@openedition.org">
+          jean-christophe.peyssard@openedition.org</a><br>
+        Twitter :
+        <a moz-do-not-send="true" href="http://twitter.com/#%21/ghaylam">http://twitter.com/#!/ghaylam</a>
+        <br>
+        <a moz-do-not-send="true" href="http://www.openedition.org/"
+          eudora="autourl">
+          http://www.openedition.org</a> </blockquote>
+    </blockquote>
+    <br>
+    <br>
+    <div class="moz-signature">-- <br>
+      Hans Dillaerts<br>
+      Docteur en S.I.C<br>
+      DICEN CNAM<br>
+      TEl: 06.17.69.48.69<br>
+      <a href="http://www.microblogging.infodocs.eu/" target="blank">http://www.microblogging.infodocs.eu/</a><br>
+      <a href="http://open-access.infodocs.eu/" target="blank">http://open-access.infodocs.eu/</a><br>
+      Twitter : <a href="http://twitter.com/Infodocs" target="blank">@infodocs</a></div>
+  </body>
+</html>
+
+--------------020202000809000403020003--

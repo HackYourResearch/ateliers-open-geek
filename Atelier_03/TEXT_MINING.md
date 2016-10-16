@@ -1,10 +1,6 @@
 `Atelier 03`
 # A la découverte du TextMining
 
-
-
-
-
 ## Qu'est ce qu'un texte en Python?
     C'est un `type de données` qu'on appelle `string`
 Un ensemble de caractères stockés les uns à la suite des autres qui donne une chaine de caractères
@@ -23,14 +19,17 @@ SyntaxError: invalid syntax
 <type 'str'>
 ```
 Jusque là rien de très sorcier
+
 On peut le stocker dans une variable
 et lui demander de l'afficher avec la fonction `print`
+
 ```
 >>> salut= "hello world"
 >>> print(salut)
 'hello world'
 >>>
 ```
+
 #### La chaine de caractère
 Comme ce sont des caractères les uns à la suite des autres, le texte est stocké de la même manière qu'une `liste`
 pour savoir combien de lettres dans ma phrase
@@ -66,8 +65,11 @@ print(salut[-3:-1])
 * Exercice1: Afficher les lettres de l'alphabet
 * Exerice2: Afficher les lettres de l'alphabet à l'envers
 * Exercice 4: Afficher les 4 dernières lettres de l'alphabet dans l'ordre inversé
+
 ##### Manipulation du texte string
-String est un type de données et lui sont attachées un ensemble de méthodes propres
+
+String est un type de données et lui sont attachées un ensemble de méthodes et de fonction propres
+
 * on peut les unir ensemble +
 * les multiplier * 3
 * changer la casse:
@@ -78,25 +80,20 @@ title()
 
 * remplacer des lettres
 
-texte.replace("world", "everybody")
+salut.replace("world", "everybody")
 * le découper avec un séparateur
 texte.split(" ")
 
-Comme la string est une `liste` de caractère on peut aussi utiliser les methodes des listes
+On va utiliser des fonctions déjà existantes attachées au types de données
 
-listes,boucle, dictionnaires
+> Programmer leur propre fonctions
 
-### Ou trouve t-on du texte?
-* input(): lire de données entrées par l'utilisateur
-* variable: copier coller un texte
-* document: lire un fichier
-* base de données: récupérer des données par requete et Croisement
-* web, mail, logs
+Comme la string est une `liste` de caractère on peut aussi utiliser les fonctions des listes
+> Manipulation de liste
+> Boucle
+> Dictionnaire
 
-* Exercice 3: Pour un texte donné afficher compter le nombre de mot
-
-
-* Exercice 4: Afficher les lettres de l'alphabet chaque lettre sur une nouvelle ligne
+Petit exercices en bioinformatique exercice avec l'ADN
 
 ### Textmining: procédure
 * Petit rappel: le *textmining* ou la fouille de texte implique de sortir la pelle, la pioche, les ciseaux le marteau on se concentre sur la **forme** des mots et non sur le sens. On utilise les règles:
@@ -131,10 +128,30 @@ Dans le cas d'un livre dans une bibliothèque il est classé par thématique, pa
 
 Mais traiter un corpus textuel requiert avant ce type d'analyse un peu plus poussé du traitement automatique de langue traditionnellement issu de la linguistique informatique (statistiques)
 
-Les principales étapes pour une enquête sur un corpus de données textuelles sont:
+### Ou trouve t-on du texte?
 
+* input(): lire de données entrées par l'utilisateur
+* variable: copier coller un texte
+* document: lire un fichier
+* base de données: récupérer des données par requete et Croisement
+* web, mail, logs
+### Textmining: les étapes
+Les principales étapes pour une enquête sur un corpus de données textuelles sont:
+* parsing
+* nettoyage et formatage
+* segmentation
+* etiquetage
+* classification
+* analyse
+
+#### Parsing
 * le `parsing` lecture et sauvegarde: soit parcourir et enregister le texte de manière à ce qu'on puisse facilement y accéder
 
+
+
+
+EXERCICE 07
+EXERCICE 08
 * le `formatage` et le nettoyage: nettoyer et convertir pour s'assurer que le texte a une forme manipulable facilement et transférable selon un standard.
 On utilise pour cela les méthodes propres au texte, ou liste et aussi un langage/notation/racourci pour détecter des motifs dans le but de produire un texte dans un format particulier et détecter ce qui nous intéresse.
 
@@ -166,4 +183,4 @@ On applique ensuite un ensemble de traitements en fonction de l'analyse qu'on so
 * Extraction de relations
 * Résumé automatique
 * Analyse factorielle de correspondances
-* Anlayse de sentiment
+* Analyse de sentiment

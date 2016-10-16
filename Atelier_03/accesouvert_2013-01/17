@@ -1,0 +1,72 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0V8YpSm029106
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 09:34:51 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0V8VVdM007785
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 09:34:51 +0100
+Received: from amazone1.ujf-grenoble.fr ([193.54.238.254])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id uYar1k0055W12Lp01Yarw0; Thu, 31 Jan 2013 09:34:51 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 193.54.238.254
+Received: from tana1.ujf-grenoble.fr (tana1.ujf-grenoble.fr [152.77.24.147])
+	by amazone1.ujf-grenoble.fr (8.13.7/8.13.7/Configured  by JE/GB 2010-12-10) with ESMTP id r0V8YpvU050236
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 09:34:51 +0100 (CET)
+Received: from tana1.ujf-grenoble.fr (unknown [127.0.0.1])
+	by tana1.ujf-grenoble.fr (Postfix) with ESMTP id 4FAEC2E02D
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 09:34:51 +0100 (CET)
+X-UJF-AV: Scanned on tana1.ujf-grenoble.fr
+Received: from tana1.ujf-grenoble.fr ([127.0.0.1])
+	by tana1.ujf-grenoble.fr (tana1.ujf-grenoble.fr [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id vQtTB-Jwf5yV for <accesouvert@groupes.renater.fr>;
+	Thu, 31 Jan 2013 09:34:51 +0100 (CET)
+Received: from smtps.ujf-grenoble.fr (anta.ujf-grenoble.fr [152.77.18.216])
+	by tana1.ujf-grenoble.fr (Postfix) with ESMTP id 35BCD2E01B
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 09:34:51 +0100 (CET)
+Received: from Nancarrow.mshome.net (nancarrow.ujf-grenoble.fr [152.77.213.86])
+	(using TLSv1 with cipher AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	(Authenticated sender: bouchet@ujf-grenoble.fr)
+	by smtps.ujf-grenoble.fr (Postfix) with ESMTPSA id 0F358295424
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 09:34:51 +0100 (CET)
+Date: Thu, 31 Jan 2013 09:35:12 +0100
+From: Thierry Bouche <thierry.bouche@ujf-grenoble.fr>
+Organization: CMD
+X-Priority: 3 (Normal)
+Message-ID: <1801976561.20130131093512@ujf-grenoble.fr>
+To: accesouvert@groupes.renater.fr
+In-Reply-To: <02257e45e2fffa46b53ca9c980a0d561.squirrel@webmail.espci.fr>
+References: <CAPZ1826n=rmqg7-8MrP5m51P1T0UiYVWZYyn5NBn4mKirr8V3Q@mail.gmail.com>,<20130130215139.ofn3plnof4kwkwo8@mail.math.jussieu.fr> <BAA8B464-5519-4597-9559-245D367750E6@cnrs.fr> <02257e45e2fffa46b53ca9c980a0d561.squirrel@webmail.espci.fr>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Greylist: Whitelist-UJF SMTP Authentifie (bouchet@ujf-grenoble.fr) via submission-587 ACL (117)
+Subject: Re: [accesouvert] =?ISO-8859-1?Q?Co=FBts_de_publication_en_libre_?=
+ =?ISO-8859-1?Q?acc=E8s_selon_les_=E9diteurs_et_les_revues_=28tarifs_indic?=
+ =?ISO-8859-1?Q?atifs_de_janvier_2013=29?=
+
+Bonjour,
+
+Le jeudi 31 janvier 2013 à 08:55:24, Catherine Kounelis écrivit :
+
+C> Je poserais la question autrement : Quel est le coût d'un journal? (porté
+C> par l'éditeur, sans compter le temps passé par l'auteur)
+
+alors allons-y franchement : qu'est-ce qu'un journal ?
+qu'est-ce qui pourrait faire penser que des publications comme
+PLOS one, Nature et Documenta Mathematica
+1. rendent des services comparables
+2. aient la même structure de coûts ? (sans parler des montants !)
+
+
+C> Quelqu'un a des éléments?
+
+Andrew Odlyzko a fait un certain nombre de calculs (je crois que c'est
+lui qui est à l'origine du chiffre d'affaire moyen de 3000 $ par
+article scientifique, qui a eu une certain influence, apparemment).
+
+Thierry Bouche
+

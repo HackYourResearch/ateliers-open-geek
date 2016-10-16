@@ -1,0 +1,62 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0VJvYJT029256
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 20:57:34 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0VJu4cB015653
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 20:57:34 +0100
+Received: from smtp1.lal.in2p3.fr ([134.158.88.100])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id ujxa1k00429u72W01jxadr; Thu, 31 Jan 2013 20:57:34 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 134.158.88.100
+Received: from nb-planck12.lal.in2p3.fr (bur91-2-82-231-160-55.fbx.proxad.net [82.231.160.55])
+	by smtp1.lal.in2p3.fr (Postfix) with ESMTP id E9F702FC22B
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 20:57:33 +0100 (CET)
+Message-ID: <510ACCA6.4000208@lal.in2p3.fr>
+Date: Thu, 31 Jan 2013 20:57:26 +0100
+From: plaszczynski stephane <plaszczy@lal.in2p3.fr>
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:10.0.12) Gecko/20130109 Thunderbird/10.0.12
+MIME-Version: 1.0
+CC: "accesouvert@groupes.renater.fr" <accesouvert@groupes.renater.fr>
+References: <CAPZ1826n=rmqg7-8MrP5m51P1T0UiYVWZYyn5NBn4mKirr8V3Q@mail.gmail.com>,<20130130215139.ofn3plnof4kwkwo8@mail.math.jussieu.fr>    <BAA8B464-5519-4597-9559-245D367750E6@cnrs.fr>    <02257e45e2fffa46b53ca9c980a0d561.squirrel@webmail.espci.fr> <a9a6cd71a0988491ea84de8f74b3ed58.squirrel@webmail.espci.fr>
+In-Reply-To: <a9a6cd71a0988491ea84de8f74b3ed58.squirrel@webmail.espci.fr>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: [accesouvert] page web sur le cout des abonnements
+
+bonjour,
+
+plutot que de s'interesser au prix de l'open-access, il est essentiel
+de porter a la connaissance du public les prix des abonnements que nous 
+payons
+actuellement. Ces donnees serviront a faire pression aussi aupres des
+editeurs et politiques.
+Aux journees OA, avait ete evoquee l'idee de faire une page (wiki)
+regroupant tous les prix actuellement pratiques (donnees publiques).
+
+Pour ma part, je vous indique le prix paye par l'Enseigenement
+Superieur et la Recherche a Elsevier, dans le cadre du groupement de
+commande porte par l'ABES/Couperin : 32ME/an (je vais rechercher plus
+de details en particulier sur la progression annuelle).
+
+Toute personne ayant des informations de ce type, qu'il faudra verifier, est
+invitee a contribuer (peut-etre en l'envoyant a cette liste).
+
+Il avait ete evoque de mettre cette page sur wikipedia, ce qui me parait
+une bonne idee (qui s'en occupe?) .
+L'utilisation des reseaux sociaux serait aussi utile.
+
+Je recherche aussi une figure (que j'ai vu durant les journees OA)
+montrant l'evolution du cout (400% en 25 ans? mais sur quoi?).
+
+Il faut sortir du ghetto des gens informes pour en faire profiter les
+autres et avancer.
+
+S.Plaszczynski
+SCOAP3-NCP
+
+
+

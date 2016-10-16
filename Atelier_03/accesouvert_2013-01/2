@@ -1,0 +1,79 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0T91Eu5021109
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 10:01:15 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0T8lnr5028510
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 10:01:14 +0100
+Received: from mail-qe0-f41.google.com ([209.85.128.41])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id tl1B1k0080tjW7D01l1BFT; Tue, 29 Jan 2013 10:01:14 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 209.85.128.41
+Received: by mail-qe0-f41.google.com with SMTP id 7so70091qeb.0
+        for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 01:01:11 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=x-received:mime-version:from:date:message-id:subject:to
+         :content-type:x-gm-message-state;
+        bh=MJP3irktLVVSJXEM8iulIo8l19chYuX4wN1p/1xbdZ4=;
+        b=VWL4dvW8k1nPsCfxJINjCsDi7YIRpnYqNN2aAsToOar9j1U6SX0wZpY5K8Y/Izhl37
+         j5LIgzm+06tNdIDMucS+u5a++FPGs/Nux2hxdiXZLUxA3Koap+pUM6goZIblQBd1WC76
+         L/6robEMRQkIJJHtuRbv4d5b4YGbu8KAnoA9b7U/rXL3RGOOB1TCgJUXFw1wDCXMZFjV
+         Byz4e26Ji6OtWiN6Tp20Wx9wuejxTPoq8XD2vzFMFjAyznrzFMQQTMtDWrdZr7Y719Sv
+         uX2uVHOTBv0kZ2QsDazP/xF1+Abl4SUzk2DbhoLT9kmanEe9iK0kpLGEwVh8/zh0QBYi
+         wN/A==
+X-Received: by 10.224.181.7 with SMTP id bw7mr316090qab.82.1359450071026; Tue,
+ 29 Jan 2013 01:01:11 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.49.109.164 with HTTP; Tue, 29 Jan 2013 01:00:30 -0800 (PST)
+From: =?ISO-8859-1?Q?Silv=E8re_Mercier?= <smercier@silvae.fr>
+Date: Tue, 29 Jan 2013 10:00:30 +0100
+Message-ID: <CAE59PV+PVKMamig1F7P49HBMsj78APY9f8xUTvctXXVrm4yAPg@mail.gmail.com>
+Subject: =?windows-1252?Q?De_la_fourniture_d=92acc=E8s_=E0_la_lib=E9ration_des_co?=
+	=?windows-1252?Q?ntenus_=3A_repenser_nos_politiques_publiques?=
+To: accesouvert@groupes.renater.fr
+Content-Type: multipart/alternative; boundary=20cf303b40fb92cd2404d469a287
+X-Gm-Message-State: ALoCoQlBEFWIg3GkHAas5WlXmAYJsnXlB0DzZ66wIPc4xn2TKc3eMP2ywEG3DlhtX2/+LAP9lBBr
+
+
+--20cf303b40fb92cd2404d469a287
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour, voici un billet qui vous int=E9ressera peut-=EAtre =E0 sujet de l'=
+Open
+Access, mais qui aborde des th=E8mes plus larges ! Vos retours sont les
+bienvenus.
+
+http://www.bibliobsession.net/2013/01/29/de-la-fourniture-dacces-a-la-liber=
+ation-des-contenus-repenser-nos-politiques-publiques/
+
+
+Bien cordialement,
+
+<https://www.vizify.com/silvere-mercier/links>
+
+--20cf303b40fb92cd2404d469a287
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style>Bonjour, voici un billet qui vous int=E9ressera=
+ peut-=EAtre =E0 sujet de l&#39;Open Access, mais qui aborde des th=E8mes p=
+lus larges ! Vos retours sont les bienvenus.</div><div><br></div><div><a hr=
+ef=3D"http://www.bibliobsession.net/2013/01/29/de-la-fourniture-dacces-a-la=
+-liberation-des-contenus-repenser-nos-politiques-publiques/">http://www.bib=
+liobsession.net/2013/01/29/de-la-fourniture-dacces-a-la-liberation-des-cont=
+enus-repenser-nos-politiques-publiques/</a><br>
+
+</div><div><br></div><br clear=3D"all"><div>Bien cordialement, <br><br><a h=
+ref=3D"https://www.vizify.com/silvere-mercier/links" target=3D"_blank"><img=
+ src=3D"http://www.bibliobsession.net/wp-content/uploads/2009/12/ScreenShot=
+144.jpg"></a><br>
+
+</div>
+</div>
+
+--20cf303b40fb92cd2404d469a287--

@@ -1,0 +1,163 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0TKOPhb011236
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 21:24:25 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0TKOPBg012220
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 21:24:25 +0100
+Received: from shiva.upmc.fr ([134.157.0.144])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id twQR1k00136QzqW01wQRQb; Tue, 29 Jan 2013 21:24:25 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 134.157.0.144
+Received: from math.jussieu.fr (mail.math.jussieu.fr [134.157.13.55])
+          by shiva.upmc.fr (8.14.4/jtpda-5.5pre1) with ESMTP id r0TKOO60026047
+          for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 21:24:24 +0100 (CET)
+X-Ids: 144
+Received: from mail.math.jussieu.fr (localhost.math.jussieu.fr [127.0.0.1])
+	by math.jussieu.fr (8.14.1/8.14.1) with ESMTP id r0TKOOwe037306
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 21:24:24 +0100 (CET)
+Received: (from www@localhost)
+	by mail.math.jussieu.fr (8.14.1/8.14.1/Submit) id r0TKOOW1037305
+	for accesouvert@groupes.renater.fr; Tue, 29 Jan 2013 21:24:24 +0100 (CET)
+X-Authentication-Warning: mail.math.jussieu.fr: www set sender to allouche@math.jussieu.fr using -f
+Received: from AOrleans-158-1-22-140.w90-44.abo.wanadoo.fr
+	(AOrleans-158-1-22-140.w90-44.abo.wanadoo.fr [90.44.153.140]) by
+	mail.math.jussieu.fr (Horde MIME library) with HTTP; Tue, 29 Jan 2013
+	21:24:24 +0100
+Message-ID: <20130129212424.xdbj7l0fizo404w8@mail.math.jussieu.fr>
+Date: Tue, 29 Jan 2013 21:24:24 +0100
+From: allouche@math.jussieu.fr
+To: accesouvert@groupes.renater.fr
+References: 	<CAHWhSusTc5fs5JDQuvQ5KHnwz6aB7AKqHX4d=zn-NQtGgDj_mA@mail.gmail.com>
+	<201301291651.r0TGkTqi030135@mx.cru.fr>
+In-Reply-To: <201301291651.r0TGkTqi030135@mx.cru.fr>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=ISO-8859-1;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.6)
+X-UPMC-math-jussieu-fr-user: allouche
+X-UPMC-math-jussieu-fr-geoip-addr: 90.44.153.140
+X-UPMC-math-jussieu-fr-geoip-continent-code: EU
+X-UPMC-math-jussieu-fr-geoip-country-code: FR
+X-UPMC-math-jussieu-fr-geoip-country-name: France
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by listes.cru.fr id r0TKOPhb011236
+Subject: Re: [accesouvert] =?ISO-8859-1?Q?L=27acc=E8s_ouvert=2C_des___oppo?=
+ =?ISO-8859-1?Q?rtunit__=E9s_=E0_saisir?=
+
+Merci pour cette remarque.
+
+Je sais bien (ou au moins j'ose esperer) que cette
+liste NE PARLE PAS du Gold Open Access (que Pierre
+Dac aurait qualifie de "publication `a compteur d'eau" :-)
+
+bien `a vous
+jp
+
+
+Thierry Chanier <thierry.chanier@univ-bpclermont.fr> a écrit :
+
+>   Merci Jean-Christophe pour cette ouverture et pour la mention de ce
+> livre.
+>
+> Je m'interroge à propos du livre de Duber : pourquoi n'y a-t-il pas
+> une version en accès libre ?
+>
+> En effet, si l'on regarde les livres tels que ceux de Lessig (Fre
+> Culture, par exemple ,
+> http://fr.feedbooks.com/book/2750/free-culture[1]) ou Boyle (the
+> public domaine,
+> http://fr.feedbooks.com/book/3471/the-public-domain-enclosing-the-commons-of-the-mind[2]
+> )  ou le mien (  http://archivesic.ccsd.cnrs.fr/sic_00001103/[3]) ils
+> sont diffusés par les moyens traditionnels (papier, Penguin, payant,
+> kindle payant) et en epubs gratuit.s Cela parait en conformité avec
+> l'esprit et le sujet traité.
+>
+> Cela permet également de faire réfléchir sur le fait que les deux
+> modèles ne sont pas nécessairement incompatibles.
+>
+> Il est important d'avancer dans cette discussion et de sortir des
+> discours sur l'accès libre ... qui n'en sont pas !
+>
+> Cordialement
+> Thierry Chanier
+>
+> At 12:18 29/01/2013, Jean-Christophe Peyssard wrote:
+> Chers collègues,
+> Les 5e journées Open Access organisées par Couperin la semaine
+> dernière nous ont permis de nous retrouver réunis sur cette liste.
+> Vous êtes déjà 333 abonnés. C'est un beau succès de l'accès ouvert,
+> et de Couperin, que de parvenir à tous nous réunir en si peu de temps
+> autour d'un enjeu stratégique pour la communauté scientifique.
+> Dans son excellent livre que Peter Suber a tout simplement intitulé
+> /Open Access/ < http://mitpress.mit.edu/books/open-access[4]>, une
+> partie est intitulée "OA as seizing opportunities", que je traduirais
+> par "l'Accès ouvert, des opportunités à saisir".
+> Peter Suber nous y explique que trop souvent les débats et
+> discussions autour de l'accès ouvert sont "sinistres, terre à terre
+> et centrés sur les problèmes". Il nous dit que cette tendance devrait
+> être systématiquement contre balancée par des discussions "joyeuses,
+> pleines de curiosité et centrées sur les opportunités à saisir". Pour
+> Peter Suber, les problèmes, aussi importants soient-ils, ne doivent
+> pas occulter les magnifiques opportunités que nous promet l'accès
+> ouvert.
+>
+> Je vous propose donc de débuter nos échanges sur cette liste dans
+> cette dynamique :
+> - Quelles sont les actions et réalisations positives que vous êtes
+> parvenus à réaliser en faveur de l'accès ouvert ?
+> - Quelles sont, d'après vous, les stratégies et méthodes qui
+> permettent l'accès ouvert et la libre circulation des résultats de la
+> recherche ?
+> - Quelles sont pour vous les exemples de réussites dans le domaine de
+> l'accès ouvert ?
+>
+> En attendant de vous lire, je vous signale que Peter Suber vient
+> d'annoncer <http://bit.ly/suber-gplus[5]> que son livre est un "livre
+> vivant" et qu'il continue à le mettre à jour et l'enrichir à l'adresse
+> suivante :
+> http://cyber.law.harvard.edu/hoap/Open_Access_(the_book)[6]
+> Bien cordialement,
+> Jean-Christophe Peyssard
+>
+> --
+> Jean-Christophe Peyssard
+> OpenEdition, responsable du pôle /freemium/
+>
+> Services aux bibliothèques / Services to libraries
+>  http://www.openedition.org/services-libraries[7]
+>
+> CNRS - EHESS - Aix-Marseille Université (AMU) - Université d'Avignon
+> 3, place Victor Hugo, Case n°86, 13331 Marseille Cedex 3 - France
+> T : +33 (0)4 13 55 09 80 M : +33 (0)6 51 38 90 33 F : +33 (0)4 13 55
+> 03 41
+> Skype : jc.peyssard - Gmail video chat :
+> jean-christophe.peyssard@openedition.org[8]
+> Twitter : http://twitter.com/#!/ghaylam[9]
+>  http://www.openedition.org[10]
+>
+> Liens:
+> ------
+> [1] http://fr.feedbooks.com/book/2750/free-culture
+> [2]   
+> http://fr.feedbooks.com/book/3471/the-public-domain-enclosing-the-commons-of-the-mind
+> [3] http://archivesic.ccsd.cnrs.fr/sic_00001103/
+> [4] http://mitpress.mit.edu/books/open-access
+> [5] http://bit.ly/suber-gplus
+> [6] http://cyber.law.harvard.edu/hoap/Open_Access_(the_book)
+> [7] http://www.openedition.org/services-libraries
+> [8] mailto:jean-christophe.peyssard@openedition.org
+> [9] http://twitter.com/#!/ghaylam
+> [10] http://www.openedition.org/
+>
+
+
+
+

@@ -1,0 +1,509 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0U9Ax28032086
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Wed, 30 Jan 2013 10:10:59 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0U97FGB007521
+	for <accesouvert@groupes.renater.fr>; Wed, 30 Jan 2013 10:10:59 +0100
+Received: from mail-la0-f52.google.com ([209.85.215.52])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id u9Az1k00418QHdM019Az0Q; Wed, 30 Jan 2013 10:10:59 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 209.85.215.52
+Received: by mail-la0-f52.google.com with SMTP id fs12so930667lab.11
+        for <accesouvert@groupes.renater.fr>; Wed, 30 Jan 2013 01:10:58 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=openedition.org; s=google;
+        h=x-received:mime-version:in-reply-to:references:from:date:message-id
+         :subject:to:content-type;
+        bh=HIDpEgvfvgLz3RwyErrHHRUyZrHSNCuY/qiZTGyigDo=;
+        b=dEMuzsdhUiHbAsZbeB53XdvSi56uA1kVGK5VDuaac2fh1R1uBxjhwe5fnL/MwH4nlP
+         I8Zhdqs6kbZbDGbBuJPHLkS6YywuHbzhE5X0KZ75sRRvj5gsUtKlWGuMKxL4usn1V+9l
+         L5UYZN1ayAEZ4dgnv/zxMozfFIuJjHRAh5UbE=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=x-received:mime-version:in-reply-to:references:from:date:message-id
+         :subject:to:content-type:x-gm-message-state;
+        bh=HIDpEgvfvgLz3RwyErrHHRUyZrHSNCuY/qiZTGyigDo=;
+        b=ICsYBqpBrNXPfZjL5+sZeBwiB2ezr4XrxJIeGSIN9DMxOgI3Fkain/N5+7H5iJdEzC
+         WdnfYbWLk18tE2pd1T5Mzro61iCvviV5ioNFUzLDpPd+tyO1OasaOqCDaSutMOXb0FSP
+         9eBEX5vTMLGcdxPy1IG1JGdo/j0h+F01BacyJ9i6wHu4pZP/nYcg3AJaEtqDIOJ0Vwne
+         /mMLnJPewjr7HU/+XpGHd1/jWmYZIGX6XuaFm5Y1jhntcYyR8GLLHDf/fg7z1K3RvQEx
+         eOWtdEDx3FyCM9ieAvrdG97lr0Q27DVCmJEfg3quxuovEvbL8mKrLL99GWKEhveNxfba
+         YD5A==
+X-Received: by 10.112.25.202 with SMTP id e10mr1636071lbg.98.1359537057652;
+ Wed, 30 Jan 2013 01:10:57 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.112.68.44 with HTTP; Wed, 30 Jan 2013 01:10:37 -0800 (PST)
+In-Reply-To: <20130129212424.xdbj7l0fizo404w8@mail.math.jussieu.fr>
+References: <CAHWhSusTc5fs5JDQuvQ5KHnwz6aB7AKqHX4d=zn-NQtGgDj_mA@mail.gmail.com>
+ <201301291651.r0TGkTqi030135@mx.cru.fr> <20130129212424.xdbj7l0fizo404w8@mail.math.jussieu.fr>
+From: Jean-Christophe Peyssard <jean-christophe.peyssard@openedition.org>
+Date: Wed, 30 Jan 2013 10:10:37 +0100
+Message-ID: <CAHWhSusvCWnsjeDjE89a+i6yGvPF1h_+Frxvfao0NX6GT+vH3Q@mail.gmail.com>
+To: accesouvert@groupes.renater.fr
+Content-Type: multipart/alternative; boundary=bcaec554d43461635b04d47de30e
+X-Gm-Message-State: ALoCoQnISGr2pInP38+1u06InVHbGe37vCFuP7tO7mCzJ9WJ3KaInw/F6gDTcigkVTQlDIHDHoRn
+Subject: Re: [accesouvert] =?ISO-8859-1?Q?L=27acc=E8s_ouvert=2C_des_opport?=
+ =?ISO-8859-1?Q?unit_=E9s_=E0_saisir?=
+
+
+--bcaec554d43461635b04d47de30e
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Chers coll=E8gues,
+Merci pour ces premiers =E9changes.
+
+A Stevan :
+Merci, encore et toujours, de jouer le jeu et de nous rappeler les
+fondamentaux, allons auto-archiver!
+
+A Pierre-Carl :
+Bienvenue sur les liste et merci pour cette pr=E9sentation, en effet "la
+m=E9diatisation des enjeux aupr=E8s du grand public" me para=EEt =E9galement
+indispensable. (petite remarque, n'oubliez pas le s =E0 Revues.org, elles
+sont aujourd'hui plus de 300 sur le portail).
+
+A Thierry et Hans :
+En effet le livre de Peter sera bient=F4t disponible en libre acc=E8s et on=
+ me
+dit dans l'oreillette qu'il sera =E9galement bient=F4t traduit en langue
+fran=E7aise. Par ailleurs la plupart des textes qui composent ce livre sont
+disponibles en libre acc=E8s =E0 divers endroits du Web, pour les retrouver=
+ le
+mieux est encore de vous rendre sur la page personnelle de Peter :
+http://www.earlham.edu/~peters/hometoc.htm
+
+A JP :
+Quelle que soit sa couleur, je crois que nous avons pr=E9vu de parler ici de
+l'acc=E8s ouvert dans toutes ses nuances et toutes ses dimensions.
+
+Pour favoriser les =E9changes sur la liste, je vous propose maintenant d'y
+ouvrir de nouveaux fils de discussions avec les sujets propos=E9s
+pr=E9c=E9demment et, bien s=FBr et surtout, avec ceux de votre choix.
+Bien cordialement,
+Jean-Christophe Peyssard
+
+Le 29 janvier 2013 21:24, <allouche@math.jussieu.fr> a =E9crit :
+
+> Merci pour cette remarque.
+>
+> Je sais bien (ou au moins j'ose esperer) que cette
+> liste NE PARLE PAS du Gold Open Access (que Pierre
+> Dac aurait qualifie de "publication `a compteur d'eau" :-)
+>
+> bien `a vous
+> jp
+>
+>
+> Thierry Chanier <thierry.chanier@univ-**bpclermont.fr<thierry.chanier@uni=
+v-bpclermont.fr>>
+> a =E9crit :
+>
+>    Merci Jean-Christophe pour cette ouverture et pour la mention de ce
+>> livre.
+>>
+>> Je m'interroge =E0 propos du livre de Duber : pourquoi n'y a-t-il pas
+>> une version en acc=E8s libre ?
+>>
+>> En effet, si l'on regarde les livres tels que ceux de Lessig (Fre
+>> Culture, par exemple ,
+>> http://fr.feedbooks.com/book/**2750/free-culture[1]<http://fr.feedbooks.=
+com/book/2750/free-culture%5B1%5D>)
+>> ou Boyle (the
+>> public domaine,
+>> http://fr.feedbooks.com/book/**3471/the-public-domain-**
+>> enclosing-the-commons-of-the-**mind[2]<http://fr.feedbooks.com/book/3471=
+/the-public-domain-enclosing-the-commons-of-the-mind%5B2%5D>
+>> )  ou le mien (  http://archivesic.ccsd.cnrs.**fr/sic_00001103/[3]<http:=
+//archivesic.ccsd.cnrs.fr/sic_00001103/%5B3%5D>)
+>> ils
+>>
+>> sont diffus=E9s par les moyens traditionnels (papier, Penguin, payant,
+>> kindle payant) et en epubs gratuit.s Cela parait en conformit=E9 avec
+>> l'esprit et le sujet trait=E9.
+>>
+>> Cela permet =E9galement de faire r=E9fl=E9chir sur le fait que les deux
+>> mod=E8les ne sont pas n=E9cessairement incompatibles.
+>>
+>> Il est important d'avancer dans cette discussion et de sortir des
+>> discours sur l'acc=E8s libre ... qui n'en sont pas !
+>>
+>> Cordialement
+>> Thierry Chanier
+>>
+>> At 12:18 29/01/2013, Jean-Christophe Peyssard wrote:
+>> Chers coll=E8gues,
+>> Les 5e journ=E9es Open Access organis=E9es par Couperin la semaine
+>> derni=E8re nous ont permis de nous retrouver r=E9unis sur cette liste.
+>> Vous =EAtes d=E9j=E0 333 abonn=E9s. C'est un beau succ=E8s de l'acc=E8s =
+ouvert,
+>> et de Couperin, que de parvenir =E0 tous nous r=E9unir en si peu de temps
+>> autour d'un enjeu strat=E9gique pour la communaut=E9 scientifique.
+>> Dans son excellent livre que Peter Suber a tout simplement intitul=E9
+>> /Open Access/ < http://mitpress.mit.edu/books/**open-access[4]<http://mi=
+tpress.mit.edu/books/open-access%5B4%5D>>,
+>> une
+>>
+>> partie est intitul=E9e "OA as seizing opportunities", que je traduirais
+>> par "l'Acc=E8s ouvert, des opportunit=E9s =E0 saisir".
+>> Peter Suber nous y explique que trop souvent les d=E9bats et
+>> discussions autour de l'acc=E8s ouvert sont "sinistres, terre =E0 terre
+>> et centr=E9s sur les probl=E8mes". Il nous dit que cette tendance devrait
+>> =EAtre syst=E9matiquement contre balanc=E9e par des discussions "joyeuse=
+s,
+>> pleines de curiosit=E9 et centr=E9es sur les opportunit=E9s =E0 saisir".=
+ Pour
+>> Peter Suber, les probl=E8mes, aussi importants soient-ils, ne doivent
+>> pas occulter les magnifiques opportunit=E9s que nous promet l'acc=E8s
+>> ouvert.
+>>
+>> Je vous propose donc de d=E9buter nos =E9changes sur cette liste dans
+>> cette dynamique :
+>> - Quelles sont les actions et r=E9alisations positives que vous =EAtes
+>> parvenus =E0 r=E9aliser en faveur de l'acc=E8s ouvert ?
+>> - Quelles sont, d'apr=E8s vous, les strat=E9gies et m=E9thodes qui
+>> permettent l'acc=E8s ouvert et la libre circulation des r=E9sultats de la
+>> recherche ?
+>> - Quelles sont pour vous les exemples de r=E9ussites dans le domaine de
+>> l'acc=E8s ouvert ?
+>>
+>> En attendant de vous lire, je vous signale que Peter Suber vient
+>> d'annoncer <http://bit.ly/suber-gplus[5]> que son livre est un "livre
+>>
+>> vivant" et qu'il continue =E0 le mettre =E0 jour et l'enrichir =E0 l'adr=
+esse
+>> suivante :
+>> http://cyber.law.harvard.edu/**hoap/Open_Access_(the_book)[6]<http://cyb=
+er.law.harvard.edu/hoap/Open_Access_(the_book)%5B6%5D>
+>>
+>> Bien cordialement,
+>> Jean-Christophe Peyssard
+>>
+>> --
+>> Jean-Christophe Peyssard
+>> OpenEdition, responsable du p=F4le /freemium/
+>>
+>>
+>> Services aux biblioth=E8ques / Services to libraries
+>>  http://www.openedition.org/**services-libraries[7]<http://www.openediti=
+on.org/services-libraries%5B7%5D>
+>>
+>>
+>> CNRS - EHESS - Aix-Marseille Universit=E9 (AMU) - Universit=E9 d'Avignon
+>> 3, place Victor Hugo, Case n=B086, 13331 Marseille Cedex 3 - France
+>> T : +33 (0)4 13 55 09 80 M : +33 (0)6 51 38 90 33 F : +33 (0)4 13 55
+>> 03 41
+>> Skype : jc.peyssard - Gmail video chat :
+>> jean-christophe.peyssard@**openedition.org<jean-christophe.peyssard@open=
+edition.org>
+>> [8]
+>> Twitter : http://twitter.com/#!/ghaylam[**9]<http://twitter.com/#!/ghayl=
+am[9]>
+>>  http://www.openedition.org[10]
+>>
+>> Liens:
+>> ------
+>> [1] http://fr.feedbooks.com/book/**2750/free-culture<http://fr.feedbooks=
+.com/book/2750/free-culture>
+>> [2]  http://fr.feedbooks.com/book/**3471/the-public-domain-**
+>> enclosing-the-commons-of-the-**mind<http://fr.feedbooks.com/book/3471/th=
+e-public-domain-enclosing-the-commons-of-the-mind>
+>> [3] http://archivesic.ccsd.cnrs.**fr/sic_00001103/<http://archivesic.ccs=
+d.cnrs.fr/sic_00001103/>
+>> [4] http://mitpress.mit.edu/books/**open-access<http://mitpress.mit.edu/=
+books/open-access>
+>> [5] http://bit.ly/suber-gplus
+>> [6] http://cyber.law.harvard.edu/**hoap/Open_Access_(the_book)<http://cy=
+ber.law.harvard.edu/hoap/Open_Access_(the_book)>
+>> [7] http://www.openedition.org/**services-libraries<http://www.openediti=
+on.org/services-libraries>
+>> [8] mailto:jean-christophe.**peyssard@openedition.org<jean-christophe.pe=
+yssard@openedition.org>
+>> [9] http://twitter.com/#!/ghaylam
+>> [10] http://www.openedition.org/
+>>
+>>
+>
+>
+>
+>
+
+
+--=20
+Jean-Christophe Peyssard
+OpenEdition, responsable du p=F4le *freemium*
+
+Services aux biblioth=E8ques / Services to libraries
+http://www.openedition.org/services-libraries
+
+CNRS - EHESS - Aix-Marseille Universit=E9 (AMU) - Universit=E9 d'Avignon
+3, place Victor Hugo, Case n=B086, 13331 Marseille Cedex 3 - France
+T : +33 (0)4 13 55 09 80 M : +33 (0)6 51 38 90 33 F : +33 (0)4 13 55 03 41
+Skype : jc.peyssard - Gmail video chat :
+jean-christophe.peyssard@openedition.org
+Twitter : http://twitter.com/#!/ghaylam
+http://www.openedition.org
+
+--bcaec554d43461635b04d47de30e
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Chers coll=E8gues,<div>Merci pour ces premiers =E9changes.</div><div><br></=
+div><div>A Stevan :</div><div>Merci, encore et toujours, de jouer le jeu et=
+ de nous rappeler les fondamentaux, allons auto-archiver!</div><div><br></d=
+iv>
+
+
+<div>A Pierre-Carl :</div><div>Bienvenue sur les liste et merci pour cette =
+pr=E9sentation, en effet &quot;la m=E9diatisation des enjeux aupr=E8s du gr=
+and public&quot; me para=EEt =E9galement indispensable. (petite remarque, n=
+&#39;oubliez pas le s =E0 Revues.org, elles sont aujourd&#39;hui plus de 30=
+0 sur le portail).</div>
+
+
+<div><br></div>
+
+<div>A Thierry et Hans :</div><div>En effet le livre de Peter sera bient=F4=
+t disponible en libre acc=E8s et on me dit dans l&#39;oreillette qu&#39;il =
+sera =E9galement bient=F4t traduit en langue fran=E7aise. Par ailleurs la p=
+lupart des textes qui composent ce livre sont disponibles en libre acc=E8s =
+=E0 divers endroits du Web, pour les retrouver le mieux est encore de vous =
+rendre sur la page personnelle de Peter :=A0<a href=3D"http://www.earlham.e=
+du/~peters/hometoc.htm" target=3D"_blank">http://www.earlham.edu/~peters/ho=
+metoc.htm</a></div>
+
+
+
+
+<div><br></div><div>A JP :</div><div>Quelle que soit sa couleur, je crois q=
+ue nous avons pr=E9vu de parler ici de l&#39;acc=E8s ouvert dans toutes ses=
+ nuances et toutes ses dimensions.=A0</div><div><br></div><div>Pour favoris=
+er les =E9changes sur la liste, je vous propose maintenant d&#39;y ouvrir d=
+e nouveaux fils de discussions avec les sujets propos=E9s pr=E9c=E9demment =
+et, bien s=FBr et surtout, avec ceux de votre choix.</div>
+
+
+
+
+<div>Bien cordialement,</div><div>Jean-Christophe Peyssard<br><br><div clas=
+s=3D"gmail_quote">Le 29 janvier 2013 21:24,  <span dir=3D"ltr">&lt;<a href=
+=3D"mailto:allouche@math.jussieu.fr" target=3D"_blank">allouche@math.jussie=
+u.fr</a>&gt;</span> a =E9crit :<br>
+
+
+
+
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex">Merci pour cette remarque.<br>
+<br>
+Je sais bien (ou au moins j&#39;ose esperer) que cette<br>
+liste NE PARLE PAS du Gold Open Access (que Pierre<br>
+Dac aurait qualifie de &quot;publication `a compteur d&#39;eau&quot; :-)<br>
+<br>
+bien `a vous<br>
+jp<br>
+<br>
+<br>
+Thierry Chanier &lt;<a href=3D"mailto:thierry.chanier@univ-bpclermont.fr" t=
+arget=3D"_blank">thierry.chanier@univ-<u></u>bpclermont.fr</a>&gt; a =E9cri=
+t=A0:<br>
+<br>
+<blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1p=
+x #ccc solid;padding-left:1ex"><div>
+=A0 Merci Jean-Christophe pour cette ouverture et pour la mention de ce<br>
+livre.<br>
+<br>
+Je m&#39;interroge =E0 propos du livre de Duber : pourquoi n&#39;y a-t-il p=
+as<br>
+une version en acc=E8s libre ?<br>
+<br>
+En effet, si l&#39;on regarde les livres tels que ceux de Lessig (Fre<br>
+Culture, par exemple ,<br>
+</div><a href=3D"http://fr.feedbooks.com/book/2750/free-culture%5B1%5D" tar=
+get=3D"_blank">http://fr.feedbooks.com/book/<u></u>2750/free-culture[1]</a>=
+) ou Boyle (the<br>
+public domaine,<br>
+<a href=3D"http://fr.feedbooks.com/book/3471/the-public-domain-enclosing-th=
+e-commons-of-the-mind%5B2%5D" target=3D"_blank">http://fr.feedbooks.com/boo=
+k/<u></u>3471/the-public-domain-<u></u>enclosing-the-commons-of-the-<u></u>=
+mind[2]</a><br>
+
+
+
+
+
+) =A0ou le mien ( =A0<a href=3D"http://archivesic.ccsd.cnrs.fr/sic_00001103=
+/%5B3%5D" target=3D"_blank">http://archivesic.ccsd.cnrs.<u></u>fr/sic_00001=
+103/[3]</a>) ils<div><br>
+sont diffus=E9s par les moyens traditionnels (papier, Penguin, payant,<br>
+kindle payant) et en epubs gratuit.s Cela parait en conformit=E9 avec<br>
+l&#39;esprit et le sujet trait=E9.<br>
+<br>
+Cela permet =E9galement de faire r=E9fl=E9chir sur le fait que les deux<br>
+mod=E8les ne sont pas n=E9cessairement incompatibles.<br>
+<br>
+Il est important d&#39;avancer dans cette discussion et de sortir des<br>
+discours sur l&#39;acc=E8s libre ... qui n&#39;en sont pas !<br>
+<br>
+Cordialement<br>
+Thierry Chanier<br>
+<br>
+At 12:18 29/01/2013, Jean-Christophe Peyssard wrote:<br>
+Chers coll=E8gues,<br>
+Les 5e journ=E9es Open Access organis=E9es par Couperin la semaine<br>
+derni=E8re nous ont permis de nous retrouver r=E9unis sur cette liste.<br>
+Vous =EAtes d=E9j=E0 333 abonn=E9s. C&#39;est un beau succ=E8s de l&#39;acc=
+=E8s ouvert,<br>
+et de Couperin, que de parvenir =E0 tous nous r=E9unir en si peu de temps<b=
+r>
+autour d&#39;un enjeu strat=E9gique pour la communaut=E9 scientifique.<br>
+Dans son excellent livre que Peter Suber a tout simplement intitul=E9<br></=
+div>
+/Open Access/ &lt; <a href=3D"http://mitpress.mit.edu/books/open-access%5B4=
+%5D" target=3D"_blank">http://mitpress.mit.edu/books/<u></u>open-access[4]<=
+/a>&gt;, une<div><br>
+partie est intitul=E9e &quot;OA as seizing opportunities&quot;, que je trad=
+uirais<br>
+par &quot;l&#39;Acc=E8s ouvert, des opportunit=E9s =E0 saisir&quot;.<br>
+Peter Suber nous y explique que trop souvent les d=E9bats et<br>
+discussions autour de l&#39;acc=E8s ouvert sont &quot;sinistres, terre =E0 =
+terre<br>
+et centr=E9s sur les probl=E8mes&quot;. Il nous dit que cette tendance devr=
+ait<br>
+=EAtre syst=E9matiquement contre balanc=E9e par des discussions &quot;joyeu=
+ses,<br>
+pleines de curiosit=E9 et centr=E9es sur les opportunit=E9s =E0 saisir&quot=
+;. Pour<br>
+Peter Suber, les probl=E8mes, aussi importants soient-ils, ne doivent<br>
+pas occulter les magnifiques opportunit=E9s que nous promet l&#39;acc=E8s<b=
+r>
+ouvert.<br>
+<br>
+Je vous propose donc de d=E9buter nos =E9changes sur cette liste dans<br>
+cette dynamique :<br>
+- Quelles sont les actions et r=E9alisations positives que vous =EAtes<br>
+parvenus =E0 r=E9aliser en faveur de l&#39;acc=E8s ouvert ?<br>
+- Quelles sont, d&#39;apr=E8s vous, les strat=E9gies et m=E9thodes qui<br>
+permettent l&#39;acc=E8s ouvert et la libre circulation des r=E9sultats de =
+la<br>
+recherche ?<br>
+- Quelles sont pour vous les exemples de r=E9ussites dans le domaine de<br>
+l&#39;acc=E8s ouvert ?<br>
+<br>
+En attendant de vous lire, je vous signale que Peter Suber vient<br></div>
+d&#39;annoncer &lt;<a href=3D"http://bit.ly/suber-gplus%5B5%5D" target=3D"_=
+blank">http://bit.ly/suber-gplus[5]</a>&gt; que son livre est un &quot;livr=
+e<div><br>
+vivant&quot; et qu&#39;il continue =E0 le mettre =E0 jour et l&#39;enrichir=
+ =E0 l&#39;adresse<br>
+suivante :<br>
+</div><a href=3D"http://cyber.law.harvard.edu/hoap/Open_Access_(the_book)%5=
+B6%5D" target=3D"_blank">http://cyber.law.harvard.edu/<u></u>hoap/Open_Acce=
+ss_(the_book)[6]</a><div><br>
+Bien cordialement,<br>
+Jean-Christophe Peyssard<br>
+<br>
+--<br>
+Jean-Christophe Peyssard<br></div>
+OpenEdition, responsable du p=F4le /freemium/<div><br>
+<br>
+Services aux biblioth=E8ques / Services to libraries<br></div>
+=A0<a href=3D"http://www.openedition.org/services-libraries%5B7%5D" target=
+=3D"_blank">http://www.openedition.org/<u></u>services-libraries[7]</a><div=
+><br>
+<br>
+CNRS - EHESS - Aix-Marseille Universit=E9 (AMU) - Universit=E9 d&#39;Avigno=
+n<br>
+3, place Victor Hugo, Case n=B086, 13331 Marseille Cedex 3 - France<br>
+T : <a href=3D"tel:%2B33%20%280%294%2013%2055%2009%2080" value=3D"+33413550=
+980" target=3D"_blank">+33 (0)4 13 55 09 80</a> M : <a href=3D"tel:%2B33%20=
+%280%296%2051%2038%2090%2033" value=3D"+33651389033" target=3D"_blank">+33 =
+(0)6 51 38 90 33</a> F : +33 (0)4 13 55<br>
+
+
+
+
+
+03 41<br>
+Skype : jc.peyssard - Gmail video chat :<br>
+</div><a href=3D"mailto:jean-christophe.peyssard@openedition.org" target=3D=
+"_blank">jean-christophe.peyssard@<u></u>openedition.org</a>[8]<br>
+Twitter : <a href=3D"http://twitter.com/#!/ghaylam[9]" target=3D"_blank">ht=
+tp://twitter.com/#!/ghaylam[<u></u>9]</a><br>
+=A0<a href=3D"http://www.openedition.org" target=3D"_blank">http://www.open=
+edition.org</a>[10]<br>
+<br>
+Liens:<br>
+------<br>
+[1] <a href=3D"http://fr.feedbooks.com/book/2750/free-culture" target=3D"_b=
+lank">http://fr.feedbooks.com/book/<u></u>2750/free-culture</a><br>
+[2] =A0<a href=3D"http://fr.feedbooks.com/book/3471/the-public-domain-enclo=
+sing-the-commons-of-the-mind" target=3D"_blank">http://fr.feedbooks.com/boo=
+k/<u></u>3471/the-public-domain-<u></u>enclosing-the-commons-of-the-<u></u>=
+mind</a><br>
+
+
+
+
+
+[3] <a href=3D"http://archivesic.ccsd.cnrs.fr/sic_00001103/" target=3D"_bla=
+nk">http://archivesic.ccsd.cnrs.<u></u>fr/sic_00001103/</a><br>
+[4] <a href=3D"http://mitpress.mit.edu/books/open-access" target=3D"_blank"=
+>http://mitpress.mit.edu/books/<u></u>open-access</a><br>
+[5] <a href=3D"http://bit.ly/suber-gplus" target=3D"_blank">http://bit.ly/s=
+uber-gplus</a><br>
+[6] <a href=3D"http://cyber.law.harvard.edu/hoap/Open_Access_(the_book)" ta=
+rget=3D"_blank">http://cyber.law.harvard.edu/<u></u>hoap/Open_Access_(the_b=
+ook)</a><br>
+[7] <a href=3D"http://www.openedition.org/services-libraries" target=3D"_bl=
+ank">http://www.openedition.org/<u></u>services-libraries</a><br>
+[8] mailto:<a href=3D"mailto:jean-christophe.peyssard@openedition.org" targ=
+et=3D"_blank">jean-christophe.<u></u>peyssard@openedition.org</a><br>
+[9] <a href=3D"http://twitter.com/#!/ghaylam" target=3D"_blank">http://twit=
+ter.com/#!/ghaylam</a><br>
+[10] <a href=3D"http://www.openedition.org/" target=3D"_blank">http://www.o=
+penedition.org/</a><br>
+<br>
+</blockquote>
+<br>
+<br>
+<br>
+<br>
+</blockquote></div><br><br clear=3D"all"><div><br></div>-- <br>Jean-Christo=
+phe Peyssard<br>OpenEdition, responsable du p=F4le=A0<i>freemium</i><br><br=
+>Services aux biblioth=E8ques /=A0Services to libraries<br><a href=3D"http:=
+//www.openedition.org/services-libraries" target=3D"_blank">http://www.open=
+edition.org/services-libraries</a><br>
+
+
+
+
+<br>CNRS - EHESS - Aix-Marseille Universit=E9 (AMU) - Universit=E9 d&#39;Av=
+ignon<br>3, place Victor Hugo, Case n=B086, 13331 Marseille Cedex 3 - Franc=
+e<br>T : <a href=3D"tel:%2B33%20%280%294%2013%2055%2009%2080" value=3D"+334=
+13550980" target=3D"_blank">+33 (0)4 13 55 09 80</a> M : <a href=3D"tel:%2B=
+33%20%280%296%2051%2038%2090%2033" value=3D"+33651389033" target=3D"_blank"=
+>+33 (0)6 51 38 90 33</a> F : <a href=3D"tel:%2B33%20%280%294%2013%2055%200=
+3%2041" value=3D"+33413550341" target=3D"_blank">+33 (0)4 13 55 03 41</a><b=
+r>
+
+
+
+
+Skype : jc.peyssard - Gmail video chat :=A0<a href=3D"mailto:jean-christoph=
+e.peyssard@openedition.org" target=3D"_blank">jean-christophe.peyssard@open=
+edition.org</a><br>Twitter :=A0<a href=3D"http://twitter.com/#!/ghaylam" ta=
+rget=3D"_blank">http://twitter.com/#!/ghaylam</a><br>
+
+
+
+
+<a href=3D"http://www.openedition.org/" target=3D"_blank">http://www.opened=
+ition.org</a>
+</div>
+
+--bcaec554d43461635b04d47de30e--

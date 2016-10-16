@@ -1,0 +1,135 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0TFarnB025183
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 16:36:53 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0TFSowb021587
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 16:36:53 +0100
+Received: from mail-ye0-f181.google.com ([209.85.213.181])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id trcs1k00E3vPQnD01rcslf; Tue, 29 Jan 2013 16:36:53 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 209.85.213.181
+Received: by mail-ye0-f181.google.com with SMTP id m11so74699yen.12
+        for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 07:36:52 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:x-received:in-reply-to:references:date:message-id
+         :subject:from:to:cc:content-type;
+        bh=pYG9NlRcUVijFWpJ+JsvRg6yKMkBNTvcrvUh00uemZs=;
+        b=0uOHX9fYGUiXSqAXdtDVUe+KKnBV2x8HnpSjRWG/TlP+Y9JkBJ5F6qiieVPeVt4iON
+         4x/7ME1yqi5QTE0JHqvOiXg2f6JrOoYSvWFD6SBVaSRaDnV10lRnwueALdKC3GsRjTRA
+         2rlxnHwNewbf/DLt95bVjyjunyfMh5poP+XiHNvtS4oh0znrmuO6+ifm6A6wuAOSuJnq
+         u+mOfPlegQ8EenOD5l75Uo36zhcRZ0IdXqrskNEPUgDw4qXwzvBRpL0MhxBKU0m0TNmb
+         g9IAnHneRkHASASqb9/+HShaj8DlhcLWdqN58XbppIbQbbMZW1F4z2wVBhlxLLl5NcBI
+         knOw==
+MIME-Version: 1.0
+X-Received: by 10.236.114.37 with SMTP id b25mr1511251yhh.85.1359473812074;
+ Tue, 29 Jan 2013 07:36:52 -0800 (PST)
+Received: by 10.146.200.14 with HTTP; Tue, 29 Jan 2013 07:36:51 -0800 (PST)
+In-Reply-To: <CAHWhSusTc5fs5JDQuvQ5KHnwz6aB7AKqHX4d=zn-NQtGgDj_mA@mail.gmail.com>
+References: <CAHWhSusTc5fs5JDQuvQ5KHnwz6aB7AKqHX4d=zn-NQtGgDj_mA@mail.gmail.com>
+Date: Tue, 29 Jan 2013 10:36:51 -0500
+Message-ID: <CAE7iXOj4DGgpbaa5uLndVan6v2QwJT5UVjc9u7T_VCY1hw33Ng@mail.gmail.com>
+From: Stevan Harnad <amsciforum@gmail.com>
+To: Jean-Christophe Peyssard <jean-christophe.peyssard@openedition.org>
+Cc: accesouvert@groupes.renater.fr
+Content-Type: multipart/alternative; boundary=20cf301afb29a672ad04d46f293f
+Subject: Re: [accesouvert] =?ISO-8859-1?Q?L=27acc=E8s_ouvert=2C_des_opport?=
+ =?ISO-8859-1?Q?unit=E9s_=E0_saisir?=
+
+
+--20cf301afb29a672ad04d46f293f
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour =E0 tous,
+
+Je jouerai le jeu de r=E9pondre encore une fois =E0 ces questions qui se po=
+sent
+depuis des ann=E9es et des ann=E9es -- auxquelles on a d=E9j=E0 r=E9pondu t=
+ant de
+fois!
+
+Je joue le jeu dans l'espoir qu'une fois de plus =E9clair=E9 sur les r=E9po=
+nses,
+on agira cette fois-=E7i, plut=F4t que de continuer =E0 s'interroger...
+
+- Quelles sont les actions et r=E9alisations positives que vous =EAtes parv=
+enus
+> =E0 r=E9aliser en faveur de l'acc=E8s ouvert ?
+>
+
+eprints <http://www.eprints.org/openaccess/>
+roar <http://roar.eprints.or>
+roarmap <http://roarmap.eprints.org>
+=E9tudes sur l'avantage OA <http://opcit.eprints.org/oacitation-biblio.html>
+les =E9crits, interventions, implorations sans fin...
+
+
+> - Quelles sont, d'apr=E8s vous, les strat=E9gies et m=E9thodes qui permet=
+tent
+> l'acc=E8s ouvert et la libre circulation des r=E9sultats de la recherche ?
+>
+
+Les institutions et les bailleurs de fonds doivent mandater
+l'auto-archivage OA (vert)
+
+
+> - Quelles sont pour vous les exemples de r=E9ussites dans le domaine de
+> l'acc=E8s ouvert ?
+>
+
+L'universit=E9 de Li=E8ge <http://roarmap.eprints.org/56/>...
+
+Maintenant, allez auto-archiver, et inciter vos bailleurs de fonds et vous
+institutions =E0 le mandater, mod=E8le
+Li=E8ge/FNRS<http://openaccess.eprints.org/index.php?/archives/864-Integrat=
+ing-Institutional-and-Funder-Open-Access-Mandates-Belgian-Model.html>
+=2E
+
+SH
+
+--20cf301afb29a672ad04d46f293f
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Bonjour =E0 tous,<div><br></div><div>Je jouerai le jeu de r=E9pondre encore=
+ une fois =E0 ces questions qui se posent depuis des ann=E9es et des ann=E9=
+es -- auxquelles on a d=E9j=E0 r=E9pondu tant de fois!=A0</div><div><br></d=
+iv><div>Je joue le jeu dans l&#39;espoir qu&#39;une fois de plus =E9clair=
+=E9 sur les r=E9ponses, on agira cette fois-=E7i, plut=F4t que de continuer=
+ =E0 s&#39;interroger...<br>
+<br><div class=3D"gmail_quote"><blockquote class=3D"gmail_quote" style=3D"m=
+argin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex"><div>- Quelle=
+s sont les actions et r=E9alisations positives que vous =EAtes parvenus =E0=
+ r=E9aliser en faveur de l&#39;acc=E8s ouvert ?=A0</div>
+</blockquote><div><br></div><div><a href=3D"http://www.eprints.org/openacce=
+ss/">eprints</a></div><div><a href=3D"http://roar.eprints.or">roar</a></div=
+><div><a href=3D"http://roarmap.eprints.org">roarmap</a></div><div><a href=
+=3D"http://opcit.eprints.org/oacitation-biblio.html">=E9tudes sur l&#39;ava=
+ntage OA</a></div>
+<div>les =E9crits, interventions, implorations sans fin...</div><div>=A0</d=
+iv><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left=
+:1px #ccc solid;padding-left:1ex">
+
+<div>- Quelles sont, d&#39;apr=E8s vous, les strat=E9gies et m=E9thodes qui=
+ permettent l&#39;acc=E8s ouvert et la libre circulation des r=E9sultats de=
+ la recherche ?=A0</div></blockquote><div><br></div><div>Les institutions e=
+t les bailleurs de fonds doivent mandater l&#39;auto-archivage OA (vert)</d=
+iv>
+<div>=A0</div><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;=
+border-left:1px #ccc solid;padding-left:1ex"><div>- Quelles sont pour vous =
+les exemples de r=E9ussites dans le domaine de l&#39;acc=E8s ouvert ?</div>=
+</blockquote>
+<div><br></div><div><a href=3D"http://roarmap.eprints.org/56/">L&#39;univer=
+sit=E9 de Li=E8ge</a>...=A0</div><div><br></div><div>Maintenant, allez auto=
+-archiver, et inciter vos bailleurs de fonds et vous institutions =E0 le ma=
+ndater, <a href=3D"http://openaccess.eprints.org/index.php?/archives/864-In=
+tegrating-Institutional-and-Funder-Open-Access-Mandates-Belgian-Model.html"=
+>mod=E8le Li=E8ge/FNRS</a>.</div>
+<div><br></div><div>SH</div></div></div>
+
+--20cf301afb29a672ad04d46f293f--

@@ -1,0 +1,124 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0T9ALJj031456
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 10:10:21 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0T95Wxs029289
+	for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 10:10:21 +0100
+Received: from mail-pb0-f44.google.com ([209.85.160.44])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id tlAL1k00D0xmDgZ01lALqR; Tue, 29 Jan 2013 10:10:21 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 209.85.160.44
+Received: by mail-pb0-f44.google.com with SMTP id wz12so161385pbc.3
+        for <accesouvert@groupes.renater.fr>; Tue, 29 Jan 2013 01:10:20 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=x-received:mime-version:in-reply-to:references:from:date:message-id
+         :subject:to:cc:content-type;
+        bh=/BrB6aXIXGuthEITztp4DZEgjOEZ7tnSHhlsNqcPBRQ=;
+        b=FvuoPRqYnozt3dcE6685OnbNYn2g1V8nsyqQdQrRZnw20qPaUKS6h4ryeyknoCHeuy
+         QFKgxyWMGJ8hdrMa5Yitqc3d6j3ieJOfCs/i1ZfmcfF5/rzlisZKfB4PBeKQdKEoxfHT
+         4eOvtGwwkS4iEDP1lGf24AG8mzHgnmdCMoz2AT0tankR0TQPBwFSfKZlkIv3PULfFdfq
+         VFTgJwbggM+YjTtogMnaRT+hbBTSlK6tNlD9V8YqEENW3H1RKGrQqkwd/bF87SVGyfyP
+         vKr7BUxtP6lCR89SlOtl+zK2Tk1TPfzvsmG17pR+zYo268KyQMXFb+uSTNiUiVfbOMLP
+         3+NA==
+X-Received: by 10.66.76.97 with SMTP id j1mr890471paw.70.1359450619969; Tue,
+ 29 Jan 2013 01:10:19 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.68.46.201 with HTTP; Tue, 29 Jan 2013 01:09:39 -0800 (PST)
+In-Reply-To: <CAE59PV+PVKMamig1F7P49HBMsj78APY9f8xUTvctXXVrm4yAPg@mail.gmail.com>
+References: <CAE59PV+PVKMamig1F7P49HBMsj78APY9f8xUTvctXXVrm4yAPg@mail.gmail.com>
+From: Olivier Le Deuff <oledeuff@gmail.com>
+Date: Tue, 29 Jan 2013 10:09:39 +0100
+Message-ID: <CADg=-XCYy1Lfp8ewE_xhsi59iFnM5Y=HgB+JjMLD_vPzN_X3eQ@mail.gmail.com>
+Subject: =?windows-1252?Q?Re=3A_De_la_fourniture_d=92acc=E8s_=E0_la_lib=E9ration_de?=
+	=?windows-1252?Q?s_contenus_=3A_repenser_nos_politiques_publiques?=
+To: =?ISO-8859-1?Q?Silv=E8re_Mercier?= <smercier@silvae.fr>
+Cc: accesouvert@groupes.renater.fr
+Content-Type: multipart/alternative; boundary=f46d042f9ef84b002a04d469c32e
+
+
+--f46d042f9ef84b002a04d469c32e
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Merci Silv=E8re pour cette analyse
+A mon avis, il faut aussi songer =E0 ce que ces potentialit=E9s de libre ac=
+c=E8s
+soient envisag=E9es d=E8s la cr=E9ation du document ou de la donn=E9e, un p=
+eu =E0
+l'instar des strat=E9gies en records management. Trop souvent, ce n'est qu'=
+en
+fin de processus que l'on songe aux r=E9utilisations et aux valorisations
+externes et ult=E9rieures.
+
+Au niveau des =E9diteurs, il pourrait =EAtre envisag=E9 des clauses de lib=
+=E9ration
+dans le contrat qui permettrait de pr=E9voir une seconde phase d'exploitati=
+on.
+
+
+Olivier Le Deuff
+
+
+2013/1/29 Silv=E8re Mercier <smercier@silvae.fr>
+
+> Bonjour, voici un billet qui vous int=E9ressera peut-=EAtre =E0 sujet de =
+l'Open
+> Access, mais qui aborde des th=E8mes plus larges ! Vos retours sont les
+> bienvenus.
+>
+>
+> http://www.bibliobsession.net/2013/01/29/de-la-fourniture-dacces-a-la-lib=
+eration-des-contenus-repenser-nos-politiques-publiques/
+>
+>
+> Bien cordialement,
+>
+> <https://www.vizify.com/silvere-mercier/links>
+>
+
+--f46d042f9ef84b002a04d469c32e
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Merci Silv=E8re pour cette analyse<div>A mon avis, il faut aussi songer =E0=
+ ce que ces potentialit=E9s de libre acc=E8s soient envisag=E9es d=E8s la c=
+r=E9ation du document ou de la donn=E9e, un peu =E0 l&#39;instar des strat=
+=E9gies en records management. Trop souvent, ce n&#39;est qu&#39;en fin de =
+processus que l&#39;on songe aux r=E9utilisations et aux valorisations exte=
+rnes et ult=E9rieures.<div>
+
+<br></div><div>Au niveau des =E9diteurs, il pourrait =EAtre envisag=E9 des =
+clauses de lib=E9ration dans le contrat qui permettrait de pr=E9voir une se=
+conde phase d&#39;exploitation.</div><div><br></div><div><br clear=3D"all">=
+<div><div>
+
+<div><div>Olivier Le Deuff</div></div></div></div>
+<br><br><div class=3D"gmail_quote">2013/1/29 Silv=E8re Mercier <span dir=3D=
+"ltr">&lt;<a href=3D"mailto:smercier@silvae.fr" target=3D"_blank">smercier@=
+silvae.fr</a>&gt;</span><br><blockquote class=3D"gmail_quote" style=3D"marg=
+in:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex">
+
+<div dir=3D"ltr"><div>Bonjour, voici un billet qui vous int=E9ressera peut-=
+=EAtre =E0 sujet de l&#39;Open Access, mais qui aborde des th=E8mes plus la=
+rges ! Vos retours sont les bienvenus.</div><div><br></div><div><a href=3D"=
+http://www.bibliobsession.net/2013/01/29/de-la-fourniture-dacces-a-la-liber=
+ation-des-contenus-repenser-nos-politiques-publiques/" target=3D"_blank">ht=
+tp://www.bibliobsession.net/2013/01/29/de-la-fourniture-dacces-a-la-liberat=
+ion-des-contenus-repenser-nos-politiques-publiques/</a><br>
+
+
+
+</div><div><br></div><br clear=3D"all"><div>Bien cordialement, <br><br><a h=
+ref=3D"https://www.vizify.com/silvere-mercier/links" target=3D"_blank"><img=
+></a><br>
+
+</div>
+</div>
+</blockquote></div><br></div></div>
+
+--f46d042f9ef84b002a04d469c32e--

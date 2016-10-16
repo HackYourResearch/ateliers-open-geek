@@ -1,0 +1,269 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0UKn7hU009399
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Wed, 30 Jan 2013 21:49:07 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0UKkgwr016942
+	for <accesouvert@groupes.renater.fr>; Wed, 30 Jan 2013 21:49:06 +0100
+Received: from mail-we0-f172.google.com ([74.125.82.172])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id uLp61k0073j4fmJ01Lp67m; Wed, 30 Jan 2013 21:49:06 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 74.125.82.172
+Received: by mail-we0-f172.google.com with SMTP id x10so1601080wey.17
+        for <accesouvert@groupes.renater.fr>; Wed, 30 Jan 2013 12:49:06 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:x-received:in-reply-to:references:date:message-id
+         :subject:from:to:content-type;
+        bh=yl/AwzMItiUeicSp5fObacy+vscE8ezrvprDbd/Erjw=;
+        b=MSUDCXRtHmprXcj3qLxxzKw8tNbKHPsh0SJYurtq4CdqudUI47Lv9R3OWFtn0ZN0to
+         Sr88FjMoxtrs6678OuqqUQkfyuIAyDx/rMBAm31xxybuiDxWESPD6M6FsCwwKBMugr8E
+         +U925U8EdoVmJx6j53B/g+QIVrKXWiQhnLuWyf55Goey3BcPzRXBtEX+ee+2MGt373TS
+         Ya+GHDhDyVXSGQFhfDmWLmwd03krkiOBDYz8IH+jUC0AVjtyLDW7+VudpR7Vd/eUiKk5
+         ch/r18dRXMvJxnL72UBPD1aWfehBNNtp6VbGoplAV7UoLVwn20fMYxI4BMK5QRA/8ku5
+         PMkw==
+MIME-Version: 1.0
+X-Received: by 10.194.76.7 with SMTP id g7mr11435440wjw.50.1359578946612; Wed,
+ 30 Jan 2013 12:49:06 -0800 (PST)
+Received: by 10.194.55.72 with HTTP; Wed, 30 Jan 2013 12:49:06 -0800 (PST)
+In-Reply-To: <5109638D.3010004@gmail.com>
+References: <5109638D.3010004@gmail.com>
+Date: Wed, 30 Jan 2013 21:49:06 +0100
+Message-ID: <CAPZ18255=Uds-TSXd4RD11Yvo2U5Sgj9yoqLB53CszhvFaoFcw@mail.gmail.com>
+From: Hans Dillaerts <dillaerts.hans@gmail.com>
+To: accesouvert@groupes.renater.fr
+Content-Type: multipart/alternative; boundary=047d7beba202282d7b04d487a4aa
+Subject: [accesouvert] Open Access Monographs in the Humanities and Social
+ Sciences Conference
+
+
+--047d7beba202282d7b04d487a4aa
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Pour info.
+
+URL : http://www.jisc-collections.ac.uk/News/OAmonographsconf/
+
+*Date: *1 and 2 July 2013
+*Location: *The British Library, London, UK
+
+JISC Collections <http://www.jisc-collections.ac.uk>, in partnership with O=
+APEN
+Foundation <http://www.oapen.org/home>, is holding a* two-day international
+conference *intended for all stakeholders in scholarly communications
+including European research funders, senior institutional managers,
+publishers, learned societies, librarians and researchers. The conference
+aims *to raise awareness of open access, to increase understanding of
+key **challenges
+and to identify where international common policies an**d frameworks could
+support the adoption of open access monograph publishing in the humanities
+and social sciences (HSS)*.
+
+In the UK, the release of the Finch
+Report<http://www.researchinfonet.org/publish/finch/>alongside the
+Research Councils UK=92s policy is causing much concern in the
+humanities and social science (HSS) community who feel that policy is being
+developed with little consideration of the specificities of HSS research or
+regard for the monograph publishing model. *The monograph is the gold
+standard* and in many disciplines remains the primary method through which
+humanities and social science researchers communicate their work. It is
+also an essential part of career progression and reputation establishment
+for many young researchers.
+
+In the last two decades, *monographs sales have rapidly declined* from an
+average of over 2000 to just 200 =96 in line with library budgets reduction=
+s.
+In order to support the continued existence of the monograph and to move
+HSS in line with other areas of scholarly communication and research
+funder=92s policies, *a new open access business model is required*. Howeve=
+r,
+transitioning to new models requires institutional and cultural change
+alongside experimentation, testing and consultation.
+
+*Now is the time for consultation, collaboration and commitment to explore*.
+Monographs received few paragraphs in the Finch Report and at previous
+conferences and events questions about open access questions about
+monograph publishing have been met with shrugs. Sponsored by the *AHRC*
+<http://www.ahrc.ac.uk/Pages/Home.aspx>and *ESRC*
+<http://www.esrc.ac.uk/>and hosted by
+* The British Library* <http://www.bl.uk/>, this conference will be the *fi=
+rst
+to tackle open access monographs in the humanities and social sciences head
+on*.
+
+*Key topics of the conference will include new open access business models,
+maintaining quality, the future of peer-review, creative commons licensing
+and international policy development*. Current confirmed speakers include:
+
+   - *Kathle**en Fitzpatrick - Director of Scholarly Communication at the
+   Modern Language
+Association<http://www.plannedobsolescence.net/kathleen-fitzpatrick/>
+   *
+   - *Frances Pinter - Executive Director of Knowledge Unlatched
+   <http://www.knowledgeunlatched.org/>
+   *
+   - *Martin Eve and Caroline Edwards =96 founding members of the Open
+   Library of Humanities <http://www.openlibhums.org/>
+   *
+   - *Cameron Neylon - Plos=92s Director of
+Advocacy<http://www.plos.org/staff/cameron-neylon/>
+   *
+   - *Carrie Calder =96 Marketing Director of Palgrave
+Macmillan<http://www.palgrave.com/>
+   *
+
+To *support HSS researchers,* the second day of the conference will include
+*practical sessions* on topics including ORCID, funding open access
+monographs, knowing your rights, finding a reputable OA publisher,
+promoting your book and altmetrics. There will also be *sessions for
+research funders, publishers, learned societies and institutional staff* to
+discuss cross industry and international issues such as funding policies,
+quality assurance, common standards, metadata, dissemination and discovery
+and infrastructure to support archiving and preservation.
+
+Delegates that attend this conference will leave feeling informed of the
+relevant issues and equipped with useful information to assist in future
+discussions and decision making within their organisation.
+
+
+
+--=20
+Hans Dillaerts
+Docteur en S.I.C
+DICEN CNAM
+TEl: 06.17.69.48.69
+http://www.microblogging.infodocs.eu/
+http://open-access.infodocs.eu/
+Twitter : @infodocs <http://twitter.com/Infodocs>
+
+--047d7beba202282d7b04d487a4aa
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+Pour info.<br><div class=3D"gmail_quote"><div text=3D"#000000" bgcolor=3D"#=
+FFFFFF">
+    <br>
+    URL : <a href=3D"http://www.jisc-collections.ac.uk/News/OAmonographscon=
+f/" target=3D"_blank">http://www.jisc-collections.ac.uk/News/OAmonographsco=
+nf/</a><br>
+    <br>
+    <h3><strong>Date: </strong>1 and 2 July 2013<br>
+      <strong>Location: </strong>The British Library, London, UK</h3>
+    <p><a href=3D"http://www.jisc-collections.ac.uk" target=3D"_blank">JISC=
+ Collections</a>,
+      in partnership with <a href=3D"http://www.oapen.org/home" target=3D"_=
+blank">OAPEN
+        Foundation</a>, is holding a<strong> two-day international
+        conference </strong>intended for all stakeholders in scholarly
+      communications including European research funders, senior
+      institutional managers, publishers, learned societies, librarians
+      and researchers. The conference aims <strong>to raise awareness
+        of open access, to increase understanding of key </strong><strong>c=
+hallenges
+        and to identify where international common policies an</strong><str=
+ong>d
+        frameworks could support the adoption of open access monograph
+        publishing in the humanities and social sciences (HSS)</strong>.
+    </p>
+    <p>In the UK, the release of the <a href=3D"http://www.researchinfonet.=
+org/publish/finch/" target=3D"_blank">Finch
+        Report</a> alongside the Research Councils UK=92s policy is
+      causing much concern in the humanities and social science (HSS)
+      community who feel that policy is being developed with little
+      consideration of the specificities of HSS research or regard for
+      the monograph publishing model. <strong>The monograph is the gold
+        standard</strong> and in many disciplines remains the primary
+      method through which humanities and social science researchers
+      communicate their work. It is also an essential part of career
+      progression and reputation establishment for many young
+      researchers.</p>
+    <p>In the last two decades, <strong>monographs sales have rapidly
+        declined</strong> from an average of over 2000 to just 200 =96 in
+      line with library budgets reductions. In order to support the
+      continued existence of the monograph and to move HSS in line with
+      other areas of scholarly communication and research funder=92s
+      policies, <strong>a new open access business model is required</stron=
+g>.
+      However, transitioning to new models requires institutional and
+      cultural change alongside experimentation, testing and
+      consultation.</p>
+    <p><strong>Now is the time for consultation, collaboration and
+        commitment to explore</strong>. Monographs received few
+      paragraphs in the Finch Report and at previous conferences and
+      events questions about open access questions about monograph
+      publishing have been met with shrugs. Sponsored by the <a href=3D"htt=
+p://www.ahrc.ac.uk/Pages/Home.aspx" target=3D"_blank"><strong>AHRC</strong>
+      </a>and <a href=3D"http://www.esrc.ac.uk/" target=3D"_blank"><strong>=
+ESRC</strong></a>
+      and hosted by<a href=3D"http://www.bl.uk/" target=3D"_blank"><strong>=
+ The British
+          Library</strong></a>, this conference will be the <strong>first
+        to tackle open access monographs in the humanities and social
+        sciences head on</strong>.</p>
+    <p><strong>Key topics of the conference will include new open access
+        business models, maintaining quality, the future of peer-review,
+        creative commons licensing and international policy development</st=
+rong>.
+      Current confirmed speakers include:</p>
+    <ul>
+      <li><strong>Kathle</strong><strong>en Fitzpatrick - <a href=3D"http:/=
+/www.plannedobsolescence.net/kathleen-fitzpatrick/" target=3D"_blank">Direc=
+tor
+            of Scholarly Communication at the Modern Language
+            Association</a><br>
+        </strong></li>
+      <li><strong>Frances Pinter - Executive Director of <a href=3D"http://=
+www.knowledgeunlatched.org/" target=3D"_blank">Knowledge
+            Unlatched </a><br>
+        </strong></li>
+      <li><strong>Martin Eve and Caroline Edwards =96 founding members of
+          the <a href=3D"http://www.openlibhums.org/" target=3D"_blank">Ope=
+n Library of
+            Humanities</a><br>
+        </strong></li>
+      <li><strong>Cameron Neylon - <a href=3D"http://www.plos.org/staff/cam=
+eron-neylon/" target=3D"_blank">Plos=92s
+            Director of Advocacy</a><br>
+        </strong></li>
+      <li><strong>Carrie Calder =96 <a href=3D"http://www.palgrave.com/" ta=
+rget=3D"_blank">Marketing
+            Director of Palgrave Macmillan</a></strong></li>
+    </ul>
+    <p>To <strong>support HSS researchers,</strong> the second day of
+      the conference will include <strong>practical sessions</strong>
+      on topics including ORCID, funding open access monographs, knowing
+      your rights, finding a reputable OA publisher, promoting your book
+      and altmetrics. There will also be <strong>sessions for research
+        funders, publishers, learned societies and institutional staff</str=
+ong>
+      to discuss cross industry and international issues such as funding
+      policies, quality assurance, common standards, metadata,
+      dissemination and discovery and infrastructure to support
+      archiving and preservation.</p>
+    <p>Delegates that attend this conference will leave feeling informed
+      of the relevant issues and equipped with useful information to
+      assist in future discussions and decision making within their
+      organisation.</p><span class=3D"HOEnZb"><font color=3D"#888888">
+    <p><br>
+    </p>
+    <br>
+    <div>-- <br>
+      Hans Dillaerts<br>
+      Docteur en S.I.C<br>
+      DICEN CNAM<br>
+      TEl: 06.17.69.48.69<br>
+      <a href=3D"http://www.microblogging.infodocs.eu/" target=3D"_blank">h=
+ttp://www.microblogging.infodocs.eu/</a><br>
+      <a href=3D"http://open-access.infodocs.eu/" target=3D"_blank">http://=
+open-access.infodocs.eu/</a><br>
+      Twitter : <a href=3D"http://twitter.com/Infodocs" target=3D"_blank">@=
+infodocs</a></div>
+  </font></span></div>
+
+</div><br><br>
+
+--047d7beba202282d7b04d487a4aa--

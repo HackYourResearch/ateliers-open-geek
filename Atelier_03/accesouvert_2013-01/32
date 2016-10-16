@@ -1,0 +1,50 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0VIjV7a030319
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 19:45:32 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0VIjVZN011589
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 19:45:31 +0100
+Received: from mail.mdpi.com ([209.237.236.228])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id uilV1k0024wMAAR01ilVBw; Thu, 31 Jan 2013 19:45:30 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 209.237.236.228
+Received: from localhost (localhost [127.0.0.1])
+	by mail.mdpi.com (Postfix) with ESMTP id 2F23386D7EF;
+	Thu, 31 Jan 2013 10:45:20 -0800 (PST)
+X-Virus-Scanned: amavisd-new at mdpi.com
+Received: from mail.mdpi.com ([127.0.0.1])
+	by localhost (mail.mdpi.com [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 4vz0mF69MapS; Thu, 31 Jan 2013 10:45:19 -0800 (PST)
+Received: from [172.16.0.68] (62-2-108-238.static.cablecom.ch [62.2.108.238])
+	by mail.mdpi.com (Postfix) with ESMTPSA id 433C686D7EE;
+	Thu, 31 Jan 2013 10:45:19 -0800 (PST)
+Message-ID: <510ABBD0.20107@mdpi.com>
+Date: Thu, 31 Jan 2013 19:45:36 +0100
+From: Dietrich Rordorf <rordorf@mdpi.com>
+Reply-To: Dietrich Rordorf / MDPI <rordorf@mdpi.com>
+Organization: MDPI AG
+User-Agent: Mozilla/5.0 (Windows NT 6.0; rv:17.0) Gecko/17.0 Thunderbird/17.0
+MIME-Version: 1.0
+To: Bernard Pochet <Bernard.Pochet@ulg.ac.be>
+CC: accesouvert@groupes.renater.fr
+References: <CAPZ1826n=rmqg7-8MrP5m51P1T0UiYVWZYyn5NBn4mKirr8V3Q@mail.gmail.com>,<20130130215139.ofn3plnof4kwkwo8@mail.math.jussieu.fr> <BAA8B464-5519-4597-9559-245D367750E6@cnrs.fr> <02257e45e2fffa46b53ca9c980a0d561.squirrel@webmail.espci.fr> <110280FB-EB67-47D3-8419-F03D62BA51E2@ulg.ac.be>
+In-Reply-To: <110280FB-EB67-47D3-8419-F03D62BA51E2@ulg.ac.be>
+Content-Type: text/plain; charset=windows-1252; format=flowed
+Content-Transfer-Encoding: 8bit
+Subject: Re: [accesouvert] =?WINDOWS-1252?Q?Co=FBts_de_publication_en_libr?=
+ =?WINDOWS-1252?Q?e_acc=E8s_selon_les_=E9diteurs_et_les_revues_=28tarifs_i?=
+ =?WINDOWS-1252?Q?ndicatifs_de_janvier_2013=29?=
+
+20 / 80 me laisse présumer que 20% des revues dites «gold» publient
+80% des articles «gold». Je doute fort que ces 20% soient gratuites.
+Le nombre de revues «gold» gratuites est un nombre souvent circulé
+mais complètement insignifiant.
+
+d
+
+On 31.01.2013 10:06, Bernard Pochet wrote:
+> La majorité des revues gold sont gratuites pour les auteurs aussi

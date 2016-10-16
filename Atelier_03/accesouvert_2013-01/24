@@ -1,0 +1,534 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0V9F8Ho012915
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 10:15:08 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0V9CujW009808
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 10:15:08 +0100
+Received: from smtp02.univ-lille1.fr ([193.49.225.20])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id uZF81k0070T1mHd01ZF8A7; Thu, 31 Jan 2013 10:15:08 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 193.49.225.20
+Received: from smtps2.univ-lille1.fr (smtps2.univ-lille1.fr [193.49.225.53])
+	by smtp02.univ-lille1.fr (8.14.3/8.14.3) with ESMTP id r0V9F6I5029742
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 10:15:06 +0100
+Received: from [127.0.0.1] (bsm-23-pdb.iri.univ-lille1.fr [134.206.251.93])
+	(authenticated bits=0)
+	by smtps2.univ-lille1.fr (8.14.3/8.14.3/Debian-5) with ESMTP id r0V9F5qn010574
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 10:15:05 +0100
+Message-ID: <510A361D.1020409@iri.univ-lille1.fr>
+Date: Thu, 31 Jan 2013 10:15:09 +0100
+From: alexis verger <alexis.verger@iri.univ-lille1.fr>
+User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:17.0) Gecko/20130107 Thunderbird/17.0.2
+MIME-Version: 1.0
+To: accesouvert@groupes.renater.fr
+References: <CAPZ1826n=rmqg7-8MrP5m51P1T0UiYVWZYyn5NBn4mKirr8V3Q@mail.gmail.com>,<20130130215139.ofn3plnof4kwkwo8@mail.math.jussieu.fr> <BAA8B464-5519-4597-9559-245D367750E6@cnrs.fr> <02257e45e2fffa46b53ca9c980a0d561.squirrel@webmail.espci.fr> <1801976561.20130131093512@ujf-grenoble.fr> <3BB0BE43-D780-4A8C-9C9E-E789D1C45F98@u-psud.fr>
+In-Reply-To: <3BB0BE43-D780-4A8C-9C9E-E789D1C45F98@u-psud.fr>
+Content-Type: multipart/alternative;
+ boundary="------------020509030007090805070706"
+X-USTL-MailScanner-Information: Please contact the ISP for more information
+X-USTL-MailScanner-ID: r0V9F6I5029742
+X-USTL-MailScanner: Found to be clean
+X-USTL-MailScanner-From: alexis.verger@iri.univ-lille1.fr
+X-Spam-Status: No
+Subject: Re: [accesouvert] =?ISO-8859-1?Q?Co=FBts_de_publication_en_libre_?=
+ =?ISO-8859-1?Q?acc=E8s_selon_les_=E9diteurs_et_les_revues_=28tarifs_indic?=
+ =?ISO-8859-1?Q?atifs_de_janvier_2013=29?=
+
+This is a multi-part message in MIME format.
+--------------020509030007090805070706
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 8bit
+
+Bonjour,
+
+
+juste une petite réflexion sur la thématique coût d'un journal et 
+bénéfices engrangés par les éditeurs.
+
+Même si les versions papiers des journaux existent encore, j'imagine que 
+ce genre d'abonnements est en baisse. A part les grandes 
+universités/bibliothèques, je me demande encore qui s'abonne à la 
+version papier.
+
+Avec l'avènement du web et des versions électroniques, les coûts de 
+production des maisons d'éditions a donc du fortement baisser. Il doit 
+être moins cher selon moins de maintenir une version électronique (même 
+avec le prix des serveurs) qu'une version papier avec imprimerie et 
+compagnie.
+
+Je n'ai aucuns chiffre là dessus, c'est juste un sentiment général.
+
+
+Alexis Verger
+
+
+Le 31/01/2013 10:08, Jacqui SHYKOFF a écrit :
+> Bonjour,
+> vous pouvez regarder le modèle "e-life", nouveau "revue" établi par 
+> l-exediteur de PLoS One. Pour le moment c'est gratuit pour tous et il 
+> a annoncé qu'il fera payer les vrais coûts (il faut lui demander la 
+> hauteur, mais je pense que ce ne sera pas cher).
+>
+> Je pense, franchement, que c'est par ce coté qu'il faut agir.
+>
+> Jacqui Shykoff
+>
+> On Jan 31, 2013, at 9:35 AM, Thierry Bouche wrote:
+>
+>> Bonjour,
+>>
+>> Le jeudi 31 janvier 2013 à 08:55:24, Catherine Kounelis écrivit :
+>>
+>> C> Je poserais la question autrement : Quel est le coût d'un journal? 
+>> (porté
+>> C> par l'éditeur, sans compter le temps passé par l'auteur)
+>>
+>> alors allons-y franchement : qu'est-ce qu'un journal ?
+>> qu'est-ce qui pourrait faire penser que des publications comme
+>> PLOS one, Nature et Documenta Mathematica
+>> 1. rendent des services comparables
+>> 2. aient la même structure de coûts ? (sans parler des montants !)
+>>
+>>
+>> C> Quelqu'un a des éléments?
+>>
+>> Andrew Odlyzko a fait un certain nombre de calculs (je crois que c'est
+>> lui qui est à l'origine du chiffre d'affaire moyen de 3000 $ par
+>> article scientifique, qui a eu une certain influence, apparemment).
+>>
+>> Thierry Bouche
+>>
+>
+>
+>
+> Jacqui Shykoff
+>
+> Laboratoire d'Ecologie, Systématique et Evolution
+>
+> CNRS UMR 8079
+>
+> Université Paris-Sud
+>
+> Bâtiment 360
+>
+> 91405 Orsay Cedex
+>
+> France
+>
+> tel: ++33 (0)1 69 15 56 66
+>
+> fax: ++33 (0)1 69 15 46 97
+>
+> _jacqui.shykoff@u-psud.fr <mailto:jacqui.shykoff@u-psud.fr>_
+>
+>
+
+
+-- 
+
+	Alexis VERGER
+Institut de Recherche Interdisciplinaire - IRI
+USR3078 CNRS - Université de Lille 1 - Université de Lille 2
+Parc CNRS de la Haute Borne
+50 avenue de Halley - BP 70478
+France-59658 Villeneuve d'Ascq Cedex
+Tel: 33 (0) 3 62 53 17 09
+Fax: 33 (0) 3 62 53 17 01
+Email: alexis.verger@iri.univ-lille1.fr
+Web site: http://www.iri.cnrs.fr/spip.php?rubrique33
+
+
+--------------020509030007090805070706
+Content-Type: multipart/related;
+ boundary="------------090505090906080300070209"
+
+
+--------------090505090906080300070209
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1"
+      http-equiv="Content-Type">
+  </head>
+  <body text="#000000" bgcolor="#FFFFFF">
+    <div class="moz-cite-prefix">Bonjour,<br>
+      <br>
+      <br>
+      juste une petite r&eacute;flexion sur la th&eacute;matique co&ucirc;t d'un journal et
+      b&eacute;n&eacute;fices engrang&eacute;s par les &eacute;diteurs.<br>
+      <br>
+      M&ecirc;me si les versions papiers des journaux existent encore,
+      j'imagine que ce genre d'abonnements est en baisse. A part les
+      grandes universit&eacute;s/biblioth&egrave;ques, je me demande encore qui
+      s'abonne &agrave; la version papier.<br>
+      <br>
+      Avec l'av&egrave;nement du web et des versions &eacute;lectroniques, les co&ucirc;ts
+      de production des maisons d'&eacute;ditions a donc du fortement baisser.
+      Il doit &ecirc;tre moins cher selon moins de maintenir une version
+      &eacute;lectronique (m&ecirc;me avec le prix des serveurs) qu'une version
+      papier avec imprimerie et compagnie.<br>
+      <br>
+      Je n'ai aucuns chiffre l&agrave; dessus, c'est juste un sentiment
+      g&eacute;n&eacute;ral.<br>
+      <br>
+      <br>
+      Alexis Verger<br>
+      <br>
+      <br>
+      Le 31/01/2013 10:08, Jacqui SHYKOFF a &eacute;crit&nbsp;:<br>
+    </div>
+    <blockquote
+      cite="mid:3BB0BE43-D780-4A8C-9C9E-E789D1C45F98@u-psud.fr"
+      type="cite">
+      <div>Bonjour,</div>
+      vous pouvez regarder le mod&egrave;le "e-life", nouveau "revue" &eacute;tabli
+      par l-exediteur de PLoS One. Pour le moment c'est gratuit pour
+      tous et il a annonc&eacute; qu'il fera payer les vrais co&ucirc;ts (il faut lui
+      demander la hauteur, mais je pense que ce ne sera pas cher).
+      <div><br>
+      </div>
+      <div>Je pense, franchement, que c'est par ce cot&eacute; qu'il faut agir.
+        &nbsp;</div>
+      <div><br>
+      </div>
+      <div>Jacqui Shykoff</div>
+      <div>
+        <div><br>
+          <div>
+            <div>On Jan 31, 2013, at 9:35 AM, Thierry Bouche wrote:</div>
+            <br class="Apple-interchange-newline">
+            <blockquote type="cite">
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">Bonjour,</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; min-height: 14px;
+                "><br>
+              </div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">Le jeudi 31
+                janvier 2013 &agrave; 08:55:24, Catherine Kounelis &eacute;crivit :</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; min-height: 14px;
+                "><br>
+              </div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">C&gt; Je
+                poserais la question autrement : Quel est le co&ucirc;t d'un
+                journal? (port&eacute;</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">C&gt; par
+                l'&eacute;diteur, sans compter le temps pass&eacute; par l'auteur)</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; min-height: 14px;
+                "><br>
+              </div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">alors allons-y
+                franchement : qu'est-ce qu'un journal ?</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">qu'est-ce qui
+                pourrait faire penser que des publications comme</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">PLOS one, Nature
+                et Documenta Mathematica</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">1. rendent des
+                services comparables</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">2. aient la m&ecirc;me
+                structure de co&ucirc;ts&nbsp;? (sans parler des montants !)</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; min-height: 14px;
+                "><br>
+              </div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; min-height: 14px;
+                "><br>
+              </div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">C&gt; Quelqu'un
+                a des &eacute;l&eacute;ments?</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; min-height: 14px;
+                "><br>
+              </div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">Andrew Odlyzko a
+                fait un certain nombre de calculs (je crois que c'est</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">lui qui est &agrave;
+                l'origine du chiffre d'affaire moyen de 3000 $ par</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">article
+                scientifique, qui a eu une certain influence,
+                apparemment).</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; min-height: 14px;
+                "><br>
+              </div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; ">Thierry Bouche</div>
+              <div style="margin-top: 0px; margin-right: 0px;
+                margin-bottom: 0px; margin-left: 0px; min-height: 14px;
+                "><br>
+              </div>
+            </blockquote>
+          </div>
+          <br>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica" face="Helvetica" size="3">Jacqui Shykoff</font></p>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica" face="Helvetica" size="3">Laboratoire
+            d'Ecologie, Syst&eacute;matique et Evolution</font></p>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica" face="Helvetica" size="3">CNRS UMR 8079</font></p>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica" face="Helvetica" size="3">Universit&eacute;
+            Paris-Sud</font></p>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica" face="Helvetica" size="3">B&acirc;timent 360</font></p>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica" face="Helvetica" size="3">91405 Orsay
+            Cedex</font></p>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica" face="Helvetica" size="3">France</font></p>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica" face="Helvetica" size="3">tel: ++33 (0)1
+            69 15 56 66</font></p>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica" face="Helvetica" size="3">fax: ++33 (0)1
+            69 15 46 97</font></p>
+        <p style="margin: 0.0px 0.0px 0.0px 0.0px"><font style="font:
+            12.0px Helvetica; color: #1919ff" face="Helvetica" size="3"
+            color="#1919ff"><u><a moz-do-not-send="true"
+                href="mailto:jacqui.shykoff@u-psud.fr">jacqui.shykoff@u-psud.fr</a></u></font></p>
+      </div>
+      <br>
+    </blockquote>
+    <br>
+    <br>
+    <div class="moz-signature">-- <br>
+      <meta http-equiv="content-type" content="text/html;
+        charset=ISO-8859-1">
+      <title></title>
+      <br>
+      <table height="227" width="650" border="0" cellpadding="2"
+        cellspacing="2">
+        <tbody>
+          <tr>
+            <td valign="top"><img alt=""
+                src="cid:part2.07050000.08080905@iri.univ-lille1.fr"
+                height="230" width="219"></td>
+            <td valign="top">Alexis VERGER <br>
+              Institut de Recherche Interdisciplinaire - IRI <br>
+              USR3078 CNRS - Universit&eacute; de Lille 1 - Universit&eacute; de Lille
+              2 <br>
+              Parc CNRS de la Haute Borne <br>
+              50 avenue de Halley - BP 70478 <br>
+              France-59658 Villeneuve d'Ascq Cedex <br>
+              Tel: 33 (0) 3 62 53 17 09 <br>
+              Fax: 33 (0) 3 62 53 17 01 <br>
+              Email: <a class="moz-txt-link-abbreviated"
+                href="mailto:alexis.verger@iri.univ-lille1.fr">alexis.verger@iri.univ-lille1.fr</a><br>
+              Web site: <a class="moz-txt-link-freetext" href="http://www.iri.cnrs.fr/spip.php?rubrique33">http://www.iri.cnrs.fr/spip.php?rubrique33</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
+--------------090505090906080300070209
+Content-Type: image/jpeg;
+ name="images.jpg"
+Content-Transfer-Encoding: base64
+Content-ID: <part2.07050000.08080905@iri.univ-lille1.fr>
+Content-Disposition: inline;
+ filename="images.jpg"
+
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBhIQERQQExMVEhQWFRURFRgV
+EhQVFxQUFRUVGBQUFBQXGyYfFxkjGxcVHzIgIycpLCw4Fx8xNTEqNSYrLSkB
+CQoKDgwOGg8PGikgHCQsNSkpKiopKSwpLCwtLCwsKSkpKSosLCksLCksKSws
+LCkpKSksLCwpLCwsLCwsLCwsKf/AABEIAOYA2wMBIgACEQEDEQH/xAAcAAEA
+AgIDAQAAAAAAAAAAAAAABQYDBAECBwj/xABKEAACAQMCAwQHBAcDCAsAAAAB
+AgMABBESIQUTMQYiQVEHFCMyYYGRQlJxcjNigpKhscEkorIIFTRTc4TR0xZD
+Y3SDk7O0w9Lh/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAIDBAEFBv/EACMRAQAC
+AgICAwADAQAAAAAAAAABAgMREiEEMRNBURQyoYH/2gAMAwEAAhEDEQA/APca
+UpQKUpQKUpQKUpQKUpQKVxmmaDmlcZpmg5pSlApSlApSlApSlApSlApSlApS
+lApSlApSlApSlApSq3xftUFmNrEYxKNOppWACagCoWPIaVyCDgEAZGWzhSG9
+xbtFHbOkbrIzSZ0BI2IYj7Os4XV46c5ODtXWLtXbkgOXhJ2HOjeJcnoBIw0E
+/DNQsvDjL+mllm3Bwz6EypDL7OMKpwQDuD0rLdSog9o6KGGO+yqGB6jvdRQZ
+e1nHJEdbaFtDFebI4ALImSEVNQIDMQ25BwEbbJBFfiup0OpLmYN+u/NU/jG+
+Rj8uk/EVrLGqzzKhygEIQB9SqugnTHucIGZ8KNhkgYGAOsvEEUlcOxGx0RSu
+AcA4LKpHiPGvPzZL89Q9DFjrw3KxRdqprleSgEMiYE741aSc6BAGGGLga9TA
+hRsQT01eBtcxiQqDG0kjFnuHe4kKqxWMJGHAVQgByX3LMdIGKjYboQTxyEMV
+kBt2CKWZjhnhwo6nUHUf7Xw61POZj78kNoD0VtMkmPAli6oD8AHHxNbMV+dd
+seWnC2mE8duI7hI5LqNEwHd5rfShBJHLjcOBr23y3dyNmzgXOOUMAykEEZBB
+BBHmCOtQkCAqCriTbBZSpB23zp238hUFxRpLJkmto1VSxM2ZOXAen6RAhCFs
+t7UadJA1kg1YrXqlcKdq5oFKUoFKUoFKUoFKUoFKUoFKUoFKUoFKUoNTinEV
+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
+2Lud2ZtIzlmJ1OcDqSazX8iK9R7aaePNu5We47bR59mkkq/fVUCn4prdS4+K
+jB8Ca0J+2nfCojSAqWbrGy4IGNEijJ3z7wB3xnBqHefOD5gEfSsCXuXZPuhT
+1669X/1NR+efxL+PH6sEvadGQsiSFtSxhXjkQF2ZQV5gRl2DasKWJA2B2rFf
+xz4KCKeKRioBVVdPeGorKAVUYzu4U/DOxydiuJBZZYTkB2Qocd1pRFl4wfv8
+sRtg9RnGcHFwuh3D+FaazuNs1o4zpo8A4W0CMGk5jO5lJCaB3gowF1HHu5O/
+UnpXbj148MRdFU95FbXnSqM4VnYDqADk/DJ8MHfiPdH4D+VRXaa6j9WniZ0D
+tBLhSwDHuNghc5NSRaltwKeON409ViV8hgkMo6jB73NHh8Nq1ex3CXspZLUl
+JBoWVnUMmnLFY10EkHIWTcH7A8xizwyZUHzAP1Ga0ODj2t23iZwv7KQQgD66
+j86ludaQ4V3E69JWlKVFMpSlApSlApSlApSlApSlApSlApSlAqF7ZXqxWNwW
+OMxPGuxJLOpVQAPxz8ACfCpqq7x6FZ5uS5xGkEskhOAFM4aGNsk/c9Z60ED2
+r4Y0EnrEYDRu3tlLBdDgYEylu7pIADaiACA2QNRqKvuKR24YzaoSoyVkRlc7
+47qn9J+xqFW4XEvsYZ4grP3BIsiOpkSJnY6DhgpCHr94A1B9srCeHh9xCntY
+eWSqru8GnDYUHdosA7DdPDK+5TbBW8rq+RakaV2yuI5Bpt510D7DxljGPJRq
+R1XyByB0GBsNPifF0tchB6zM2GbUwRQMYAJUHAwNl+ZO+TUrawa5ZIYEMspO
+Qox0HvEkkBVA6kkDp5ipG87KX1qdLWr98NIqxaJiFXSrFhCzEblfr+ONf8DH
+S+r26ZZ8+96brXt6ekgXh0UlsRJLrtrhC/d5k0k8QfVj3dWpo/1Rt9mrXa8V
+S5thPHnSwOxGGVgcOjjwdWBUjwIIqg9nOFzx2VksmpGaf9CRiRlM5kQkEZUI
+AJCu2y4ODsZj1WW2updHeScesvGuBzGXSkzRg4AlGYmxtr1nxUVXMRE6hOJm
+Y3K13t0YrZ5QMlImkAPiVQtg/SvP7fhSsnfVZCwDSMyqxkcjvMxI3yfpsBsB
+V7Ti9tLH+lj0MCpDOFOOhVlbBU9QQQCPGqlw6zUoIpCweE8klJHQ90ABwyEE
+h00P5d+sueJmIavHmImWra3Myu1qs0iQqqEjUSwLasJFKe9GmF3wfIKUwc97
+zgdso1BFVveMgOJBtu/OzrBH3s/OsN1wiMLYSd9WmtyzyCWXmSS6IWCNIWJI
+w0zBM49442rLecCiZMPJLICNw8z4HxwCBkeZBx1qm/KJ1MrqamNxC7dnLmSS
+0gkk99okZiRgklR3iPDPXHhmpKozs1ePNaQyucs0aktjGvyfHhqGG+dSdboY
+JKUpXQpSlApSlApSlApSlApSlApSlB0mlCqWYhVALEk4AA3JJPQAVWLKwNxL
+JdS5ETMjxRMMErGoCSTA/ra3VD7uvU3ewEkOOjmSQW59xi8rjwcQ6NKH9XW6
+MR46MHYmueOWrS200aDUzRsoH3sjdMn7wyv7VBp8WjS5hinRnUgh4nAwcOME
+6XBDKwwcMPI7GtS6ueXrWaIS9czQq+lfMzREkqPipZfPSKnQUuYVaNu62HU4
+PTyIO4I6EHoQRXK8MdSxWTTqJb3fxoKvw7spDZIk1nFzVcapVEhk5qdVMchO
+zLnugHSwGDuQw6R8RjYT3OdSK8NvGqgliSrSFFU4OstKq4ON03xg1N3fBpYc
+zWzYPvSRAKFnP2mUHupKfBtg3RuuVhuy9h61qnBOlZZZFyhUtNJI5clDghlj
+Mab7gvIDQanGOINYwS34jDzqg7hJ0IryIiRKepUFlLNsXIzsAoXHwrinrdhH
+emFuajNKQuoj2TMkyA9e8nMA/MPKpntTwK54jDJDy0tw6hNTzamXDBg3LjQg
+4IG2sVn7Gdk34dAIGuDOuXfHKVBqdtRxuW8/HxoJAcPjYiQKrZA0kqrZBA0n
+ONxjFeb9nuPWyRpGrBGEcZfUsijUqqh1O4A2Ix18MCrzwTh9xytCXOnkvJbh
+WgRsLExWPcFTvGEO58a0uEcH9TmuBEfWriTGwjWOG2VmeTS7amIBZy2kZYjT
+hQADVeSnNZjyTRzxOPVwaAEZTlWnMOM6YgIuY+24wue8N1GTkYzURdcFtjCW
+LPpxksZ5WRR11DU5TA67jG3lXoHDbMQwxw5zy40jB6EhFCg4+VV634Rb2r5m
+tYcGV3S4EUZAMkrOiy5XVEwLBQ267DvKSBXL4+U727TJxjWk7wC5eS2hkkXS
+7RIzDGnBKjPd+z548OlSFcCuatVFKUoFKUoFKUoFKUoFKUoFKUoFKUoIbtJi
+NY7rOBA+uQ+ULgpKSfJQwk/8KpBRUdx9RK8NsQCjs00gIyGjh0nSR4gyNDke
+IBHjUYeNGyC2zxyStuIGXTiSJR3RJIzAK6AqpzktgMM5IDeo7Nb9N+4Hqchm
+H+jyNmYf6qRjjnjyRjjX5Hv7d8mdBqoz8Zu3UkLBEpBGNLznH4kxjp8DUh2J
+udVqsbe/CTA/llcFSo8FKMhAPQEDJxmoVvW06hO1LV7lPGofsfbhLKDH2155
+/NOxmb+LmpHiE2iKR+mlHb6KTXms3A+Li+s5IJW9UWO1GBMFijjREE6Swk99
+m7xBAPvLuNNTQepGsTiu4NY3NBBveerPfMBnEKXgB8WEbxsPw/s6fWqtxRG5
+htGYmOIKHAYqJ5pUWWWaYKRr1F9lOQMN5jFovpImvI4XZSZYLiFk1DUVPLcZ
+XqBhZd/iai+KcEfKmTmCRFEYuIoTcJNGudAuIE9oJBk7rtuTqwdIuw3rS8Ta
+NwzeVTJkxTXHOpakXBIyNeX140l+dLrKkYKGTXqKbDuk4+FaSP6vImGdotSw
+yRvJI8bQyMI3TlsSoADZAAHu46Eg7SiQDHPhHh3orpD+6y5H1rtZ8IZ3VwTc
+OrB1VYZYYA6nKtNPLu6hsNpjGcgbGtlsuHVv86edTx/J50neoj32t/Z2Q8nQ
+SW5UksAYnJZYpGVCT4nSFBPmDUpWnwqw5MSx6tZ7zMxGNbuxeRseGWZjjwzW
+5XmvaKUpQKUpQKUpQKUpQKUpQKUpQKUpQQjnVev5RwRqPgZZJWf+EUdR3GuB
+3E0qyrJCQgkVVZJFIEhiJy4Zgx9mPsjqa3rRs3N2fJ4o/ksCP/8AIakFNcmI
+mNS7EzE7hWjwq9xp0W5/3iUfw9Xrb7PcIu4JHL8jRIUZgskjEFVKkrmNRkjQ
+P2fGp0NXcPUa461ncJ2yWtGpYuMJqt5l84pB9UNduGyAwxH/ALND9VFdpxqR
+l81K/UYry/iHAeKzzWFzazEQi3tce2KJFhVMpkiz7UMD8Sem2AamrepT5IIU
+6SQcHAOD4HB61FNwYt+luJ5fgHWFfpAqE/NjUmWroxroiL6yjgWIxIkYS5hb
+CqFzzH5DE46nTMdzViAqA7Rn+yzH7qGT5x4cH6qKnxXBzXFc0oFKUoFKUoFK
+UoFKUoFKUoFKUoFKUoFKUoIKy/TXX/eB/wC1ta3a6XXAld2kWSSF2wWMbjDE
+AAFo3DITpUDOnOAB4CobtHez8Ptpbl5opFjXIVoGVnYkBE1JKFBYkDOnbOcU
+E6DXYNXltj6bkP6W0dfjFMr/AN11TH1qctfS1w9+pmj/ADQM3/pFxVvxXj6V
+fLSfteEbcfiP51Gdmn/sdt/sIh9EUf0qNh9IfDif9KjBGDhhIh/vqK1+B9r7
+GO1t1a7t1ZYYgwM6ZDCNdQIznOc1DjP4nuFrLV1Jqsz+kfhqdbtG/Isj/wCB
+SKy8F7Xpfh/U42mCEKzSFYFUkZGQ2ZMHz0eB32pMTH07EwleLw67eZPvQyr8
+2jYD+dSfD7jmRRyD7aK/7yg/1qM/zLLMMTy6UIwY4NSAg9Q8x77D8vL+INTM
+UYUBQAAAAABgADYADwFRddqUpQKUpQKUpQKUpQKUpQKUpQKUpQKUpQKUpmgV
+496d+NnVBZA7AG5k+JOpIgfpKfpXrF5xKKEZllSMdcu6p/iIr5x9I3FkueJ3
+MiOrqGSNCrBgVSNBsQd+9qq/BETeNqc06pOkJEK34ErQiNb9u9fQYXgZfbOs
+ffP5B/iasdwtZeZ3/wBn+Tf/ALWK4kq2NalCdxP/ABHzCrl6GuMmDiIhz3bh
+GjIz9tAZIz9BIP2qpsprP2fvDDd20o+xPC3yEi6v4ZrzvJrE1mG/xbTEw+qR
+SuBXNeI9kpSlApSlApSlApSlApSlApWtxC/SBDI+cDyGSSegA86xR8ZiK62J
+jwSpEg0lWADYI88EH50G9StI8ZgGfaLtknfyKgn+8v1rseKxaXcNqCAltILE
+aSykYHU5Rh8qDbpWg/GEGe62ycwbKMqCASMnYDUN2wOpBIBpb8cic4Un3DIS
+VIVVUgHUx2zv08MGg1u1vaVOHWkt3IpYIBhQQC7sQqKCemSRv4DJr52476We
+JXrH25t4z0jgJjGPi477fvY+Ar6G42bO6heC40vE47ytqHQ5G4wVYFSR0Pdy
+OlUI+gvhk5YwXFwhGNtSMF3I6PHq6qw69VI8DQeNRd9tTHUx3JbvEk9SSdzU
+gLdSNwD+IFeoj/J+Qe7ev8NUCn+TiuregiUdL1PnbN/zqDyOeLT7uV/A/wBO
+lYRxdkO4DD6H/hXsK+gJj798P2bbH85TWWH/ACeLb/rLudvyLEn81araZr0/
+rKq+Kl/7Q8jXjMZOc47uMEHPUeWa6ScZU+6Cf4V9DcP9EPC4YTAbYShiGZpW
+ZpCQCAQ4wU2J2XHWsEnoU4Qeluy/luJ/6ua0T52XWlH8LHvb5/SRn8Qv4DJ+
+p/4VtCyTGT3j8Tn+HT+Fe5j0J8MHRZh/vD1mT0OcNH2Jj+NxL/Qis18t7+5a
+a4619Q8AkuHT3HdPyuy/4SK72nbriNs2YrycfBpWkX9yTUD9K+gB6IOFeNux
+/G5uf+ZWS39EvCUORZxt+dpZP4SORVaaO9EHbq44pBMbhV1QuqCRV0iTUpOC
+vQMuBnG3eGwr0CteysI4EEcSJEg6KihFHnhV2rYoFKUoFKUoFKUoFKUoMV1a
+rIpRxkHw38NwcjpWt/maHQI9A0hg+Mt7wGASc5O21KUHVOCQgqwQZUBQctsF
+RkAxnfusRv8ADyFdrbhUUasiLpVtmGpt+4E3yfugfz6kmuaUHC8JjGrAYasZ
+xJIPdxpx3tsYHT+ppHwiFRpCYXSyYy2NLEllxnoc0pQdW4LEdypbod5JDkjO
+CctuRk7mtm3s0QllGC3Xc79538T953PzpSgz0pSgUpSgUpSgUpSgUpSgUpSg
+UpSgUpSgUpSgUpSg/9k=
+
+--------------090505090906080300070209--
+
+--------------020509030007090805070706--

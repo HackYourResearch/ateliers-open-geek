@@ -1,0 +1,82 @@
+Received: from mx.cru.fr (mx.cru.fr [195.220.94.133])
+	by listes.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0VD906F020748
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 14:09:04 +0100
+Received: from in-paris2-1.relay.renater.fr (out-paris2-1.relay.renater.fr [194.214.200.3])
+	by mx.cru.fr (8.13.8/8.13.8/8.12-CW) with ESMTP id r0VD6hlo022165
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 14:09:00 +0100
+Received: from shiva.upmc.fr ([134.157.0.144])
+	by in-paris2-1.relay.renater.fr with bizsmtp
+	id ud901k00336QzqW01d90NN; Thu, 31 Jan 2013 14:09:00 +0100
+X-RENATER-F2-Desc: undefined
+X-RENATER-F2-Score: 0.00
+X-Bizanga: IMP - in-paris2-1.relay.renater.fr
+X-Original-Source-IP: 134.157.0.144
+Received: from math.jussieu.fr (mail.math.jussieu.fr [134.157.13.55])
+          by shiva.upmc.fr (8.14.4/jtpda-5.5pre1) with ESMTP id r0VD8xl5098643
+          for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 14:08:59 +0100 (CET)
+X-Ids: 144
+Received: from mail.math.jussieu.fr (localhost.math.jussieu.fr [127.0.0.1])
+	by math.jussieu.fr (8.14.1/8.14.1) with ESMTP id r0VD8xw3067114
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO)
+	for <accesouvert@groupes.renater.fr>; Thu, 31 Jan 2013 14:08:59 +0100 (CET)
+Received: (from www@localhost)
+	by mail.math.jussieu.fr (8.14.1/8.14.1/Submit) id r0VD8xIe067113
+	for accesouvert@groupes.renater.fr; Thu, 31 Jan 2013 14:08:59 +0100 (CET)
+X-Authentication-Warning: mail.math.jussieu.fr: www set sender to allouche@math.jussieu.fr using -f
+Received: from AOrleans-158-1-109-2.w90-21.abo.wanadoo.fr
+	(AOrleans-158-1-109-2.w90-21.abo.wanadoo.fr [90.21.228.2]) by
+	mail.math.jussieu.fr (Horde MIME library) with HTTP; Thu, 31 Jan 2013
+	14:08:59 +0100
+Message-ID: <20130131140859.p6mr73de880co844@mail.math.jussieu.fr>
+Date: Thu, 31 Jan 2013 14:08:59 +0100
+From: allouche@math.jussieu.fr
+To: accesouvert@groupes.renater.fr
+References: 	<CAPZ1826n=rmqg7-8MrP5m51P1T0UiYVWZYyn5NBn4mKirr8V3Q@mail.gmail.com>
+	<CAJyGqW9WXRSXYev7oybQWaGi499aizKqBHU5rNP5=UB5mQSLqw@mail.gmail.com>
+In-Reply-To: 	<CAJyGqW9WXRSXYev7oybQWaGi499aizKqBHU5rNP5=UB5mQSLqw@mail.gmail.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset=UTF-8;
+	DelSp="Yes";
+	format="flowed"
+Content-Disposition: inline
+User-Agent: Internet Messaging Program (IMP) H3 (4.1.6)
+X-UPMC-math-jussieu-fr-user: allouche
+X-UPMC-math-jussieu-fr-geoip-addr: 90.21.228.2
+X-UPMC-math-jussieu-fr-geoip-continent-code: EU
+X-UPMC-math-jussieu-fr-geoip-country-code: FR
+X-UPMC-math-jussieu-fr-geoip-country-name: France
+Content-Transfer-Encoding: 8bit
+X-MIME-Autoconverted: from quoted-printable to 8bit by listes.cru.fr id r0VD906F020748
+Subject: Re: [accesouvert] =?UTF-8?Q?Co=C3=BBts_de_publication_en_libre_ac?=
+ =?UTF-8?Q?c=C3=A8s_selon_les_=C3=A9diteurs_et_les_revues_=28tarifs_indica?=
+ =?UTF-8?Q?tifs_de_janvier_2013=29?=
+
+Bonjour
+
+Je suis desole d'avoir "enerve" un collegue. Il me semble que je
+n'ai pas ete assez clair : meme si le cout est de 50 $ par article
+nous serons un grand nombre `a REFUSER de payer ou de faire payer
+nos institutions pour publier : par PRINCIPE d'abord, `a cause des
+derives possibles que vous connaissez bien ensuite.
+
+Oui pour un acces libre `a l'essentiel de l'article (auto-archivage
+genre ArXiv version n-1, green, ou toute autre possibilite), non
+aux frais de publication *`a l'article* couverts par l'auteur ou son
+institution. Pour reprendre ce que dit B. R. Kloeckner :
+
+>
+> Ceci dit, j'espère sincèrement que le modèle subventionné prendra le
+> pas sur le modèle avec frais de publication.
+>
+
+Par ailleurs pour repondre `a une question posee ici, on estime en general
+que passer au tout electronique ne fait economiser que 10% des frais de
+production (etant entendu que le travail de composition, le travail sur les
+metadonnees etc. ne sont bien s^ur pas affectes par ce passage)
+
+amicalement
+jpa
+
+
