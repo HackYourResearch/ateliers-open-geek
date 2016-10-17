@@ -1,9 +1,9 @@
 `Atelier 03`
-# A la découverte du TextMining
+# Manipuler du texte en Python
 
 ## Qu'est ce qu'un texte en Python?
     C'est un `type de données` qu'on appelle `string`
-Un ensemble de caractères stockés les uns à la suite des autres qui donne une chaine de caractères
+Un ensemble de caractères stockés les uns à la suite des autres une chaine de caractères
 
 Dans le terminal on voit que Python comprend bien le texte si on lui indique avec des guillemets et que la commande nous indique
 que c'est un type `str` soit une `string` chaine de caractères
@@ -19,7 +19,6 @@ SyntaxError: invalid syntax
 <type 'str'>
 ```
 Jusque là rien de très sorcier
-
 On peut le stocker dans une variable
 et lui demander de l'afficher avec la fonction `print`
 
@@ -31,14 +30,18 @@ et lui demander de l'afficher avec la fonction `print`
 ```
 
 #### La chaine de caractère
-Comme ce sont des caractères les uns à la suite des autres, le texte est stocké de la même manière qu'une `liste`
-pour savoir combien de lettres dans ma phrase
+
+Comme ce sont des caractères les uns à la suite des autres, le texte est stocké de la même manière qu'une `liste`.
+
+Pour savoir combien de lettres dans ma phrase
+on utilise une fonction déjà existante
+
 ```
 >>> print len(salut)
 10
 >>>
 ```
-Attention l'espace compte pour un caractère car c'est un caractère.
+Attention l'espace compte pour un caractère **car c'est un caractère**.
 
 Pour avoir la première lettre on demande le premier element dans la liste
 ```
@@ -55,45 +58,130 @@ On peut lui demander le deuxième le troisième et le dernier
 >>> print(salut[-1])
 'd'
 ```
+
 On peut aussi lui demander
 les 3 premiers lettres et les trois dernières
 ```
 print(salut[0:2])
 print(salut[-3:-1])
 ```
-* Exercice0: Le traditionnel hello world
-* Exercice1: Afficher les lettres de l'alphabet
-* Exerice2: Afficher les lettres de l'alphabet à l'envers
-* Exercice 4: Afficher les 4 dernières lettres de l'alphabet dans l'ordre inversé
 
-##### Manipulation du texte string
+##### Manipulation du texte
 
-String est un type de données et lui sont attachées un ensemble de méthodes et de fonction propres
+Comme string est un type de données lui est attachée un ensemble de `fonction` propres à la string. Pour en voir toutes la liste: rendez vous sur la [documentation de string](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
-* on peut les unir ensemble +
-* les multiplier * 3
-* changer la casse:
+* on peut les unir ensemble avec l'opérateur `+`:
 
-lower()
-upper()
-title()
+  `"hello"+"open geeks"`
+* multiplier les chaines de caractères avec l'opérateur `*`:
 
-* remplacer des lettres
+  `"good morning!"*3`
 
+* changer la casse avec les méthodes:
+
+  - `upper()`
+  - `lower()`
+  - `title()`
+
+* remplacer, modifier supprimer des lettres
+- `replace()`
+
+
+salut = "hello world"
 salut.replace("world", "everybody")
-* le découper avec un séparateur
-texte.split(" ")
+salut.replace("l", "*")
 
-On va utiliser des fonctions déjà existantes attachées au types de données
+* découper ou recoller (concaténer)
+texte = "je suis une suite de mots séparés par des espaces"
+words = texte.split(" ")
+print(words)
+hashtags = ("#").join(words)
+print(hashtags)
 
-> Programmer leur propre fonctions
+Découper le texte en séquences de mots clés peut etre très utile pour analyser un texte.
 
-Comme la string est une `liste` de caractère on peut aussi utiliser les fonctions des listes
-> Manipulation de liste
-> Boucle
-> Dictionnaire
+Pour le réutiliser plus facilement on va créer une fonction get_keywords() qui prend n'importe quel texte et retourne une liste de mots-clés.
+Nous allons l'améliorer par la suite...
 
-Petit exercices en bioinformatique exercice avec l'ADN
+```
+def get_keywords(text):
+  '''fonction qui prend en entrée du texte str et retourne en sortie une liste '''
+  keywords = text.split(" ")
+  return keywords
+```
+qu'on peut aussi simplifier sans passer par un stockage dans une variable
+```
+def get_keywords(text):
+  '''fonction qui prend en entrée du texte str et retourne en sortie une liste '''
+  keywords = text.split(" ")
+  return Keywords
+
+```
+Voilà, notre fonction est prête on va pouvoir l'utiliser (en informatique on parle d'instancier une fonction) autant de fois qu'on veut
+
+```
+proverbe = get_keywords("La vie n'est pas un long fleuve tranquille")
+print(proverbe)
+proverbe2 = "QUi troP embrasse mal Etreint"
+print(get_keywords(proverbe2))
+```
+
+Maintenant que nous avons vu un ensemble de manipulation basique à vous de jouer...
+
+1. Créer une fonction `clean_text()` qui prend un texte en entrée et renvoie un texte où tous les caractères non alphabétique (espace, nombres, ponctuation) ont été transformé en espace et en minuscule.
+
+2. Créer une fonction `count_keywords()` qui prend un texte en entrée et renvoie le nombre de mots clés dans la phase
+
+
+
+### Les boucles
+Comme la string est une `liste` de caractère on peut aussi utiliser les fonctions des listes qui existent déjà.
+
+Comme nous avons vu on peut accéder au caractères d'un mot ou d'une phrase selon sa position. Cela marche de la même manière avec les listes:
+```
+liste = ["pommes", "poires", "bananes", "oranges"]
+#Donne moi le premier élement de ma liste
+liste[0]
+#Le deuxième
+liste[1]
+#Le dernier
+liste[-1]
+```
+On peut aussi dérouler un par un les élements d'une liste en utilisant l'instruction `for`
+```
+for element in liste:
+  print(element, "compte", len(element), "lettres")
+```
+Dans l'exercice 2, on demandait d'imprimer l'alphabet puis l'alphabet à l'envers
+Essayons maintenant d'imprimer les lettres de l'alphabet sur une ligne
+```
+for lettre in "abcdefghijklmnopqrstuvwxyz":
+  print(lettre)
+```
+A vous d'afficher maintenant les lettres dans le sens inverse de l'ordre alphabetique
+Indice: une chaine de caractère peut etre mise en sens inverse... tout comme une liste.
+
+### Les conditions
+
+Python permet de créer des conditions et appliquer un comprtement différents en fonction de ces conditions
+
+if "a" in word:
+
+
+Evidemment ca n'est que le début, afficher l'aphabet sur une ligne, présente un intérêt assez limité,
+en revanche pouvoir appliquer des calculs ou des tests de la même manière à tous les élements d'une liste peut s'avérer extrèmement pratique à l'usage. On le voit dans le premier exemple de boucle:
+on peut afficher un element mais aussi calculer le nombre de lettre de chaque mot ou encore appliquer un comportement différent en fonction d'une condition.
+
+
+### Les dictionnaires
+
+Quelques exercices de manipulation du texte
+* Dictionnaire
+
+Manipuler du texte est très utile en bioinformatique: les chaines ADN sont en effet elles aussi des chaines de caractères.
+Voyons donc quels usages on peut en faire avec quelques [exercices de bioinformatique
+[Exercices en bioinformatique exercice avec l'ADN
+Et quelques revisions des notions que nous avons abordées rapidement
 
 ### Textmining: procédure
 * Petit rappel: le *textmining* ou la fouille de texte implique de sortir la pelle, la pioche, les ciseaux le marteau on se concentre sur la **forme** des mots et non sur le sens. On utilise les règles:
@@ -135,6 +223,7 @@ Mais traiter un corpus textuel requiert avant ce type d'analyse un peu plus pous
 * document: lire un fichier
 * base de données: récupérer des données par requete et Croisement
 * web, mail, logs
+
 ### Textmining: les étapes
 Les principales étapes pour une enquête sur un corpus de données textuelles sont:
 * parsing
@@ -147,7 +236,22 @@ Les principales étapes pour une enquête sur un corpus de données textuelles s
 #### Parsing
 * le `parsing` lecture et sauvegarde: soit parcourir et enregister le texte de manière à ce qu'on puisse facilement y accéder
 
+Lire et écrire un fichier
+Dans l'atelier 1, vous avez vu comment accéder au fichier avec Python. Ici nous allons lire un fichier
+```
+def read_file(file_name):
+  '''lire un fichier'''
+  with open(file_name, "r") as f:
+    data = f.read()
+    return data
 
+def write_file(filename, data):
+  '''ecrire un fichier'''
+  with open(file_name, "w") as f:
+    f.read()
+    return file_name
+
+```
 
 
 EXERCICE 07
