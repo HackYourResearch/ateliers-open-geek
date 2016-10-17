@@ -68,7 +68,8 @@ print(salut[-3:-1])
 
 ##### Manipulation du texte
 
-Comme string est un type de données lui est attachée un ensemble de `fonction` propres à la string. Pour en voir toutes la liste: rendez vous sur la [documentation de string](https://docs.python.org/3/library/stdtypes.html#string-methods)
+Comme string est un type de données lui est attachée un ensemble de `fonction` propres à la string.
+Pour en voir toutes la liste: rendez vous sur la [documentation de string](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
 * on peut les unir ensemble avec l'opérateur `+`:
 
@@ -84,6 +85,7 @@ Comme string est un type de données lui est attachée un ensemble de `fonction`
   - `title()`
 
 * remplacer, modifier supprimer des lettres
+
   - `replace()`
 
 ```
@@ -92,7 +94,7 @@ salut.replace("world", "everybody")
 salut.replace("l", "*")
 ```
 
-* découper ou recoller (concaténer) des morceaux de texte
+* découper ou rejoindre des morceaux de texte
 ```
 texte = "je suis une suite de mots séparés par des espaces"
 
@@ -106,8 +108,8 @@ Avec ce que vous savez déjà, nous allons faire le traditionnel hello world.
 Dans tout apprentissage informatique, on commence donc par saluer le monde
 dans la langue que nous sommes en train d'apprendre.
 
-> Afficher salut tout le monde
-> Remplacer salut tout le monde par salutation au soleil
+ Afficher salut tout le monde !
+ Remplacer salut tout le monde ! par salutation au soleil!
   Attention il y a plusieurs manière de faire...
 > Afficher "salutation au soleil salutation au soleil salutation au soleil"
 > Afficher "salut soleil salut soleil salut soleil"
@@ -146,7 +148,6 @@ print(get_keyword("avoir la flemme de donner un autre nom de variable et appeler
 
 Maintenant que nous avons vu un ensemble quelques manipulations basiques, quelques exercices
 
-
 1. Créer une fonction `clean_text()` qui prend un texte en entrée et renvoie un texte où tous les caractères non alphabétique (espace, nombres, ponctuation) ont été transformé en espace et en minuscule.
 
 2. Créer une fonction `count_keywords()` qui prend un texte en entrée et renvoie le nombre de mots clés dans la phase
@@ -167,14 +168,17 @@ liste[1]
 #Le dernier
 liste[-1]
 ```
-On se sert énormément des listes pour stocker des données et il est pratique de considérer un texte comme une liste. Un livre n'est t'il pas une liste de tome, chapitre, paragraphe, phrase, mot?
-L'ADN est elle aussi à bien y regarder une liste de caractères.
+On se sert énormément des listes pour stocker des données. Il est aussi très pratique de considérer un texte comme une liste.
+Un livre n'est t'il pas une liste de tome, chapitre, paragraphe, phrase, mot?
+L'ADN est elle aussi à bien y regarder une chaine de caractères une liste.
 
-Quelques exercices en bioinformatique pour se chauffer...
+Voyons donc quels usages on peut en faire avec quelques [exercices de bioinformatique](./Enoncés-Exercices-ADN.ipynb)
 
-Quelques exercices avec deux corpus d'exemple:
-- Les 10 commandements
-- La déclaration universelle des droits de l'homme de 1789
+Vous trouverez aussi pour vous entrainez un dataset tout simple que vous pouvez importer
+- [Les 10 commandements](./decalogue.py)
+- Faites une fonction qui affiche un commandement selon son numero
+- Faites une fonction qui donne tous les commandement qui correspondent à un mot
+
 
 
 ### L'instruction for
@@ -236,8 +240,6 @@ def canIenter?(light):
 
 En logique on appelle ca de la logique booléenne et le type de données qu'on a utilise ici est un booléen. (Du mathématicien et logicien George Boole) Dans cette logique il n'existe que deux états: soit c'est vrai, soit c'est faux.
 
-
-
 Evidemment ce mode de pensée binaire a ces limites c'est pourquoi on a évidemment le droit d'avoir des conditions beaucoup moins strictes et des retour de fonction beaucoup plus libres.
 Ouf!
 
@@ -269,62 +271,27 @@ def stop_words(texte):
 Il existe aussi un manière de stocker du texte (entre autre). Une qui est très pratique et que les linguistiques adorent:les dictionnaires qui sont des index ou des tables de correspondances.
 Comme des vrais dictionnaires ils ont une seule entrée (une clé) et une information liée
 (une valeur).
-ici c'est un dictionnaire python et un vrai dictionnaire morse > alphabet
+Voici un vrai dictionnaire alphabanumérique => morse stocké sous forme de dictionnaire python!
 
-morse_alphabet = {
-  '.-'	:'A',
-  '-...':'B',
-  '-.-.':'C',
-  '-..'	:'D',
-  '.'	:'E',
-  '..-.':'F',
-  '--.'	:'G',
-  '....':'H',
-  '..'	:'I',
-  '.---':'J',
-  '-.-':'K',
-  '.-..' : 'L',
-  '--' :'M',
-  '-.' :'N',
-  '---':'O',
-  '.--.' : 'P',
-  '--.-' : 'Q',
-  '.-.':'R',
-  '...':'S',
-  '-'  :'T',
-  '..-':'U',
-  '...-' : 'V',
-  '.--':'W',
-  '-..-' : 'X',
-  '-.--' : 'Y',
-  '--..' : 'Z',
-  '.----' : '1',
-  '..---' : '2',
-  '...--' : '3',
-  '....-' : '4',
-  '.....' : '5',
-  '-....' : '6',
-  '--...' : '7',
-  '---..' : '8',
-  '----.' : '9',
-  '-----' : '0',
-  '-...-' : '=',
-  '-.--.' : '(',
-  '-.--.-' : ')',
-  '--..--' : ',',
-  '-....-' : '-',
-  '.-.-.-' : '.',
-  '---...' : ':',
-  '-.-.-.' : ';',
-  '..--..' : '?',
-  '-.-.--' : '!'
-}
-alphabet_morse =
+MORSE = {'A': '.-',     'B': '-...',   'C': '-.-.',
+        'D': '-..',    'E': '.',      'F': '..-.',
+        'G': '--.',    'H': '....',   'I': '..',
+        'J': '.---',   'K': '-.-',    'L': '.-..',
+        'M': '--',     'N': '-.',     'O': '---',
+        'P': '.--.',   'Q': '--.-',   'R': '.-.',
+     	'S': '...',    'T': '-',      'U': '..-',
+        'V': '...-',   'W': '.--',    'X': '-..-',
+        'Y': '-.--',   'Z': '--..',
 
-Manipuler du texte est très utile en bioinformatique: les chaines ADN sont en effet elles aussi des chaines de caractères.
-Voyons donc quels usages on peut en faire avec quelques [exercices de bioinformatique](./Enoncés-Exercices-ADN.ipynb)
+        '0': '-----',  '1': '.----',  '2': '..---',
+        '3': '...--',  '4': '....-',  '5': '.....',
+        '6': '-....',  '7': '--...',  '8': '---..',
+        '9': '----.'
+        }
 
 
+>>> Ecrivez une fonction qui prend un phrase et qui renvoie le code morse de cette phrase
+>>> Bonus: Ecrivez la fonction inverse
 
 
 
@@ -434,7 +401,7 @@ Exercice : Dans un premier temps essayons de convertir nos deux déclarations en
 Contiendront comme champ le numéro de l'article, le sous numéro de l'article si besoin, le texte et la longueur de l'article.
 
 * Donnez le nombre d'article et de sous-articles pour chaque déclaration
-*
+
 
 #### Expressions régulières
 
@@ -469,27 +436,43 @@ Les fonctions les plus utilisées sont
 - search: re.search(pattern, string, flags=0)
 - match: re.match((pattern, string, flags=0)
 
-Plutot que de les passer en revue.
-Je vous propose de regarder l'explication qu'en fait [Lucas Willems]
+Plutot que de les passer en revue car ce sujet pourrait fire l'objet d'une session à part entière.
+Je vous propose de regarder les premières démonstration qu'en fait [Lucas Willems]
 (https://www.lucaswillems.com/fr/articles/25/tutoriel-pour-maitriser-les-expressions-regulieres)
+et de plonger dans ce tutoriel en anglais (https://www.tutorialspoint.com/python/python_reg_expressions.htm)
 
-Améliorons maitenant notre function `get_keywords()`
+>>> Améliorons maitenant notre function `get_keywords()`
 en acceptant uniquement les caractères alphanumériques sans ponctuation et espace
 et en filtrant les mots de moins de 4 lettres.
 
-* la `segmentation` le découpage et la simplification: segmentation/ tokenisation/ balisage/ stemming : découper le texte en petite unité lexicale ou syntaxique et simplifier les formes:
-  - mots clés
-Nous l'avons déjà fait avec notre function get_keywords
-  - ngrams
-Pour les ngrams, il s'agit de produire des listes de mots clés par paire, triple, quadruple.
->> Codons notre fonction
-Utile pour détecter les mots composés ou les couples de catégories, il est très utilisé en TAL.
-  - forme simplifiée: token l
+* la `segmentation`, le découpage et la simplification:
 
+segmentation/ tokenisation/ balisage/ stemming
+découper le texte en petite unité lexicale ou syntaxique et simplifier les formes:
+
+  - mots clés
+Nous l'avons déjà fait avec notre function get_keywords que l'on peut évidemment améliorer encore...
+  - stopwords
+On peut en effet établir une liste noire de mots qui ne nous intéresse pas et filtrer .
+
+  - ngrams
+
+Pour les ngrams, il s'agit de produire des listes de mots clés par paire, triple, quadruple.
+Cette fonction est utile pour détecter les mots composés ou les couples de catégories grammaticales, il est très utilisé en TAL avec des méthodes statistiques qui permettent de déterminer
+si le mot est plus utilisé en forme simple ou composée ou qu'il comporte un contexte immédiat de negation par exemple.
+
+>>> Ecrivez une fonction bigrame() qui prend un texte et renvoie les paires de mots
+>>> Ecriver une fonction ngram() qui prend un texte et une taille et renvoie un ensemble de mots selon la taille spécifiée.
+
+  - forme simplifiée: stems
+L'opération de stemming (radicalisation) consiste à simplifier la forme d'un mot et d'en enlever toutes les variations en se concentrant sur sa forme radicale
+Exemple: mange, mangeons, mangera, mangeoire, mangeaille sont réduits à la forme "MANG"
+Dans ce cas on utilise des outils externes pour faciliter le travail de radicalisation, ils varient évidemment selon les langues et sont constitués par apprentissage.
 => **NLTK**, la boite à outil en python pour le TAL
+
 * le `filtrage`, l'`étiquetage et la categorisation`:
 
-  - motifs récurrents
+  - motifs récurrents (patterns)
   - catégorie grammaticale
   - champs lexicaux
 
