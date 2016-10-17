@@ -129,6 +129,7 @@ def get_keywords(text):
 ```
 
 qu'on peut aussi simplifier sans passer par un stockage dans une `variable`
+
 ```
 def get_keywords(text):
   '''fonction qui prend en entrée du texte str et retourne en sortie une liste '''
@@ -148,9 +149,9 @@ print(get_keyword("avoir la flemme de donner un autre nom de variable et appeler
 
 Maintenant que nous avons vu un ensemble quelques manipulations basiques, quelques exercices
 
-1. Créer une fonction `clean_text()` qui prend un texte en entrée et renvoie un texte où tous les caractères non alphabétique (espace, nombres, ponctuation) ont été transformé en espace et en minuscule.
+>>> Créer une fonction `clean_text()` qui prend un texte en entrée et renvoie un texte où tous les caractères non alphabétique (espace, nombres, ponctuation) ont été transformé en espace et en minuscule.
 
-2. Créer une fonction `count_keywords()` qui prend un texte en entrée et renvoie le nombre de mots clés dans la phase
+>>> Créer une fonction `count_keywords()` qui prend un texte en entrée et renvoie le nombre de mots clés dans la phase
 
 
 
@@ -228,7 +229,7 @@ C'est d'ailleurs aussi la base du code morse signal court signal long qui sur le
 Dans la vraie vie qui ne s'est jamais confronté à ce genre de conditions?
 Si la lumière est allumée: alors je peux rentrer
 Si la lumière est éteinte: alors je ne peux pas rentrer.
-Evdimment, on n'est pas à l'abri du paradoxe mais passons.
+Evidemment, on n'est pas à l'abri du paradoxe mais passons.
 
 ```
 def canIenter?(light):
