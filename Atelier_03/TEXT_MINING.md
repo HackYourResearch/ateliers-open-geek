@@ -84,21 +84,37 @@ Comme string est un type de données lui est attachée un ensemble de `fonction`
   - `title()`
 
 * remplacer, modifier supprimer des lettres
-- `replace()`
+  - `replace()`
 
-
+```
 salut = "hello world"
 salut.replace("world", "everybody")
 salut.replace("l", "*")
+```
 
-* découper ou recoller (concaténer)
+* découper ou recoller (concaténer) des morceaux de texte
+```
 texte = "je suis une suite de mots séparés par des espaces"
+
 words = texte.split(" ")
 print(words)
 hashtags = ("#").join(words)
 print(hashtags)
+```
 
-Découper le texte en séquences de mots clés peut etre très utile pour analyser un texte.
+Avec ce que vous savez déjà, nous allons faire le traditionnel hello world.
+Dans tout apprentissage informatique, on commence donc par saluer le monde
+dans la langue que nous sommes en train d'apprendre.
+
+> Afficher salut tout le monde
+> Remplacer salut tout le monde par salutation au soleil
+  Attention il y a plusieurs manière de faire...
+> Afficher "salutation au soleil salutation au soleil salutation au soleil"
+> Afficher "salut soleil salut soleil salut soleil"
+
+#### Les functions
+Découper le texte en séquences de mots clés peut être très utile pour analyser un texte.
+C'est d'ailleurs une partie importante pour exploiter un texte: le transformer en liste de mots.
 
 Pour le réutiliser plus facilement on va créer une fonction get_keywords() qui prend n'importe quel texte et retourne une liste de mots-clés.
 Nous allons l'améliorer par la suite...
@@ -109,24 +125,27 @@ def get_keywords(text):
   keywords = text.split(" ")
   return keywords
 ```
-qu'on peut aussi simplifier sans passer par un stockage dans une variable
+
+qu'on peut aussi simplifier sans passer par un stockage dans une `variable`
 ```
 def get_keywords(text):
   '''fonction qui prend en entrée du texte str et retourne en sortie une liste '''
-  keywords = text.split(" ")
-  return Keywords
+  return text.split(" ")
 
 ```
-Voilà, notre fonction est prête on va pouvoir l'utiliser (en informatique on parle d'instancier une fonction) autant de fois qu'on veut
+Voilà, notre fonction est prête on va pouvoir l'utiliser autant de fois qu'on veut
+(en informatique on parle d'instancier une fonction)
 
 ```
 proverbe = get_keywords("La vie n'est pas un long fleuve tranquille")
 print(proverbe)
-proverbe2 = "QUi troP embrasse mal Etreint"
-print(get_keywords(proverbe2))
+proverbe2 = get_keywords("QUi troP embrasse mal Etreint")
+print(proverbe2)
+print(get_keyword("avoir la flemme de donner un autre nom de variable et appeler directement la fonction")
 ```
 
-Maintenant que nous avons vu un ensemble de manipulation basique à vous de jouer...
+Maintenant que nous avons vu un ensemble quelques manipulations basiques, quelques exercices
+
 
 1. Créer une fonction `clean_text()` qui prend un texte en entrée et renvoie un texte où tous les caractères non alphabétique (espace, nombres, ponctuation) ont été transformé en espace et en minuscule.
 
@@ -134,10 +153,11 @@ Maintenant que nous avons vu un ensemble de manipulation basique à vous de joue
 
 
 
-### Les boucles
+### Les listes
+
 Comme la string est une `liste` de caractère on peut aussi utiliser les fonctions des listes qui existent déjà.
 
-Comme nous avons vu on peut accéder au caractères d'un mot ou d'une phrase selon sa position. Cela marche de la même manière avec les listes:
+On peut donc accéder au caractères d'un mot ou d'une phrase selon sa position. Cela marche de la même manière avec les listes:
 ```
 liste = ["pommes", "poires", "bananes", "oranges"]
 #Donne moi le premier élement de ma liste
@@ -147,6 +167,17 @@ liste[1]
 #Le dernier
 liste[-1]
 ```
+On se sert énormément des listes pour stocker des données et il est pratique de considérer un texte comme une liste. Un livre n'est t'il pas une liste de tome, chapitre, paragraphe, phrase, mot?
+L'ADN est elle aussi à bien y regarder une liste de caractères.
+
+Quelques exercices en bioinformatique pour se chauffer...
+
+Quelques exercices avec deux corpus d'exemple:
+- Les 10 commandements
+- La déclaration universelle des droits de l'homme de 1789
+
+
+### L'instruction for
 On peut aussi dérouler un par un les élements d'une liste en utilisant l'instruction `for`
 ```
 for element in liste:
@@ -159,29 +190,143 @@ for lettre in "abcdefghijklmnopqrstuvwxyz":
   print(lettre)
 ```
 A vous d'afficher maintenant les lettres dans le sens inverse de l'ordre alphabetique
+
 Indice: une chaine de caractère peut etre mise en sens inverse... tout comme une liste.
-
-### Les conditions
-
-Python permet de créer des conditions et appliquer un comprtement différents en fonction de ces conditions
-
-if "a" in word:
-
 
 Evidemment ca n'est que le début, afficher l'aphabet sur une ligne, présente un intérêt assez limité,
 en revanche pouvoir appliquer des calculs ou des tests de la même manière à tous les élements d'une liste peut s'avérer extrèmement pratique à l'usage. On le voit dans le premier exemple de boucle:
 on peut afficher un element mais aussi calculer le nombre de lettre de chaque mot ou encore appliquer un comportement différent en fonction d'une condition.
 
+```
+for element in liste:
+  print(element, "compte", len(element), "lettres")
+```
+
+Evidemment les listes étant un autre type de données y sont attaché de nombreuses fonctions.
+
+Pour ajouter un element à la fin d'une liste:
+* `liste.append(element)`
+Pour insérer un element à un endroit précis de la liste:
+* `liste.insert(element, 3)`
+Pour supprimer un element précis de la liste
+* `liste.remove(element)`
+Pour enlever le 2e element de la liste
+* `liste.pop(1)`
+
+### Les conditions
+
+Ahh les conditions! Que ferait on sans les conditions? Historiquement, en informatique, en electronique et en télécommunication: pas grand chose. Un signal n'est il pas l'expression d'une condition ?
+
+C'est la base de production du code binaire: si l'interrupteur est allumé = 1
+si l'interrupteur est éteint = 0
+C'est d'ailleurs aussi la base du code morse signal court signal long qui sur les phares se réduisent à lumière/pas lumière
+
+Dans la vraie vie qui ne s'est jamais confronté à ce genre de conditions?
+Si la lumière est allumée: alors je peux rentrer
+Si la lumière est éteinte: alors je ne peux pas rentrer.
+Evdimment, on n'est pas à l'abri du paradoxe mais passons.
+
+```
+def canIenter?(light):
+  if light == "on":
+    return True
+  else:
+    return False
+```
+
+En logique on appelle ca de la logique booléenne et le type de données qu'on a utilise ici est un booléen. (Du mathématicien et logicien George Boole) Dans cette logique il n'existe que deux états: soit c'est vrai, soit c'est faux.
+
+
+
+Evidemment ce mode de pensée binaire a ces limites c'est pourquoi on a évidemment le droit d'avoir des conditions beaucoup moins strictes et des retour de fonction beaucoup plus libres.
+Ouf!
+
+```
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+voyelles = "aeiouy"
+
+def estvoyelle(lettre):
+  if lettre in voyelle:
+    print(lettre, "est une voyelle")
+    return True
+  elif lettre in alphabet:
+    print(lettre, "est une consonne")
+    return False
+  else:
+    print(lettre, "n'est pas une consonne")
+    return False
+
+```
+Ecrivons une fonction qui renvoie un texte avec tous les mots qui comptent plus de 3 lettres
+s'ils ont trois lettres afficher le mots et le nombre de lettres, s'ils ont moins de 3 lettres
+afficher "trop petit" et le mot.
+
+def stop_words(texte):
+
+  return texte
 
 ### Les dictionnaires
+Il existe aussi un manière de stocker du texte (entre autre). Une qui est très pratique et que les linguistiques adorent:les dictionnaires qui sont des index ou des tables de correspondances.
+Comme des vrais dictionnaires ils ont une seule entrée (une clé) et une information liée
+(une valeur).
+ici c'est un dictionnaire python et un vrai dictionnaire morse > alphabet
 
-Quelques exercices de manipulation du texte
-* Dictionnaire
+morse_alphabet = {
+  '.-'	:'A',
+  '-...':'B',
+  '-.-.':'C',
+  '-..'	:'D',
+  '.'	:'E',
+  '..-.':'F',
+  '--.'	:'G',
+  '....':'H',
+  '..'	:'I',
+  '.---':'J',
+  '-.-':'K',
+  '.-..' : 'L',
+  '--' :'M',
+  '-.' :'N',
+  '---':'O',
+  '.--.' : 'P',
+  '--.-' : 'Q',
+  '.-.':'R',
+  '...':'S',
+  '-'  :'T',
+  '..-':'U',
+  '...-' : 'V',
+  '.--':'W',
+  '-..-' : 'X',
+  '-.--' : 'Y',
+  '--..' : 'Z',
+  '.----' : '1',
+  '..---' : '2',
+  '...--' : '3',
+  '....-' : '4',
+  '.....' : '5',
+  '-....' : '6',
+  '--...' : '7',
+  '---..' : '8',
+  '----.' : '9',
+  '-----' : '0',
+  '-...-' : '=',
+  '-.--.' : '(',
+  '-.--.-' : ')',
+  '--..--' : ',',
+  '-....-' : '-',
+  '.-.-.-' : '.',
+  '---...' : ':',
+  '-.-.-.' : ';',
+  '..--..' : '?',
+  '-.-.--' : '!'
+}
+alphabet_morse =
 
 Manipuler du texte est très utile en bioinformatique: les chaines ADN sont en effet elles aussi des chaines de caractères.
-Voyons donc quels usages on peut en faire avec quelques [exercices de bioinformatique
-[Exercices en bioinformatique exercice avec l'ADN
-Et quelques revisions des notions que nous avons abordées rapidement
+Voyons donc quels usages on peut en faire avec quelques [exercices de bioinformatique](./Enoncés-Exercices-ADN.ipynb)
+
+
+
+
 
 ### Textmining: procédure
 * Petit rappel: le *textmining* ou la fouille de texte implique de sortir la pelle, la pioche, les ciseaux le marteau on se concentre sur la **forme** des mots et non sur le sens. On utilise les règles:
@@ -233,11 +378,13 @@ Les principales étapes pour une enquête sur un corpus de données textuelles s
 * classification
 * analyse
 
+Evidemment à chaque étape de traitement on vérifie les données de son corpus et qu'on a rien perdu au passage!
+
 #### Parsing
 * le `parsing` lecture et sauvegarde: soit parcourir et enregister le texte de manière à ce qu'on puisse facilement y accéder
 
 Lire et écrire un fichier
-Dans l'atelier 1, vous avez vu comment accéder au fichier avec Python. Ici nous allons lire un fichier
+Dans l'atelier 1, vous avez vu comment accéder au fichier avec Python. Ici nous allons lire et écrire un fichier  directement dans python avec eux fonctions très simplifiées
 ```
 def read_file(file_name):
   '''lire un fichier'''
@@ -248,24 +395,96 @@ def read_file(file_name):
 def write_file(filename, data):
   '''ecrire un fichier'''
   with open(file_name, "w") as f:
-    f.read()
+    f.write(data)
     return file_name
 
 ```
+ici l'idée est de stocker quelquepart le texte issu de la lecture du document.
+Commençons par stocker nos deux déclarations dans deux variables d_1789 et d_1948.
 
 
-EXERCICE 07
-EXERCICE 08
 * le `formatage` et le nettoyage: nettoyer et convertir pour s'assurer que le texte a une forme manipulable facilement et transférable selon un standard.
-On utilise pour cela les méthodes propres au texte, ou liste et aussi un langage/notation/racourci pour détecter des motifs dans le but de produire un texte dans un format particulier et détecter ce qui nous intéresse.
+On utilise pour cela les méthodes propres au texte, ou liste et aussi un langage/notation/racourci pour détecter des motifs dans le but de produire un texte dans un format particulier et détecter ce qui nous intéresse qu'on appelle regex => **Regex** , la voie "royale"?.
 
-=> **Regex** , la voie "royale"?
+Dans un premier temps nous allons essayer de convertir nos deux déclarations en deux csv dans deux fichiers a part ".csv".
 
+Un csv est un format de fichier standard très utilisé (COMA SEPARATED VALUE), un tableau qui constite dans des lignes ou chaque cellule est séparée par une virgule ",".
+La première ligne correspond généralement à l'entête de notre tableau avec le nom des champs.
+Il suffit donc de préparer une liste de lignes dont chaque champs est séparé par une virgule.
+Comme on stocke du texte qui potentiellement a des virgules on va utilise une tabulation notée "\t" on parle alors de TSV.
+
+```
+def write_tsv(filename, data):
+  '''ecrire mes données dans un fichier'''
+  with open(file_name, "w") as f:
+    #data est une liste de lignes
+    head = "champ1,champ2,champ3"
+    f.write(head)
+    for line in data:
+      #on ajoute \n à la fin pour sauter la  ligne
+      row = line.join("\t")+"\n"
+      f.write(row)
+    return file_name
+
+```
+Evidemment, il existe un module csv qui fait le boulot à notre place si on est paresseux,
+je vous invite à la regarder la [documentation du module CSV](https://docs.python.org/3/library/csv.html)
+
+Exercice : Dans un premier temps essayons de convertir nos deux déclarations en deux csv.
+Contiendront comme champ le numéro de l'article, le sous numéro de l'article si besoin, le texte et la longueur de l'article.
+
+* Donnez le nombre d'article et de sous-articles pour chaque déclaration
+*
+
+#### Expressions régulières
+
+Parfois il est plus ardu de récupérer simplement des segments de texte qui nous intéresse simplement avec un seul caractère, on utilise dans ce cas les expressions régulières (normalement on dit rationnelles en francais, mais l'usage (en anglais) est l'usage).
+
+Une  expression regulière représente un motif (sous forme de string) à trouver dans un autre texte.
+Les expressions régulières sont un "langage" a part entière avec sa notation (syntaxe),  ses méthodes (grammaire) et ses racourcis.
+Les fonctions les plus utilisée sont search et match.
+
+Bonne nouvelle les regex sont utilisés de manière régulière dans plein de langages de programmations!
+En python il suffit d'importer le module re dans son script
+```
+import re
+
+```
+Les opérateurs de la syntaxe regex :
+. ^ $ * + ?
+
+Les notations spéciales pour un e
+{ } [ ] \ | ( )
+
+Les raccourcis:
+\d matche tous les caractères décimaux compris [0-9].
+\D matche tous les caractères excepté les décimaux compris entre 0-9 soit [^0-9]
+
+\s matche tous les caractères d'espacements soit [ \t\n\r\f\v].
+\S matche tous les caratères excepté les caractères d'espacement soit [^ \t\n\r\f\v].
+\w matches tous les caractères alphanumerique soit [a-zA-Z0-9_].
+\W matches tous les caractères excepté les alphanumeriques soit [^a-zA-Z0-9_].
+Les fonctions les plus utilisées sont
+
+- search: re.search(pattern, string, flags=0)
+- match: re.match((pattern, string, flags=0)
+
+Plutot que de les passer en revue.
+Je vous propose de regarder l'explication qu'en fait [Lucas Willems]
+(https://www.lucaswillems.com/fr/articles/25/tutoriel-pour-maitriser-les-expressions-regulieres)
+
+Améliorons maitenant notre function `get_keywords()`
+en acceptant uniquement les caractères alphanumériques sans ponctuation et espace
+et en filtrant les mots de moins de 4 lettres.
 
 * la `segmentation` le découpage et la simplification: segmentation/ tokenisation/ balisage/ stemming : découper le texte en petite unité lexicale ou syntaxique et simplifier les formes:
   - mots clés
+Nous l'avons déjà fait avec notre function get_keywords
   - ngrams
-  - forme simplifiée
+Pour les ngrams, il s'agit de produire des listes de mots clés par paire, triple, quadruple.
+>> Codons notre fonction
+Utile pour détecter les mots composés ou les couples de catégories, il est très utilisé en TAL.
+  - forme simplifiée: token l
 
 => **NLTK**, la boite à outil en python pour le TAL
 * le `filtrage`, l'`étiquetage et la categorisation`:
