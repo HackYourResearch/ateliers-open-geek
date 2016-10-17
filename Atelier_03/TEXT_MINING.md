@@ -395,13 +395,14 @@ def write_tsv(filename, data):
     return file_name
 
 ```
+
 Evidemment, il existe un module csv qui fait le boulot à notre place si on est paresseux,
 je vous invite à la regarder la [documentation du module CSV](https://docs.python.org/3/library/csv.html)
 
 Exercice : Dans un premier temps essayons de convertir nos deux déclarations en deux csv.
-Contiendront comme champ le numéro de l'article, le sous numéro de l'article si besoin, le texte et la longueur de l'article.
+Contiendront comme champ le numéro de l'article, le sous numéro de l'article, le texte et la longueur de l'article.
 
-* Donnez le nombre d'article et de sous-articles pour chaque déclaration
+>>> Donnez le nombre d'article et de sous-articles pour chaque déclaration
 
 
 #### Expressions régulières
