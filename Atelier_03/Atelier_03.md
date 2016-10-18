@@ -293,9 +293,9 @@ print(caviardage("Oh! mais c'est une technique idiote de censure... Arriverais-j
 Il existe aussi un manière de stocker du texte (entre autre). Une qui est très pratique et que les linguistiques adorent et donc les généticiens raffolent : les `dictionnaires`
 
 Les dictionnaires sont des index ou des tables de correspondances.
-Comme des vrais dictionnaires ils ont une seule entrée (une clé) et une information liée
-(une valeur).
-Les entrées du dictionnaires en python prennent n'importe quel type.
+Comme des vrais dictionnaires ils ont une seule entrée (une `clé`) et une information liée
+(une `valeur`).
+Les entrées du dictionnaire en python prennent n'importe quel type.
 
 Voici un vrai dictionnaire alphabanumérique => morse stocké sous forme de dictionnaire python!
 
@@ -318,17 +318,18 @@ MORSE = {'A': '.-',     'B': '-...',   'C': '-.-.',
 A bien y regarder, l'ADN est une chaine de caractère à manipuler: [quelques exercices de bioinformatique](./Enoncés-Exercices-ADN.ipynb)
 
 On peut aussi en fonction de son avancement regarder les exercices à faire dans cette liste (./exercices.md)
+
 ## Textmining Fouille de données textuelles
 
 ### Un peu de théorie
-* Petit rappel: le *textmining* ou la fouille de texte implique de sortir la pelle, la pioche, les ciseaux le marteau on se concentre sur la **forme** des mots et non sur le sens. On utilise les règles:
+* Petit rappel: le *textmining* ou la fouille de texte implique de sortir la pelle, la pioche, les ciseaux, le marteau on se concentre sur la **forme** des mots et non sur le sens. On utilise les règles:
   * de morphologie
   * de grammaire
   * de syntaxe
 
 L'ensemble de motifs que l'on peut observer dans leur apparition. Les traitements qu'on fait dessus sont des traitements **statistiques** et non pas **sémantiques**.
 
-On parle alors de `traitement automatique de langue` (TAL) ou en anglais Natural Langage Processing (NLP). Il s'agit bien d'observer l'ensemble des faits statistiques d'un corpus de données et d'en tirer des conclusions.
+On parle alors de `traitement automatique de langue` (TAL) ou en anglais `Natural Langage Processing` (NLP). Il s'agit bien d'observer l'ensemble des faits statistiques d'un corpus de données et d'en tirer des conclusions.
 On s'éloigne en cela de la sémantique qui regarde à quoi les mots réfèrent et leur relation de sens.
 
 ||LINGUISTIQUE|SEMANTIQUE|
@@ -343,23 +344,23 @@ On s'éloigne en cela de la sémantique qui regarde à quoi les mots réfèrent 
 Un dernier exemple:
 un traitement statistique ne nous permettra pas dans un premier temps de répondre automatiquement à la question: Quelle est la couleur du cheval blanc d'Henri IV?
 
-En revanche on pourra déterminer qu'il s'agit d'une question en se concentrant sur le signe '?', déterminer la longeur de la phrase, garder les mots-clés tels que les noms communs et leur position dans la phrase ou  encore analyser des occurences .
+En revanche, on pourra déterminer qu'il s'agit d'une question en se concentrant sur le signe '?', déterminer la longeur de la phrase, garder les mots-clés tels que les noms communs et leur position dans la phrase ou encore analyser des occurences .
 
-Si le traitement sémantique vous intéresse il peut faire l'objet d'un autre atelier pour faire vite le fonctionnement repose sur des 'dictionnaires' des tables de références un peu particulières qu'on appelle des ontologies. Les archivistes et bibliothécaires travaillent à la constitution de ces ontologies.
+Si le traitement sémantique vous intéresse, il peut faire l'objet d'un autre atelier. Pour faire vite, le fonctionnement repose sur des 'dictionnaires' des tables de références un peu particulières qu'on appelle des ontologies. Les archivistes et bibliothécaires travaillent à la constitution de ces ontologies.
 Les technologies du Web Sémantique par exemple utilise une manière particulière de stocker les informations sous forme de triplet SUJET PREDICAT OBJET qui souligne le type de relation qu'entretiennent le sujet et l'objet.
 
 Le cheval est blanc relie un animal à une couleur par une relation d'identité.
-Dans le cas d'un livre dans une bibliothèque il est classé par thématique, par époque et ensuite par auteur (ordre alphabétique). Un plan de classement qui suit un ou plusieurs standard. Le XML-TEI reprend ces concepts et les applique au texte.
+Dans le cas d'un livre dans une bibliothèque, il est classé par thématique, par époque et ensuite par auteur (ordre alphabétique). Un plan de classement qui suit un ou plusieurs standard. Le XML-TEI reprend ces concepts et les applique au texte.
 
 Mais traiter un corpus textuel requiert avant ce type d'analyse un peu plus poussé du traitement automatique de langue traditionnellement issu de la linguistique informatique (statistiques)
 
-### Ou trouve t-on du texte?
+### Où trouve t-on du texte?
 
-* input(): lire de données entrées par l'utilisateur
+* input(): lire des données entrées par l'utilisateur
 * variable: stocker une chaine de caractère
 * document: lire un fichier
 * web, mail, logs
-* base de données: récupérer des données par requete et croisement pour extraire une information qualifiée
+* base de données: récupérer des données par requête et croisement pour extraire une information qualifiée
 
 
 ### Les étapes principales à la fouille et à l'analyse de texte
