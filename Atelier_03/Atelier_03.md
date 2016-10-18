@@ -6,7 +6,7 @@
 ### Qu'est ce qu'un texte en Python?
 
     C'est un `type de données` qu'on appelle `string`
-Un ensemble de caractères stockés les uns à la suite des autres une chaine de caractères
+Un ensemble de caractères stockés les uns à la suite des autres une chaine de caractères.
 
 Il existe de nombreux types de données les plus utilisées
 sont:
@@ -26,7 +26,7 @@ Nous avons choisi ici d'introduire python par la chaine de caractère
 #### String
 
 Dans le terminal on voit que Python comprend bien le texte si on lui indique avec des guillemets et que la commande nous indique
-que c'est un type `str` soit une `string` chaine de caractères
+que c'est un type `str` soit une `string` chaine de caractères.
 ```
 >>> hello world
 File "<stdin>", line 1
@@ -52,8 +52,8 @@ La fonction print est une fonction standard qui permet d'affficher une donnée e
 
 ##### Manipulation du texte: les fonctions de strings
 
-Comme string est un type de données lui est attachée un ensemble de `fonction` propres à la string.
-Pour en voir toutes la liste: rendez vous sur la [documentation de string](https://docs.python.org/3/library/stdtypes.html#string-methods)
+Comme string est un type de données lui est attaché un ensemble de `méthodes` propres à la string.
+Pour en voir toutes la liste : rendez vous sur la [documentation de string](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
 * on peut les unir ensemble avec l'opérateur `+`:
 
@@ -93,7 +93,7 @@ print(hashtags)
 
 Comme ce sont des caractères stockés les uns à la suite des autres.
 Le texte (string) est stocké de la même manière qu'une `liste`.
-Un liste c'est un type de données qui permet de stocker des élements les uns à la suites des autres.
+Un liste c'est un type de données qui permet de stocker des élements les uns à la suite des autres.
 
 Pour savoir combien de lettres dans ma phrase
 on utilise une fonction déjà existante `len`
@@ -113,7 +113,7 @@ Pour avoir la première lettre on demande le premier element dans la liste
 'h'
 >>>
 ```
-On peut lui demander le deuxième le troisième et le dernier
+On peut lui demander le deuxième le troisième et le dernier...
 ```
 >>> print(salut[1])
 'e'
@@ -124,7 +124,7 @@ On peut lui demander le deuxième le troisième et le dernier
 ```
 
 On peut aussi lui demander
-les 3 premiers lettres et les trois dernières
+les trois premières lettres et les trois dernières
 ```
 print(salut[0:2])
 print(salut[-3:-1])
@@ -132,8 +132,8 @@ print(salut[-3:-1])
 
 #### Les fonctions.
 
-Découper le texte en séquences de mots clés peut être très utile pour analyser un texte.
-C'est d'ailleurs une partie importante pour exploiter un texte: le transformer en liste de mots.
+Découper le texte en séquences de mots-clés peut être très utile pour analyser un texte.
+C'est d'ailleurs une partie importante pour exploiter un texte : le transformer en liste de mots.
 
 Pour le réutiliser plus facilement on va créer une fonction get_keywords() qui prend n'importe quel texte et retourne une liste de mots-clés.
 Nous allons l'améliorer par la suite...
@@ -155,7 +155,7 @@ def get_keywords(text):
 ```
 
 Voilà, notre fonction est prête on va pouvoir l'utiliser autant de fois qu'on veut.
-En informatique on parle d'instancier une fonction.
+En informatique, on parle d'`instancier` une fonction.
 
 ```
 proverbe = get_keywords("La vie n'est pas un long fleuve tranquille")
@@ -169,7 +169,7 @@ print(get_keyword("avoir la flemme de donner un autre nom de variable et appeler
 
 Comme la string est une `liste` de caractère on peut aussi utiliser les fonctions des listes qui existent déjà.
 
-Comme on l'a déjà vu, on peut donc accéder au caractères d'un mot ou d'une phrase selon sa position. Cela marche de la même manière avec les listes:
+Comme on l'a déjà vu, on peut donc accéder aux caractères d'un mot ou d'une phrase selon sa position. Cela marche de la même manière avec les listes:
 ```
 liste = ["pommes", "poires", "bananes", "oranges"]
 #Donne moi le premier élement de ma liste
@@ -183,29 +183,24 @@ liste[-1]
 ### L'instruction for
 On peut aussi dérouler un par un les élements d'une liste en utilisant l'instruction `for`
 
-
-```
-liste = ["une", "phrase", "est", "un", "ensemble", "de", "mots", "enumeré", "les", "uns" "à", "la", "suite", "des", "autres"]
-for element in liste:
-  print(element, "compte", len(element), "lettres")
-```
 ```
 for lettre in "abcdefghijklmnopqrstuvwxyz":
   print(lettre)
 ```
 
 
-Evidemment ca n'est que le début, afficher l'aphabet sur une ligne, présente un intérêt assez limité,
-en revanche pouvoir appliquer des calculs ou des tests de la même manière à tous les élements d'une liste peut s'avérer extrèmement pratique à l'usage.
-On le voit dans le premier exemple de boucle:
-on peut afficher un element mais aussi calculer le nombre de lettre de chaque mot ou encore appliquer un comportement différent en fonction d'une condition.
+Evidemment ca n'est que le début, afficher chaque lettre sur une ligne, présente un intérêt assez limité,
+en revanche pouvoir appliquer des calculs ou des tests de la même manière à tous les élements d'une liste peut s'avérer extrêmement pratique à l'usage.
+On le voit dans le premier exemple de boucle :
+on peut afficher un element mais aussi calculer le nombre de lettres de chaque mot ou encore appliquer un comportement différent en fonction d'une condition.
 
 ```
-for element in liste:
-  print(element, "compte", len(element), "lettres")
+liste = ["une", "phrase", "est", "un", "ensemble", "de", "mots", "enumeré", "les", "uns" "à", "la", "suite", "des", "autres"]
+for mot in liste:
+  print(mot, "compte", len(mot), "lettres")
 ```
 
-Evidemment les listes étant un autre type de données y sont attaché de nombreuses fonctions.
+Evidemment les listes étant un autre type de données y sont attachées de nombreuses fonctions.
 
 Pour ajouter un element à la fin d'une liste:
 * `liste.append(element)`
@@ -213,23 +208,23 @@ Pour insérer un element à un endroit précis de la liste:
 * `liste.insert(element, 3)`
 Pour supprimer un element précis de la liste
 * `liste.remove(element)`
-Pour enlever le 2e element de la liste
+Pour enlever le 2ème element de la liste
 * `liste.pop(1)`
 
 On se sert énormément des listes pour stocker des données. Il est aussi très pratique de considérer un texte comme une liste.
-Un livre n'est t'il pas une liste de tome, chapitre, paragraphe, phrase, mot, caractères?
+Un livre n'est t'il pas une liste de tomes, chapitres, paragraphes, phrases, mots, caractères?
 
 L'ADN est elle aussi à bien y regarder une chaine de caractères une liste.
-La manipulation du texte est donc une opération esssentielle de la programmation
+La manipulation du texte est donc une opération esssentielle de la programmation.
 
 ### Les conditions
 
-Ahh les conditions! Que ferait on sans les conditions? Historiquement, en informatique, en electronique et en télécommunication: pas grand chose.
+Ahh les conditions! Que ferait-on sans les conditions? Historiquement, en informatique, en electronique et en télécommunication: pas grand chose.
 Un signal n'est il pas l'expression d'une condition ?
 
 C'est la base de production du code binaire: si l'interrupteur est allumé = 1
 si l'interrupteur est éteint = 0
-C'est d'ailleurs aussi la base du code morse signal court signal long qui sur les phares se réduisent à lumière/pas lumière
+C'est d'ailleurs aussi la base du code morse : signal court vs signal long qui sur les phares se réduisent à lumière/pas lumière
 
 Dans la vraie vie qui ne s'est jamais confronté à ce genre de conditions?
 
@@ -245,11 +240,11 @@ def canIenter?(light):
     return False
 ```
 
-En logique on appelle ca de la logique booléenne.
-Le type de données qu'on a utilise ici est un booléen. (Du mathématicien et logicien George Boole)
-Dans cette logique il n'existe que deux états: soit c'est vrai, soit c'est faux. Un type booléen stocke donc les valeurs Vrai ou Faux
+En logique on appelle ça de la logique booléenne.
+Le type de données qu'on a utilisé ici est un booléen. (Du mathématicien et logicien George Boole)
+Dans cette logique, il n'existe que deux états : soit c'est vrai, soit c'est faux. Un type booléen stocke donc les valeurs Vrai ou Faux
 
-Evidemment ce mode de pensée binaire a ces limites...
+Evidemment ce mode de pensée binaire a ses limites...
 C'est pourquoi on a évidemment le droit d'avoir des conditions beaucoup moins strictes et des retour de fonction beaucoup plus libres.
 Ouf!
 
@@ -266,14 +261,14 @@ def estvoyelle(lettre):
     print(lettre, "est une consonne")
     return False
   else:
-    print(lettre, "n'est pas une consonne")
+    print(lettre, "n'est pas une lettre")
     return False
 
 print(estvoyelle("a"))
 print(estvoyelle("*"))
 ```
 
-Voyons un autre fonction qui remplace les voyelles par une étoile et ne renvoie que les caractères alphabétiques.
+Voyons une autre fonction qui remplace les voyelles par une étoile et ne renvoie que les caractères alphabétiques.
 
 ```
 alphabet = "abcdefghijklmnopqrstuvwxyz"
@@ -282,7 +277,7 @@ voyelles = "aeiouy"
 def caviardage(texte):
     nouveautexte = []
     for lettre in texte:
-        if lettre in voyelle:
+        if lettre in voyelles:
             nouveautexte.append(lettre)
 
         elif lettre in alphabet:
@@ -295,7 +290,7 @@ print(caviardage("Oh! mais c'est une technique idiote de censure... Arriverais-j
 ```
 
 ### Les dictionnaires
-Il existe aussi un manière de stocker du texte (entre autre). Une qui est très pratique et que les linguistiques adorent et donc les généticiens raffolent: les dictionnaires
+Il existe aussi un manière de stocker du texte (entre autre). Une qui est très pratique et que les linguistiques adorent et donc les généticiens raffolent : les `dictionnaires`
 
 Les dictionnaires sont des index ou des tables de correspondances.
 Comme des vrais dictionnaires ils ont une seule entrée (une clé) et une information liée
