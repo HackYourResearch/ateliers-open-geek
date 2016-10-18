@@ -175,10 +175,6 @@ L'ADN est elle aussi à bien y regarder une chaine de caractères une liste.
 
 Voyons donc quels usages on peut en faire avec quelques [exercices de bioinformatique](./Enoncés-Exercices-ADN.ipynb)
 
-Vous trouverez aussi pour vous entrainez un dataset tout simple que vous pouvez importer
-- [Les 10 commandements](./decalogue.py)
-- Faites une fonction qui affiche un commandement selon son numero
-- Faites une fonction qui donne tous les commandement qui correspondent à un mot
 
 
 

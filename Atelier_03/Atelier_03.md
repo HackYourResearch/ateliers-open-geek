@@ -319,9 +319,12 @@ MORSE = {'A': '.-',     'B': '-...',   'C': '-.-.',
         '9': '----.'
         }
 
-## Textmining
+A bien y regarder, l'ADN est une chaine de caractère à manipuler: [quelques exercices de bioinformatique](./Enoncés-Exercices-ADN.ipynb)
 
-### Un peu de théorie et un rappel
+On peut aussi en fonction de son avancement regarder les exercices à faire dans cette liste (./exercices.md)
+## Textmining Fouille de données textuelles
+
+### Un peu de théorie
 * Petit rappel: le *textmining* ou la fouille de texte implique de sortir la pelle, la pioche, les ciseaux le marteau on se concentre sur la **forme** des mots et non sur le sens. On utilise les règles:
   * de morphologie
   * de grammaire
@@ -371,4 +374,6 @@ Les principales étapes pour une enquête sur un corpus de données textuelles s
 * etiquetage
 * classification
 * analyse
+
 Evidemment à chaque étape de traitement on vérifie les données de son corpus et qu'on a rien perdu au passage!
+
