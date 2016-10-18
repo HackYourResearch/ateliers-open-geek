@@ -76,6 +76,7 @@ Pour en voir toutes la liste: rendez vous sur la [documentation de string](https
 salut = "hello world"
 salut.replace("world", "everybody")
 salut.replace("l", "*")
+salut.replace("w", "")
 ```
 
 * découper ou rejoindre des morceaux de texte
@@ -98,7 +99,7 @@ Pour savoir combien de lettres dans ma phrase
 on utilise une fonction déjà existante `len`
 
 ```
->>> print len(salut)
+>>> print(len(salut))
 10
 >>>
 ```
