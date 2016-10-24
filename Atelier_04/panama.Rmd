@@ -1,0 +1,152 @@
+---
+title: "Panama papers"
+author: "Thomas Gargot"
+date: "15 octobre 2016"
+output: pdf_document
+---
+
+# Panama papers
+Ce fichier Rmd pour R markdown combine un logiciel de statistiques R (dans des blocs appelées chunks) avec un langage de balisage (de rédaction) markdown. Il permet à Rstudio de générer des rapports .pdf (texte non modifiable), .html (pages internets), .doc (texte modifiable, word).
+
+# Présentation de R
+R est un logiciel libre de statistique extrêmement puissant qui permet une prise en main plus rapide et aisée (comparée à d'autres logiciels de programmation). Grâce à un grand nombre de librairies disponibles, R propose de nombreuses fonctionnalités (analyse statistique, textmining, analyse de réseaux, etc.) qui répondent aux besoins de différentes communautés de recherche (SHS et STM). Le partage des scripts sur des plateformes tels que Gitbub permet de rendre les analyses complètement reproductibles.
+
+L'objectif de cet atelier est de vous faire découvrir R et la philosophie qui lui est associée.  Nous vous montrerons comment débuter avec R: c'est à dire importer une base de donnée, tracer un graphe et faire des statistiques de bases.
+
+
+# Base de données
+Nous allons analyser une partie de la base de données panama papers publiée par le sunday times. Elle a fait l'actualité en 2016 car il s'agit de la plus grosse fuite de données de l'histoire qui met en évidence le fonctionnement des paradis fiscaux et de l'évasion fiscale.
+
+# Dictionnaire de données
+Ce paragraphe décrit la signification de chaque variable
+
+* company_url : OpenCorporates URL for the company. 
+* company_name : Company name as stated in the Panama companies registry.
+* officer_position_es : Officer's position in the company, as stated in Spanish in the Panama companies registry.
+* officer_position_en : Officer's position in the company, translated into English by the Sunday Times Data Team.
+* officer_name : Officer's name, as stated in the Panama companies registry. Note that this can be the name of a person or another company. Sometimes more than one person is listed in one record.
+* inc_date : Incorporation date of the company.
+* dissolved_date : Dissolution date of the company, or 0000-00-00 if the company is current.
+* updated_date : Time and date given by the Panama companies registry when OpenCorporates retrieved the record.
+* company_type : Company type as stated in the Panama companies registry in Spanish.
+* mf_link : Indicator denoting officers we have linked to Mossack Fonseca. Please note that our search has not been exhaustive -  there are likely many more associates of Mossack Fonseca in this data who we have not yet discovered. 0 = not linked, 1 = linked.
+
+# Récupérer des fichiers sur son ordinateur
+```{r chargement fichier}
+#Afficher le répertoire courant
+getwd()
+# Importer des fichiers et les sauvegarder dans la base de donnée (dataframe appellée panama), nous préfèrerons la deuxième stratégie, téléchargement en ligne donc n commente la première stratégie pour ne pas l'utiliser
+
+#panama <- read.csv("/Users/Ofix/Desktop/sunday_times_panama_data/sunday_times_panama_data.csv")
+```
+
+# Télécharger des fichiers en ligne
+```{r permet de charger des fichiers en ligne}
+#Crée un fichier temporaire
+temp <- tempfile()
+# Importer des fichiers et les sauvegarder dans la base de donnée (dataframe appellée panama)
+## Télécharge le fichier
+download.file("https://cdn.rawgit.com/times/data/master/sunday_times_panama_data.zip",temp)
+# Lit le fichier
+panama <- read.csv(unz(temp,"sunday_times_panama_data.csv"),stringsAsFactors = FALSE)
+# Efface le fichier temporaire
+unlink(temp)
+rm(temp)
+```
+Cette stratégie est très pratique car elle permet de rendre le travail d'analyse le plus reproductible possible. Chacun peut récupérer les données brutes et faire la même analyse que l'auteur.
+
+# Description de la base de données
+```{r}
+# dimensions
+dim(panama)
+# structure de chaque variables : exemple et type
+str(panama)
+```
+
+# Quelle est le nombre de companies dans cette base de données ?
+```{r}
+head(panama$company_name)
+head(unique(panama$company_name))
+length(panama$company_name)
+```
+Il y a `r length(panama$company_name)` compagnies répertoriées dans cette base de données.
+
+# Sélection d'une partie exemple de la base de données
+```{r}
+# je sélectionne les lignes de la première à la 10003ème
+# View(panama[1:10003,])
+pana <- panama[1:10003,]
+```
+
+```{r quel est le type de compagnies : barplots et pie}
+table(pana$company_type)
+par(mar=c(7,4,3,6), cex=0.7)
+barplot(sort(table(pana$company_type), decreasing =TRUE), 
+        cex.names = 0.6, las=2, col="green",
+        main="Panama Papers company type")
+pie(sort(table(pana$company_type)), col="red", main="Type de compagnies")
+```
+
+```{r quel est le nom des officiers}
+par(mar=c(10,4,3,6), cex=0.9)
+topNames <-sort(table(pana$officer_name), decreasing = TRUE)[1:10]
+barplot(topNames, las=2, cex.names=0.5, col="red", main="10 top names")
+```
+
+* Jürgen Mossack, né le 20 mars 1948 à Fürth (Bavière) est un avocat d'affaires panaméen, d'origine allemande1. Avec Ramón Fonseca Mora, il est le co-fondateur de Mossack Fonseca, un cabinet juridique basé au Panama et mis en cause dans l'affaire dite des « Panama Papers ».
+
+# Date de création et durée des entreprises
+## Pour toutes
+```{r date de dondation des entreprises}
+str(pana$inc_date)
+pana$inc_date <- as.Date(pana$inc_date)
+par(mar=c(4,5,3,6), cex=0.5)
+hist(pana$inc_date, breaks=25, las=2, col="yellow", main="Date de fondation des entreprises")
+```
+
+## Pour les plus récentes
+```{r date de création des dernières entreprises, zoom sur les plus récentes}
+sortedDates <- sort(panama$inc_date)
+lateDates <- sortedDates[150000:528998]
+str(lateDates)
+lateDates <- as.Date(lateDates)
+hist(lateDates, las=2, breaks=25, col="yellow", main="Date de création des dernières entreprises")
+```
+
+## Pour les très récentes
+```{r et pour les très très récentes}
+verylateDates <- sortedDates[500000:528998]
+verylateDates <- as.Date(verylateDates)
+hist(verylateDates, breaks=6, las=2, col="yellow")
+```
+
+## Durée d'existence des entreprises
+```{r changement des variables en format date}
+# changement des variables en format date
+pana$dissolved_date <- as.Date(pana$dissolved_date)
+pana$inc_date <- as.Date(pana$inc_date )
+#Duree d'existence des entreprises
+pana$duration <- pana$dissolved_date - pana$inc_date 
+
+# Affiche les premières valeurs
+head(pana$dissolved_date)
+head(pana$inc_date)
+
+# Durée d'existence des entreprises en jours
+str(pana$duration)
+pana$duration <- as.numeric(pana$duration)
+pana$duration <- pana$duration/365.25
+hist(pana$duration, col="green", main="Durée des entreprises en années")
+```
+
+# Un peu plus d'information sur ces durées
+```{r}
+mean(pana$duration, na.rm=TRUE)
+median(pana$duration, na.rm=TRUE)
+max(pana$duration, na.rm=TRUE)
+sd(pana$duration, na.rm=TRUE)
+summary(pana$duration, na.rm=TRUE)
+```
+
+# Ensuite on peut publier notre travail sur [gitHub](https://github.com/) ou [rpubs](http://rpubs.com/)
+# Un bug, ou vous êtes bloqués ? Vous pouvez chercher sur le site ou demander à la communauté sur [stackoverflow](http://stackoverflow.com/)
