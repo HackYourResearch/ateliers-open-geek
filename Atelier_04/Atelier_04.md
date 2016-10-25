@@ -29,7 +29,12 @@ Base en R :
 - pour accéder à une colonne nom_du_fichier suivi d'un $ avec le nom de la colonne 
 - head(nom de la colonne) : pour voir les dux premières lignes 
 - lenght : longueur 
-- unique : à utiliser dans le cas où on a plusieurs colonnes identiques, on en prend une seule. 
+- unique : à utiliser dans le cas où on a plusieurs colonnes identiques, on en prend une seule.
+- création de variable avec le nom_de la variable qu'on choisit <- 
+- table() : tableau des effectifs du dataframe
+- as.Date permet de transformer en data 
+- 
+R studio ne pas hésiter d'aller voir l'aide ou bien exemplar 
 
 
 
