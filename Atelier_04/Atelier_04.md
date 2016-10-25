@@ -33,8 +33,10 @@ Base en R :
 - création de variable avec le nom_de la variable qu'on choisit <- 
 - table() : tableau des effectifs du dataframe
 - as.Date permet de transformer en data 
-- 
-R studio ne pas hésiter d'aller voir l'aide ou bien exemplar 
+
+Base en R studio : 
+- ne pas hésiter à aller voir l'aide ou bien exemplar 
+- permet de voir les variables 
 
 
 
