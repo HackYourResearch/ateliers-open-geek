@@ -45,7 +45,6 @@ Base en R studio :
 - Datacamp : https://www.datacamp.com/
 - FUN : https://www.fun-mooc.fr/courses/UPSUD/42001S06/session06/about
 
-- 
 
 
 
