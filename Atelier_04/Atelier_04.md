@@ -1,1 +1,4 @@
-Presentation of R, Thomas GARGOT, Pauline Perez
+#Presentation de R et R Studio : 
+
+Les formateurs : Thomas GARGOT et Pauline Perez
+
