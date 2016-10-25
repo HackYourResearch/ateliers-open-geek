@@ -14,6 +14,7 @@ Bonnes pratiques :
 - utiliser des formats interopérables csv au lieu de xls ou bien du md plutôt que du doc 
 - mettre sa base de données dans un fichier avec le script 
 - une première étape difficile au final : trouver le chemin d'accès pour trouver son fichier csv ! 
+- sur stackoverflow, vérifier la date de la réponse et méfiez vous des "vieux trucs" (car il peut avoir de nouveaux packages ou bien de nouvelle version) 
 
 Dans Rmd, 
 
@@ -38,7 +39,13 @@ Base en R studio :
 - ne pas hésiter à aller voir l'aide ou bien exemplar 
 - permet de voir les variables 
 
+## Ressources : 
 
+- Coursera https://fr.coursera.org/specializations/jhu-data-science
+- Datacamp : https://www.datacamp.com/
+- FUN : https://www.fun-mooc.fr/courses/UPSUD/42001S06/session06/about
+
+- 
 
 
 
