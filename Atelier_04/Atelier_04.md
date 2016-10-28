@@ -18,7 +18,7 @@ Bonnes pratiques :
 
 Dans Rmd, 
 
-- on met le code R entre ``` et ``` ou aller directement dans l'onglet Code puis insert chunck
+- on met le code R entre ``` r et ``` ou aller directement dans l'onglet Code puis insert chunck
 - on peut aussi écrire des phrases avec une fonction qui donnera directement le résultat sur le markdown 
 Par exemple : il y a `r length(panama$company_name)` compagnies répertoriées dans cette base de données.
 
@@ -28,10 +28,10 @@ Base en R :
 - dim : nombre de colonnes et lignes
 - str : type du fichier (ici dataframe) et type de chaque colonne (factor) 
 - pour accéder à une colonne nom_du_fichier suivi d'un $ avec le nom de la colonne 
-- head(nom de la colonne) : pour voir les dux premières lignes 
-- lenght : longueur 
-- unique : à utiliser dans le cas où on a plusieurs colonnes identiques, on en prend une seule.
-- création de variable avec le nom_de la variable qu'on choisit <- 
+- head(nom de la colonne) : pour voir les premières lignes 
+- length : longueur 
+- unique : permet d'afficher les différents types de facteur d'une liste sans les répétition
+- création de variable avec le nom_de la variable qu'on choisit <- ou =
 - table() : tableau des effectifs du dataframe
 - as.Date permet de transformer en data 
 
