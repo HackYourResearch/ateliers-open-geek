@@ -186,10 +186,12 @@ Prochain atelier prévu avec le blog Zotero francophone
 - découvrez des tutoriels avancés, etc;
 - suivez d'autres formations dans vote université ou avec HYPhD ;).
 
-### 10- Ressources supplémentaires
+### 10- Ressources supplémentaires francophones
 
 - [le blog Zotero francophone](http://zotero.hypotheses.org/)
+- [la boite à outils des historiens](http://www.boiteaoutils.info/category/tutoriels/zotero/) propose de nombreux billets de blog sur Zotero
 - tutoriels du MOOCSciNum par Alexandre Boutet (BIUSanté) [dans la séance 1 : s'appuyer sur des ressources existantes](https://www.youtube.com/playlist?list=PLp_ugSUC6I1qTPmhwcwejojyjem07HVc5)
+- [tutoriels de Frédérique Flamerie (UMPC) sur Zotero](http://paris-sorbonne.libguides.com/prf.php?account_id=37387)
 - des ressources dans le [groupe MOOCSciNum Zotero](https://www.zotero.org/groups/moocscinum)
 - etc.
 
