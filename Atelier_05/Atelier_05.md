@@ -17,7 +17,7 @@ Pour les adeptes de Zotero qui souhaitent aller plus loin, nous proposons aussi 
 
 ### Infos pratiques :
 Samedi 29 octobre de 16h à 18h30 à La Paillasse (Paris)
-Formatrice : Célya Gruson-Daniel
+Formatrice : Célya Gruson-Daniel + Thibault DePremorel
 
 ## Points abordés lors de l'atelier
 
@@ -174,7 +174,7 @@ Autres fonctions : gestion avec Zotfile et avec Dropbox
 
 Prochain atelier prévu avec le blog Zotero francophone
 
-#### Contributions diverses : 
+#### Contributions diverses :
 
 - beaucoup de modules complémentaires ont été crées par la communauté (contributeurs). La liste des plugins est disponible [ici](https://www.zotero.org/support/plugins). Quelques exemples : Paper machines (visualisation marqueurs), Zutilo, etc. utilisation [avec smartphone](https://www.zotero.org/support/mobile)
 - la traduction : un exemple d'utilisation [de Github](https://github.com/zotero/translators)
