@@ -69,21 +69,7 @@ Dans l'icône roue : utile pour la gestion des préférences, l'importation etc.
   - Préférences  : réglage générale (notamment récupération des pdf ou pas : avantage de l'accès distant avec Firefox), synchronisation, style de citation etc.
 
 
-### 4- Création et gestion de dossiers/collections :
-
-  - création de dossiers = collections : deux options barre à outil ou bien dans bibliothèque (nouvelle collection);
-  - création de sous-dossiers (clique droit collection):
-  - autre option (masquer-afficher sous dossier).
-
-==> classement par ordre alphabétique (penser à mettre des numéros si autre ordre souhaité).
-
-==> Attention ! pas de récursivité des collections sauf si vous l'indiquez dans votre config : (cf. tutoriel Frédérique Flamerie partie [Gérer ses docs : les collections](http://paris-sorbonne.libguides.com/zotero-gerer-sa-biblio-et-ses-pdf/gerer-ses-doc))
-
-==> Pour savoir où se trouve une référence : on appuie sur ctrl (surligne la collection où apparait le doc)
-
-Autres fonctions : gestion des marqueurs et des recherches sauvegardées.
-
-### 5- Import de références bibliographiques :
+### 4- Import de références bibliographiques :
 
 #### Enregistrer dans Zotero :
 
@@ -124,10 +110,48 @@ utilisation de bases de données pour importer des références, penser à impor
 - [Découverte de Zotero - Partie 2 : Import et gestion de références bibliographiques : MOOCSciNum avec Alexandre Boutet](https://www.youtube.com/watch?v=pbzBhQk9S7w) Ressources en CC-BY-SA
 - [Tutoriel de Frédérique Flamerie (UPMC) : Zotero : gérer sa bibliographie et ses pdf](http://paris-sorbonne.libguides.com/zotero-gerer-sa-biblio-et-ses-pdf) Ressources en CC-BY-NC-SA
 
+### 5- Organiser l'information dans Zotero
+
+#### Création et gestion de dossiers/collections :
+
+  - création de dossiers = collections : deux options barre à outil ou bien dans bibliothèque (nouvelle collection);
+  - création de sous-dossiers (clique droit collection):
+  - autre option (masquer-afficher sous dossier).
+
+==> classement par ordre alphabétique (penser à mettre des numéros si autre ordre souhaité).
+
+==> Attention ! pas de récursivité des collections sauf si vous l'indiquez dans votre config : (cf. tutoriel Frédérique Flamerie partie [Gérer ses docs : les collections](http://paris-sorbonne.libguides.com/zotero-gerer-sa-biblio-et-ses-pdf/gerer-ses-doc))
+
+==> Pour savoir où se trouve une référence : on appuie sur ctrl (surligne la collection où apparait le doc)
+
+#### Gérer des tags
+
+Les tags sont une autre façon d'organiser ses ressources dans Zotero. Vous pouvez récuperer des tags disponibles avec certaines méta-données, mais ils ne seront pas harmonisées et risquent de vous causer quelques ennuis, c'est plutôt une source de "bruit" au sens statistique.
+
+Comment désactiver l'ajout de tags automatiques?
+
+En revanche, vous pouvez créer vos propres tags! Les tags ont l'avantage d'être l'outil d,accès à l'information le plus évolutif et le plus stable dans le temps : les tags évoluent avec vos usages et vous pouvez les modifier façilement.
+
+
+#### Les recherches sauvegardées
+
+Pourquoi créer des bibliothèques pour classer une information déjà disponible dans les métadonnées?
+
+C,est le rôle des recherches sauvergardées.
+
 
 ### 6- Générer des bibliographies en quelques clics :
 
-# à compléter
+- A partir d'une collection, clique droit "créer une bibliographie-choix de style-choix du lieu de la bibliographie"
+- Pour générer une bibliographie dans un manuscrit : installation du plug-in Word/Open Office (pour Firefox seulement pas pour Standalone)
+- Dans word : (Attention, le navigateur de Firefox doit être ouvert)
+  - allez dans compléments : option (insertion/modification des citations, insertion/modification des biblio, mise à jour, chamngement de style);
+  - insertion de citation :
+    - choix du style de citation, préférences en vue classique ou vue condensé;
+    - insertion de plusieurs citations en même temps (sources multiples)
+    - modification de citation possible
+  - insertion de bibliographie (insertion/modification et mise à jour)
+  - modification de style de bibliographie possible (ajout de style de citation supplémentaire : via la barre à outils Zotero -> écrou)
 
 **Pour aller plus loin :**
 - [Découverte de Zotero - Partie 3 : Insertion et gestion de citations et de bibliographies](https://www.youtube.com/watch?v=6AoackQaw1g) Ressources en CC-BY-SA
@@ -188,8 +212,8 @@ Prochain atelier prévu avec le blog Zotero francophone
 
 ### 10- Ressources supplémentaires francophones
 
-- [le blog Zotero francophone](http://zotero.hypotheses.org/)
-- [la boite à outils des historiens](http://www.boiteaoutils.info/category/tutoriels/zotero/) propose de nombreux billets de blog sur Zotero
+- [le blog Zotero francophone](http://zotero.hypotheses.org/) notamment [celui-ci](http://zotero.hypotheses.org/756);
+- [la boite à outils des historiens](http://www.boiteaoutils.info/category/tutoriels/zotero/) propose de nombreux billets de blog sur Zotero notamment [celui-ci](http://www.boiteaoutils.info/2012/11/gerer-la-documentation-ii-une-approcha/)
 - tutoriels du MOOCSciNum par Alexandre Boutet (BIUSanté) [dans la séance 1 : s'appuyer sur des ressources existantes](https://www.youtube.com/playlist?list=PLp_ugSUC6I1qTPmhwcwejojyjem07HVc5)
 - [tutoriels de Frédérique Flamerie (UMPC) sur Zotero](http://paris-sorbonne.libguides.com/prf.php?account_id=37387)
 - des ressources dans le [groupe MOOCSciNum Zotero](https://www.zotero.org/groups/moocscinum)
