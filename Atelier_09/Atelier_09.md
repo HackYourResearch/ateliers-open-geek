@@ -58,60 +58,63 @@ Avec la séance d'aujourd'hui, nous allons essayer de voir comment la théorie d
 
 En observant les différentes situations précédentes, on peut commencer à esquisser une première définition informelle d'un graphe :
 
-- des points
+- des **points**
   - souvent associés à un libellé
   - parfois coloriés
   
-- des lignes
+- des **lignes**
   - pas toujours droites
   - avec parfois un libellé
 
-TODO Image
+![Définition informelle d'un graphe : exemple](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-0.jpg)
 
 #### Définition formelle
 
 Un graphe est défini par deux ensembles
 
-- Un ensemble de sommets ***X*** 
+- Un ensemble de **sommets** ***X*** 
 Exemple : *X = {x, y, z}*
 
-- Un ensemble d'arêtes ***E***, constitué de paires d'éléments de ***X***
+- Un ensemble d'**arêtes** ***E***, constitué de paires d'éléments de ***X***
 Exemple : *E = {(x,y), (x, z)}
 
-TODO Image
+![Définition formelle d'un graphe : exemple](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-1.jpg)
 
 
 #### Voisins
 
-Les sommets reliés par une arête sont appelés les extrémités de cette arête
+Les sommets reliés par une arête sont appelés les **extrémités** de cette arête
 
-Deux sommets reliés par une arête sont dits voisins ou adjacents
+Deux sommets reliés par une arête sont dits **voisins** ou **adjacents**
 
-Le voisinage d'un sommet est l'ensemble de ses voisins
+Le **voisinage** d'un sommet est l'ensemble de ses voisins
 
-TODO Image
 
 #### Graphes orientés / graphes non orientés
 
-On pourrait mettre des flèches sur nos arêtes, pour n'autoriser les trajets que dans un seul sens.
-Ex : routes à sens uniques
+On pourrait mettre des flèches sur nos arêtes, pour n'autoriser les trajets que dans un seul sens (comme par exemple dans le cas d'une route à à sens unique). On parle alors de **graphes orientés**.
 
-Pour commencer, on restera dans le cas simple des graphes sans flèches, appelés graphes non orientés.
+![Graphe orienté](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-oriente-0.jpg)
 
-TODO Image
+Dans un premier temps, on restera cependant dans le cas simple des graphes "sans flèches", appelés **graphes non orientés**.
+
+![Graphe non orienté](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-oriente-1.jpg)
 
 
 #### Graphes simples / graphes complexes
 
-On pourrait aussi envisager :
-Plus d'une arête entre deux sommets
-Des arêtes partant et arrivant sur le même sommet
+On pourrait aussi envisager des situations un peu plus complexes :
 
-Mais on peut toujours se ramener à un graphe ne présentant pas ces types d'arêtes
+- Plus d'une arête entre deux sommets
+- Des arêtes partant et arrivant sur le même sommet
 
-Donc on ne travaillera qu'avec des graphes simples, c'est-à-dire où ces configurations n'apparaissent pas
+![Graphe complexe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-simple-0.jpg)
 
-TODO Image
+Cependant, on peut généralement se ramener à un graphe ne présentant pas ces types d'arêtes :
+
+![Graphe simple](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-simple-1.jpg)
+
+Dans le cadre de cet atelier, on ne travaillera donc qu'avec des **graphes simples**, c'est-à-dire où ces configurations n'apparaissent pas.
 
 
 ### 3. Votre premier graphe en Python
