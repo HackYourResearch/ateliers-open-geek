@@ -43,7 +43,7 @@ Derrière le terme "théorie des graphes", on trouve en fait tout un tas de situ
 
 ![Algorithme PageRank](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphes-internet.png)
 
-*Image : Felipe Micaroni Lalli, CC-By-SA *
+*Image : Felipe Micaroni Lalli, CC-By-SA*
 
 - Réseaux domestiques
 
@@ -54,12 +54,64 @@ Avec la séance d'aujourd'hui, nous allons essayer de voir comment la théorie d
 
 ### 2. Un peu de théorie
 
-Sommets et arêtes
+#### Définition peu, voire pas du tout formelle
 
-Voisins
+En observant les différentes situations précédentes, on peut commencer à esquisser une première définition informelle d'un graphe :
 
-Graphes simples / complexes
- 
+- des points
+  - souvent associés à un libellé
+  - parfois coloriés
+  
+- des lignes
+  - pas toujours droites
+  - avec parfois un libellé
+
+TODO Image
+
+#### Définition formelle
+
+Un graphe est défini par deux ensembles
+
+- Un ensemble de sommets ***X*** 
+Exemple : *X = {x, y, z}*
+
+- Un ensemble d'arêtes ***E***, constitué de paires d'éléments de ***X***
+Exemple : *E = {(x,y), (x, z)}
+
+TODO Image
+
+
+#### Voisins
+
+Les sommets reliés par une arête sont appelés les extrémités de cette arête
+
+Deux sommets reliés par une arête sont dits voisins ou adjacents
+
+Le voisinage d'un sommet est l'ensemble de ses voisins
+
+TODO Image
+
+#### Graphes orientés / graphes non orientés
+
+On pourrait mettre des flèches sur nos arêtes, pour n'autoriser les trajets que dans un seul sens.
+Ex : routes à sens uniques
+
+Pour commencer, on restera dans le cas simple des graphes sans flèches, appelés graphes non orientés.
+
+TODO Image
+
+
+#### Graphes simples / graphes complexes
+
+On pourrait aussi envisager :
+Plus d'une arête entre deux sommets
+Des arêtes partant et arrivant sur le même sommet
+
+Mais on peut toujours se ramener à un graphe ne présentant pas ces types d'arêtes
+
+Donc on ne travaillera qu'avec des graphes simples, c'est-à-dire où ces configurations n'apparaissent pas
+
+TODO Image
 
 
 ### 3. Votre premier graphe en Python
@@ -71,9 +123,19 @@ Premiers exo
 
 ### 4. Notions de voisinages
 
-Voisins
+#### Voisins et degrés
 
-Degré d'un sommet
+Le degré d'un sommet est : 
+le nombre d'arêtes partant de ce sommet
+le nombre de voisins de ce sommet
+la taille du voisinage de ce sommet
+
+Un sommet de degré 0 (sans aucun voisin) est appelé sommet isolé.
+
+TODO Image
+
+
+#### Somme des degrés dans un graphe
 
 La somme des degrés dans un graphe simple est paire (exemple des 3 matchs pour 5)
 
