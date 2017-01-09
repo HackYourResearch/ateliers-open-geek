@@ -210,20 +210,29 @@ Le graphe ci-dessous représente un ensemble d'individus :
 - Chaque sommet représente un individu
 - Si deux sommets sont reliés par une arête, les deux personnes se connaissent
 
-![Connexité](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/connexite.jpg)
+![Connexité](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/connexite.png)
 
-
-
-#### Définition "formelle"
+Au-delà des connaissances directes, on peut voir que ce graphe permet de représenter des cercles de connaissances. Par exemple, à qui Léa peut-elle faire passer un message ? Et qu'en est-il d'Hélène ?
 
 
 #### Les six degrés de séparation
 
-Théorie
+**Les six degrés de séparation** est une théorie par Frigyes Karinthy en 1929, selon laquelle, pour tout couple d'individu sur le globe, on peut trouver une chaîne de relations individuelles de longueur au plus 6 reliant ces deux individus.
 
-Expérience via les réseaux sociaux
+Bien que n'étant pas considéré comme scientifiquement valable, cette théorie illustre le degré de connection de nos sociétés, en particulier avec le développement des nouvelles technologies de communication, et les réseaux sociaux.
 
-#### Exercices
+En 2011, Facebook annonçait dans une étude sur ses utilisateurs que 99.6% (resp. 92%) de ses utilisateurs pouvaient se connecter à un autre internaute en 5 (resp. 4) "degrés de séparation".
+
+
+#### Connexité
+
+Plus formellement, un graphe est dit **connexe** si pour tout couple de sommets de ce graphe, il existe un chemin (c'est-à-dire une suite de sommets reliés entre eux par des arêtes) entre ces deux sommets.
+
+Une **composante connexe** d'un graphe est une sous-partie connexe maximale de ce graphe, c'est-à-dire :
+
+- Un sous-ensemble de sommets, et les arêtes qui les relient entre eux
+- Tel que ce sous-ensemble soit connexe : pour tout couple de sommet de ce sous-ensemble, il existe un chemin entre ces deux sommets
+- Tel qu'il ne soit pas possible d'ajouter un sommet à ce sous-ensemble tout en conservant cette connexité
 
 EXO : Tester si deux sommets sont voisins
 
@@ -235,6 +244,7 @@ EXO : Tester si deux sommets appartiennent à la même composantes connexe (avec
 #### Qu'est-ce qu'un parcours ?
 
 ![Parcours](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours.png)
+
 *Image : Artyom Kalinin CC-by-SA*
 
 
@@ -243,6 +253,7 @@ EXO : Tester si deux sommets appartiennent à la même composantes connexe (avec
 Cycles
 
 ![Exemples de cycle](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/cycles.gif)
+
 *Image : Kiatdd CC-by-SA*
 
 Arbres
@@ -253,12 +264,14 @@ Arbres
 #### Parcours en profondeur et parcours en largeur
 
 ![Parcours en profondeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-profondeur.png)
+
 *Image : Alexander Drichel CC-by-SA*
 
 EXO : Lister tous les sommets parcours (parcours en profondeur)
 
 
 ![Parcours en largeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-largeur.png)
+
 *Image : Alexander Drichel CC-by-SA*
 
 EXO : Lister tous les sommets parcourus (parcours en largeur)
