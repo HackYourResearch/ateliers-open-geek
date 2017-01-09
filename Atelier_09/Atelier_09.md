@@ -164,21 +164,23 @@ A propos de sommets et de voisins, livrons nous à un petit exercice.
 
 Imaginons 5 joueurs d’échecs, qui souhaitent organiser un tournoi entre eux. Peut-on trouver une liste de parties telle que chaque joueur affronte exactement 3 joueurs différents ?
 
-![Un exemple avec des échecs](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/echecs.jpg)
 
 On peut modéliser ce problème avec un graphe défini de la manière suivante :
 
-Chaque sommet représente un joueur
-
-Chaque arête représente un match entre deux joueurs.
+- Chaque sommet représente un joueur
+- Chaque arête représente un match entre deux joueurs.
 
 Parvenez-vous à dessiner un tel graphe ?
+
+![Un exemple avec des échecs](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/echecs.jpg)
 
 Non ? C’est normal : cette construction est impossible. En effet, dans un graphe, la somme des degrés des sommets est forcément un nombre pair !
 
 Pour s’en convaincre, il suffit de remarquer que chaque arête relie entre eux deux sommets : par conséquent, pour chaque arête, cette somme des degrés des sommets augmente de 2.
 
 Il existe de nombreuses propriétés qui lient les différents composants d’un graphe : l’idée de cette séance n'est pas de vous en présenter un maximum, mais sachez que de nombreux chercheurs y consacrent encore leurs journées ! 
+
+EXO : Calculer la somme des degré des sommets dans un graphe
 
 
 #### Structures de données pour représenter un graphe
@@ -189,42 +191,85 @@ Pour chaque sommet, on a généralement un identifiant numérique (ainsi parfois
 
 Pour les aretes, on retrouve notamment les deux approches suivantes :
 
-- 
+- Liste de voisins: On peut créer une liste pour chaque sommet, qui contient la liste des sommets adjacents à ce sommet
+- Matrice de voisinage : On créé une matrice carrée de taille ***N***, où ***N*** est le nombre de sommets dans le graphe, et on note dans la case *(i,j)* la présence d'une arête entre les sommets *i* et *j*
 
-EXO : Calculer la somme des degré des sommets dans un graphe
+La première approche sera par exemple intéressante dans le cas d'un graphe contenant peu d'arêtes (on parle de graph peu *dense*, ou de graphe *creux*).
+
+EXO : Passer d'une représentation en listes à une représentation matricielle
+
+EXO : Passer d'une représentation matricielle à une représentation en listes
 
 
 ### 5. Composantes connexes
 
-Intuitions
+##### Intuitions
 
-Définition "formelle"
+Le graphe ci-dessous représente un ensemble d'individus :
 
-EXO : Tester si deux sommets sont voisisn
+- Chaque sommet représente un individu
+- Si deux sommets sont reliés par une arête, les deux personnes se connaissent
+
+![Connexité](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/connexite.jpg)
+
+
+
+#### Définition "formelle"
+
+
+#### Les six degrés de séparation
+
+Théorie
+
+Expérience via les réseaux sociaux
+
+#### Exercices
+
+EXO : Tester si deux sommets sont voisins
 
 EXO : Tester si deux sommets appartiennent à la même composantes connexe (avec peut-être des indications/indices sur comment le faire ?)
  
 
 ### 6. Parcours dans un graphe
 
-Qu'est-ce qu'un parcours ?
+#### Qu'est-ce qu'un parcours ?
 
-TODO Image
+![Parcours](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours.png)
+*Image : Artyom Kalinin CC-by-SA*
 
-Arbres et cycles
 
-TODO Images
+#### Arbres et cycles
 
-Plus court chemin dans un graphe : parcours en largeur
+Cycles
+
+![Exemples de cycle](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/cycles.gif)
+*Image : Kiatdd CC-by-SA*
+
+Arbres
+
+![Un exemple d'arbre](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/arbre.png)
+
+
+#### Parcours en profondeur et parcours en largeur
+
+![Parcours en profondeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-profondeur.png)
+*Image : Alexander Drichel CC-by-SA*
+
+EXO : Lister tous les sommets parcours (parcours en profondeur)
+
+
+![Parcours en largeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-largeur.png)
+*Image : Alexander Drichel CC-by-SA*
 
 EXO : Lister tous les sommets parcourus (parcours en largeur)
 
-EXO : Lister tous les sommets parcours (parcours en profondeur)
  
  
 ### 7. Graphe étiqueté
 
 Pourquoi des étiquettes ? (exemple d'une carte routière)
+
+![Cartes routières](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe_routes.jpg)
 
 Plus court chemin (avec des exemples)
 
