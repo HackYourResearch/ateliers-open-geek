@@ -90,6 +90,15 @@ Deux sommets reliés par une arête sont dits **voisins** ou **adjacents**
 Le **voisinage** d'un sommet est l'ensemble de ses voisins
 
 
+#### Représenter un graphe
+
+Il est important de noter que cette définition ne fait référence à aucune coordonnée spatiale. Il existe donc de multiples représentations d’un même graphe.
+
+Par exemple, les deux représentations ci-dessous correspondent au même graphe : 
+
+TODO image
+
+
 #### Graphes orientés / graphes non orientés
 
 On pourrait mettre des flèches sur nos arêtes, pour n'autoriser les trajets que dans un seul sens (comme par exemple dans le cas d'une route à à sens unique). On parle alors de **graphes orientés**.
@@ -134,14 +143,15 @@ EXO : Créer un graphe à partir d'un court énoncé, qui liste les sommets (ex 
 
 #### Voisins et degrés
 
-Le degré d'un sommet est : 
-le nombre d'arêtes partant de ce sommet
-le nombre de voisins de ce sommet
-la taille du voisinage de ce sommet
+Le **degré** d'un sommet est : 
 
-Un sommet de degré 0 (sans aucun voisin) est appelé sommet isolé.
+- le nombre d'arêtes partant de ce sommet
+- le nombre de voisins de ce sommet
+- la taille du voisinage de ce sommet
 
-TODO Image
+Un sommet de degré 0 (sans aucun voisin) est appelé sommet **isolé**.
+
+![Voisins](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-2.jpg)
 
 EXO : Afficher le degré d'un sommet
 
@@ -150,11 +160,36 @@ EXO : Afficher la liste des voisins d'un sommet
 
 #### Somme des degrés dans un graphe
 
-TODO : Image echecs ?
+A propos de sommets et de voisins, livrons nous à un petit exercice.
 
-La somme des degrés dans un graphe simple est paire (exemple des 3 matchs pour 5)
+Imaginons 5 joueurs d’échecs, qui souhaitent organiser un tournoi entre eux. Peut-on trouver une liste de parties telle que chaque joueur affronte exactement 3 joueurs différents ?
 
-Représentations possibles : matrices et listes de voisinage
+TODO Image
+
+On peut modéliser ce problème avec un graphe défini de la manière suivante :
+
+Chaque sommet représente un joueur
+
+Chaque arête représente un match entre deux joueurs.
+
+Parvenez-vous à dessiner un tel graphe ?
+
+Non ? C’est normal : cette construction est impossible. En effet, dans un graphe, la somme des degrés des sommets est forcément un nombre pair !
+
+Pour s’en convaincre, il suffit de remarquer que chaque arête relie entre eux deux sommets : par conséquent, pour chaque arête, cette somme des degrés des sommets augmente de 2.
+
+Il existe de nombreuses propriétés qui lient les différents composants d’un graphe : l’idée de cette séance n'est pas de vous en présenter un maximum, mais sachez que de nombreux chercheurs y consacrent encore leurs journées ! 
+
+
+#### Structures de données pour représenter un graphe
+
+Il existe plusieurs façons de représenter un graphe.
+
+Pour chaque sommet, on a généralement un identifiant numérique (ainsi parfois qu’un libellé ou d’autres caractéristiques).
+
+Pour les aretes, on retrouve notamment les deux approches suivantes :
+
+- 
 
 EXO : Calculer la somme des degré des sommets dans un graphe
 
