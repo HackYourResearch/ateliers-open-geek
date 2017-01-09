@@ -94,11 +94,11 @@ Le **voisinage** d'un sommet est l'ensemble de ses voisins
 
 On pourrait mettre des flèches sur nos arêtes, pour n'autoriser les trajets que dans un seul sens (comme par exemple dans le cas d'une route à à sens unique). On parle alors de **graphes orientés**.
 
-![Graphe orienté](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-oriente-0.jpg)
+![Graphe orienté](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-oriente-1.jpg)
 
 Dans un premier temps, on restera cependant dans le cas simple des graphes "sans flèches", appelés **graphes non orientés**.
 
-![Graphe non orienté](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-oriente-1.jpg)
+![Graphe non orienté](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-oriente-0.jpg)
 
 
 #### Graphes simples / graphes complexes
