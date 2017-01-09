@@ -10,4 +10,4 @@ Ann dit avoir rencontré Betty, Charlotte, Félicia et Georgia;
 Betty dit avoir rencontré Ann, Charlotte, Edith, Félicia, et Helen ; Charlotte dit avoir rencontré Ann, Betty et Edith ; Edith dit avoir rencontré Betty, Charlotte et Félicia ; Félicia dit avoir rencontré Ann, Betty, Edith et Helen ; Georgia dit avoir rencontré Ann et Helen ;
 Helen dit avoir rencontré Betty, Félicia et Georgia.
 
-Créer le graphe de relations entretenues entre les sept ex-femmes.
+Créer le graphe de relations entretenues entre les sept ex-femmes. Et trouvez la coupable!
