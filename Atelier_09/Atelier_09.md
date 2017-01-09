@@ -121,8 +121,14 @@ Dans le cadre de cet atelier, on ne travaillera donc qu'avec des **graphes simpl
 
 Bibliothèques utilisées : numpy, networkx, matplotlib
 
+EXO : Importer les bibliothèques (et vérifier que ça marche)
+
 Premiers exo
- 
+
+EXO : Recopier un bout de code pour afficher un graphe
+
+EXO : Créer un graphe à partir d'un court énoncé, qui liste les sommets (ex : personnages), et les liens entre eux (ex : X connait Y, etc.)
+
 
 ### 4. Notions de voisinages
 
@@ -137,15 +143,21 @@ Un sommet de degré 0 (sans aucun voisin) est appelé sommet isolé.
 
 TODO Image
 
+EXO : Afficher le degré d'un sommet
+
+EXO : Afficher la liste des voisins d'un sommet
+
 
 #### Somme des degrés dans un graphe
+
+TODO : Image echecs ?
 
 La somme des degrés dans un graphe simple est paire (exemple des 3 matchs pour 5)
 
 Représentations possibles : matrices et listes de voisinage
 
-Exo
- 
+EXO : Calculer la somme des degré des sommets dans un graphe
+
 
 ### 5. Composantes connexes
 
@@ -153,18 +165,26 @@ Intuitions
 
 Définition "formelle"
 
-Exo
+EXO : Tester si deux sommets sont voisisn
+
+EXO : Tester si deux sommets appartiennent à la même composantes connexe (avec peut-être des indications/indices sur comment le faire ?)
  
 
 ### 6. Parcours dans un graphe
 
 Qu'est-ce qu'un parcours ?
 
+TODO Image
+
 Arbres et cycles
+
+TODO Images
 
 Plus court chemin dans un graphe : parcours en largeur
 
-Exo
+EXO : Lister tous les sommets parcourus (parcours en largeur)
+
+EXO : Lister tous les sommets parcours (parcours en profondeur)
  
  
 ### 7. Graphe étiqueté
@@ -175,20 +195,28 @@ Plus court chemin (avec des exemples)
 
 Algorithme de Dijsktra
 
-Exo
+EXO : Calcul du plus court chemin dans un graphe étiquetté
 
 
 ### 8. Problèmes célèbres sur les graphes (avec des exos à chaque fois)
+
 Graphes planaires
+
 Parcours eulériens (fermés, ouverts)
+
 Coloration
 
 
-### 9. Des questions : que faire ?
+### 9. Quelques exemples concrets de l'utilisation des graphes sur des sujets de recherche
+
+
+
+### 10. Des questions : que faire ?
 
 - découvrez des tutoriels avancés (cf. ressources à la fin de ce billet)
 - suivez d'autres formations dans vote université ou avec HYPhD ;).
 
-### 10. Ressources supplémentaires
+
+### 11. Ressources supplémentaires
 
 Fiche réalisée par Constance de Quatrebarbes et Romain André-Lovichi (licence CC-BY-SA)
