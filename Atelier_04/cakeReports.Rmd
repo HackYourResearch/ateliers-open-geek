@@ -1,0 +1,83 @@
+---
+title: "Rpaillasse"
+author: "Pauline et Thomas"
+date: "15 septembre 2016"
+output: pdf_document
+---
+
+Le Cake Report est un projet visant ? se familiariser avec quelques diff?rents outils libres de droit pouvant ?tre utilis?s en science: pour collecter, interpr?ter et publier des donn?es.Le but de cette base de donn?e est de tester diff?rents biscuits du commerce lors du go?ter!
+
+
+# Importer les donnees
+```{r}
+getwd()
+setwd("/Users/Ofix/ateliers-open-geek/Atelier_04/")
+data<-read.csv("grades.csv")
+```
+
+# Data dictionnary
+subject: numero du sujet (donn?es anonymis?es)
+cake: marque du biscuit
+price: prix de la bo?te de gateaux
+nb.of.cookies:nb de cookies par boites
+aspect: note entre 1 et 5
+taste: go?t,note entre 1 et 5
+texture: note entre 1 et 5
+packaging: note entre 1 et 5
+quality by price: rapport qualit? pric; note entre 1 et 5
+total: note sur 20 comprenant l'aspect, le gout, la texture, le packaging et le rapport qualit? prix
+
+# Decrire les donnees
+```{r}
+data$price <- as.numeric(data$price)
+data$qualityByPrice <- as.numeric(data$qualityByPrice)
+str(data)
+head(data)
+```
+
+#Si on veut ?tudier les prix
+```{r}
+#tracer l'histogramme de la r?partition des prix
+par(mfrow=c(1,1),mar=c(4,4,4,4))
+help(hist) #bespon d'aide?
+hist(data$price)
+hist(data$price,main="Repartition prix",col="blue")
+#rajouter la moyenne des prix
+abline(v=mean(data$price, na.rm=TRUE))
+
+#tracer la densit?,c'est ? dire la distribution de la variable
+plot(density(data$price,na="TRUE"),main="Repartition prix",col="blue")
+
+#tracer des points repr?sentant la note toal en fonction du prix
+plot(data$price, data$total)
+
+#tracer le rapport qualit? prix suivant les sujets
+# Grouped Bar Plot
+counts <- table(data[which(data$subject==1 | data$subject==2),]$subject, data[which(data$subject==1 | data$subject==2),]$qualityByPrice)
+barplot(counts, main="ddistribution du rapport qualit?-prix selon le sujet 1 et 2 ",
+  xlab="Rapport qualit? prix", col=c("darkblue","red"),
+ 	legend = rownames(counts), beside=TRUE)
+
+
+#tracer le note du rapport qualit? pris en fonction du gateau
+boxplot(data$qualityByPrice ~ data$cake, horizontal=FALSE,col=rainbow(15),las=2)
+```
+
+
+En resume, pour les representations graphiques (non exaustives):
+* description d'1 variable quantitative continue: 
+** histogramme (hist())
+** densite (plot(density()))
+* description d'1 variable quantitative discontinue: 
+** barplot (barplot())
+* description d'1 variable qualitative: 
+** camembert (pie())
+*2 variables quantitatives:
+** nuage de point(plot)
+*1 variable quantitative en fonction d'une variable qualitative
+** boite ? moustache (boxplot())
+
+
+
+
+
