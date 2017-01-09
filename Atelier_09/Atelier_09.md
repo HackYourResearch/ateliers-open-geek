@@ -28,14 +28,28 @@ Pour les participants les plus avancés, plusieurs **exercices** sur différents
 
 ### 1. Motivations
 
-Des graphes partout
 
-Social
+Derrière le terme "théorie des graphes", on trouve en fait tout un tas de situations qui font partie de notre quotidien.
 
-Internet
+- Cartes routières
 
-Concepts
- 
+![Cartes routières](https://github.com/HackYourPhd/ateliers-open-geek/blob/AndreLovichi-patch-1/Atelier_09/images/graphe_routes.jpg)
+
+- Interactions sociales 
+
+![Interactions sociales](https://github.com/HackYourPhd/ateliers-open-geek/blob/AndreLovichi-patch-1/Atelier_09/images/graphe_social.jpg)
+
+- Internet et communication
+
+![Algorithme PageRank](https://github.com/HackYourPhd/ateliers-open-geek/blob/AndreLovichi-patch-1/Atelier_09/images/graphes-internet.png)
+
+*Image : Felipe Micaroni Lalli, CC-By-SA *
+
+- Réseaux domestiques
+
+![Réseaux domestiques](https://github.com/HackYourPhd/ateliers-open-geek/blob/AndreLovichi-patch-1/Atelier_09/images/graphe_electricite.jpg)
+
+Avec la séance d'aujourd'hui, nous allons essayer de voir comment la théorie des graphes permet de modéliser et d'étudier ces différentes situations.
 
 
 ### 2. Un peu de théorie
