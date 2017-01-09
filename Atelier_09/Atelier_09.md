@@ -43,7 +43,7 @@ Derrière le terme "théorie des graphes", on trouve en fait tout un tas de situ
 
 ![Algorithme PageRank](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphes-internet.png)
 
-*Image : Felipe Micaroni Lalli, CC-By-SA*
+*Image : Felipe Micaroni Lalli, CC-BY-SA*
 
 - Réseaux domestiques
 
@@ -203,7 +203,20 @@ EXO : Passer d'une représentation matricielle à une représentation en listes
 
 ### 5. Composantes connexes
 
-##### Intuitions
+#### Chaînes, cycles et arbres
+
+Une **chaîne** (ou moins formellement **chemin**) dans un graphe est une suite d'arêtes consécutives, c'est-à-dire telle que chaque arête a une extrémité en commun avec la suivante.
+
+Un **cycle** est une suite d'arêtes consécutives dont le sommet de départ et le sommet d'arrivé sont identiques.
+
+Par exemple, sur le schéma ci-dessous, une chaîne est représentée en vert, et des cycles sont représentés en bleu et en rouge :
+
+![Exemples de cycle](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/cycles.gif)
+
+*Image : Kiatdd CC-BY-SA*
+
+
+#### Cercles de connaissances
 
 Le graphe ci-dessous représente un ensemble d'individus :
 
@@ -226,12 +239,12 @@ En 2011, Facebook annonçait dans une étude sur ses utilisateurs que 99.6% (res
 
 #### Connexité
 
-Plus formellement, un graphe est dit **connexe** si pour tout couple de sommets de ce graphe, il existe un chemin (c'est-à-dire une suite de sommets reliés entre eux par des arêtes) entre ces deux sommets.
+Plus formellement, un graphe est dit **connexe** si pour tout couple de sommets de ce graphe, il existe un chaîne (c'est-à-dire une suite d'arêtes consécutives) entre ces deux sommets.
 
 Une **composante connexe** d'un graphe est une sous-partie connexe maximale de ce graphe, c'est-à-dire :
 
 - Un sous-ensemble de sommets, et les arêtes qui les relient entre eux
-- Tel que ce sous-ensemble soit connexe : pour tout couple de sommet de ce sous-ensemble, il existe un chemin entre ces deux sommets
+- Tel que ce sous-ensemble soit connexe : pour tout couple de sommet de ce sous-ensemble, il existe une chaîne entre ces deux sommets
 - Tel qu'il ne soit pas possible d'ajouter un sommet à ce sous-ensemble tout en conservant cette connexité
 
 EXO : Tester si deux sommets sont voisins
@@ -239,59 +252,49 @@ EXO : Tester si deux sommets sont voisins
 EXO : Tester si deux sommets appartiennent à la même composantes connexe (avec peut-être des indications/indices sur comment le faire ?)
  
 
-### 6. Parcours dans un graphe
+#### Arbres
 
-#### Qu'est-ce qu'un parcours ?
-
-![Parcours](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours.png)
-
-*Image : Artyom Kalinin CC-by-SA*
-
-
-#### Arbres et cycles
-
-Cycles
-
-![Exemples de cycle](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/cycles.gif)
-
-*Image : Kiatdd CC-by-SA*
-
-Arbres
+Un graphe connexe qui ne contient aucun cycle est appelé un **arbre** :
 
 ![Un exemple d'arbre](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/arbre.png)
 
+Cette famille de graphes a de nombreuses propriétés, notamment en terme de hiérarchisation de l'information (on peut fixer un sommet "racine" et parcourir l'arbre à partir de ce sommet-là).
+
+
+### 6. Parcours dans un graphe
 
 #### Parcours en profondeur et parcours en largeur
 
 ![Parcours en profondeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-profondeur.png)
 
-*Image : Alexander Drichel CC-by-SA*
+*Image : Alexander Drichel CC-BY-SA*
 
 EXO : Lister tous les sommets parcours (parcours en profondeur)
 
 
 ![Parcours en largeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-largeur.png)
 
-*Image : Alexander Drichel CC-by-SA*
+*Image : Alexander Drichel CC-BY-SA*
 
 EXO : Lister tous les sommets parcourus (parcours en largeur)
-
  
- 
-### 7. Graphe étiqueté
 
-Pourquoi des étiquettes ? (exemple d'une carte routière)
+#### Calcul du plus court chemin
 
-![Cartes routières](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe_routes.jpg)
+On parlait de réseau routier au début de ce cours :
 
-Plus court chemin (avec des exemples)
+Dans un graphe 
 
-Algorithme de Dijsktra
+![Parcours](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours.png)
+
+*Image : Artyom Kalinin CC-BY-SA*
+
+#### Algorithme de Dijsktra
 
 EXO : Calcul du plus court chemin dans un graphe étiquetté
 
 
-### 8. Problèmes célèbres sur les graphes (avec des exos à chaque fois)
+### 7. Problèmes célèbres sur les graphes (avec des exos à chaque fois)
 
 Graphes planaires
 
@@ -300,16 +303,20 @@ Parcours eulériens (fermés, ouverts)
 Coloration
 
 
-### 9. Quelques exemples concrets de l'utilisation des graphes sur des sujets de recherche
+### 8. Quelques exemples concrets de l'utilisation des graphes sur des sujets de recherche
 
 
 
-### 10. Des questions : que faire ?
+### 9. Des questions : que faire ?
 
 - découvrez des tutoriels avancés (cf. ressources à la fin de ce billet)
-- suivez d'autres formations dans vote université ou avec HYPhD ;).
+- suivez d'autres formations dans vote université ou avec HYPhD ;)
+- contactez-nous !
 
 
-### 11. Ressources supplémentaires
+### 10. Ressources supplémentaires
+
+- France IOI - Chapitres sur les graphes et les arbres : http://www.france-ioi.org/algo/chapters.php (attention, il vous faudra valider les premiers niveaux pour accéder à ces ressources)
+
 
 Fiche réalisée par Constance de Quatrebarbes et Romain André-Lovichi (licence CC-BY-SA)
