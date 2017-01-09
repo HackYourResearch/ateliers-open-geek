@@ -33,21 +33,21 @@ Derrière le terme "théorie des graphes", on trouve en fait tout un tas de situ
 
 - Cartes routières
 
-![Cartes routières](https://github.com/HackYourPhd/ateliers-open-geek/blob/AndreLovichi-patch-1/Atelier_09/images/graphe_routes.jpg)
+![Cartes routières](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe_routes.jpg)
 
 - Interactions sociales 
 
-![Interactions sociales](https://github.com/HackYourPhd/ateliers-open-geek/blob/AndreLovichi-patch-1/Atelier_09/images/graphe_social.jpg)
+![Interactions sociales](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe_social.jpg)
 
 - Internet et communication
 
-![Algorithme PageRank](https://github.com/HackYourPhd/ateliers-open-geek/blob/AndreLovichi-patch-1/Atelier_09/images/graphes-internet.png)
+![Algorithme PageRank](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphes-internet.png)
 
 *Image : Felipe Micaroni Lalli, CC-By-SA *
 
 - Réseaux domestiques
 
-![Réseaux domestiques](https://github.com/HackYourPhd/ateliers-open-geek/blob/AndreLovichi-patch-1/Atelier_09/images/graphe_electricite.jpg)
+![Réseaux domestiques](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe_electricite.jpg)
 
 Avec la séance d'aujourd'hui, nous allons essayer de voir comment la théorie des graphes permet de modéliser et d'étudier ces différentes situations.
 
