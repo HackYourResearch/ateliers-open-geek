@@ -96,7 +96,7 @@ Il est important de noter que cette définition ne fait référence à aucune co
 
 Par exemple, les deux représentations ci-dessous correspondent au même graphe : 
 
-TODO image
+![Différentes représentations d'un même graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/representations.jpg)
 
 
 #### Graphes orientés / graphes non orientés
@@ -164,7 +164,7 @@ A propos de sommets et de voisins, livrons nous à un petit exercice.
 
 Imaginons 5 joueurs d’échecs, qui souhaitent organiser un tournoi entre eux. Peut-on trouver une liste de parties telle que chaque joueur affronte exactement 3 joueurs différents ?
 
-TODO Image
+![Un exemple avec des échecs](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/echecs.jpg)
 
 On peut modéliser ce problème avec un graphe défini de la manière suivante :
 
