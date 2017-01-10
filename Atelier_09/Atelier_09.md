@@ -400,9 +400,8 @@ def find_path(g, debut, fin, chemin=[])
   si cible est la même que le sommet courant:
     #on est à la fin !
     retourner le chemin
-  si le graphe a pour sommet le debut:
-    on a pas trouvé de chemin
-    et on évite de boucler à l'infini
+  si le graphe n'a pas pour sommet le debut:
+    il n'y a pas de chemin!
 
   pour chaque voisin du graphe en commencant par le debut:
     si le voisin n'est pas dans le path:
@@ -410,24 +409,42 @@ def find_path(g, debut, fin, chemin=[])
         ajouter le voisin dans le chemin
         continuer à dérouler
   une fois tout les voisins testés si le chemin n'a pas été renvoyé
-  on a pas trouvé!
+  il n'y pas de chemin!
 ```
-
 ![Alors?](https://media1.giphy.com/media/OueJX99V7zWla/200.gif#88)
 
+La [solution](./solution/exo10_a.py) que l'on propose est  implique de tester les chemins un par un, c'est une opération longue et couteuse plus le graphe est grand plus elle est lente à mesure que s'accroît la complexité.
+
 - ensuite d'étendre cette fonction pour stocker tous les chemins possibles de A -> B
-Proposez une solution pour trouver tous les chemins!
+Proposez une solution pour renvoyer tous les chemins de A -> B!
 
-- et enfin de vérifier si le chemin entre A et B existe bien dans le graph
+!(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Don't_Panic.svg/2000px-Don't_Panic.svg.png) Source WikiCommons
+La solution est par [ici](./solutions/ex10_b.py)
 
+Mais **PAS DE PANIQUE!**, `networkx` a implementé une fonction. Si vous avez trouvé vous pouvez vérifier votre résultat et
+appeler la [fonction correspondante](https://networkx.readthedocs.io/en/stable/reference/generated/networkx.algorithms.simple_paths.all_simple_paths.html#networkx.algorithms.simple_paths.all_simple_paths) de networkx pour votre graphe
 
+Sinon vous pouvez toujours utiliser une fonction déjà implementée ;)
+``` python
+#!usr/bin/python3
+import networkx as nx
 
-#algorithme par connexité
-def find_path():
-  # on génére toutes les combinaisons
-  for n in g.neighbors()
-  all_edges = [[node1, node2, bool(node2 in g.neighbors(node1))] \
-                        for node1, node2 in combinations(2, g.nodes())]
+paths = nx.all_simple_paths(g, nodeA, nodeB)
+print(list(paths))
+
+```
+
+- et enfin il s'agit de vérifier si le chemin entre A et B existe bien dans le graph en créant la fonction ```has_path(graph, nodeA, nodeB)```
+
+![](https://media3.giphy.com/media/BBkKEBJkmFbTG/200.gif#91)
+La solution par [ici](./solutions/ex_10_c.py)!
+
+Evidemment, elle existe aussi en networkx
+``` python
+#!usr/bin/python3
+import networkx as nx
+
+print(nx.has_path(graph, nodeA, nodeB))
 
 ```
 
