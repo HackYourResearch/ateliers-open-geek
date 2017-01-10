@@ -175,7 +175,8 @@ plt.show()
     où elles s'y étaient rendues.
     Elles peuvent donc toutes être coupables,
     mais le dispositif ayant provoqué l'explosion
-    avait été dissimulé dans une armure dans la chambre du Duc, et sa pose avait nécessité plus d'une visite. Donc la coupable a menti : elle est venue plusieurs fois.
+    avait été dissimulé dans une armure dans la chambre du Duc, et sa pose avait nécessité plus d'une visite.
+    Donc la coupable a menti : elle est venue plusieurs fois.
     Dans leur déclarations aux enquêteurs:
     Ann dit avoir rencontré Betty, Charlotte, Félicia et Georgia;
     Betty dit avoir rencontré Ann, Charlotte, Edith, Félicia, et Helen ;
