@@ -29,8 +29,8 @@ nx.draw(g, with_labels=True)
 plt.savefig("barbe_bleue.png") # save as png
 # afficher
 plt.show()
-
-# afficher le nombre de sommets
-print(g.nodes())
-#afficher le nombre de connexions
-print(g.edges())
+if __name__ == "__main__":
+    # afficher le nombre de sommets
+    print(g.nodes())
+    #afficher le nombre de connexions
+    print(g.edges())

@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import networkx as nx
 import csv
-
+from ex02 import g as barbe_bleue
+from ex03 import build_graph
 def sont_voisins(g, name1, name2):
     '''est_voisin si le sommet 1 est relié au sommet 2'''
     for edge in g.edges(name1):
@@ -24,6 +25,7 @@ def sont_voisins(g, name1, name2):
     #return bool(name2 in g.neighbors(name1))
 
 if __name__ == "__main__":
-    g = build_graph_from_csv()
-    #exercice 7
+    g = build_graph("miserables.csv")
+    #exercice 9
     sont_voisins(g, "Javert", "Mme.Thenardier")
+    sont_voisins(barbe_bleue, "Charlotte", "Ann")

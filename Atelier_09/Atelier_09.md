@@ -478,6 +478,8 @@ Ce type de parcours s'illustre bien sur un arbre :
 Exercice 11 : Ecrire une fonction qui liste tous les sommets parcourus (parcours en profondeur)
 
 Il s'agit de privilégier le parcours du graph en profondeur
+![](https://giphy.com/gifs/depth-na29Dzuq62f2U) Source: Giphy
+
 Avide d'une [solution](./solution/ex11.py)?
 
 Comme on pouvait s'y attendre, Networkx propose lui aussi une fonction toute faite: apprenez à creuser la documentation après avoir essayé de resoudre le problème par vous même.
@@ -496,7 +498,9 @@ Là encore, Ce type de parcours s'illustre bien sur un arbre :
 
 **Exercice 12** : Ecrire une fonction qui lister tous les sommets parcourus en privilégiant le parcours en largeur
 
+
 Voir la [solution proposée](./solutions/ex12.py)
+
 Et la documentation de networkx aussi!
 Par [ici](http://networkx.readthedocs.io/en/stable/reference/algorithms.traversal.html)
 

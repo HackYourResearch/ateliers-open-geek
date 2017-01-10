@@ -5,7 +5,7 @@ import numpy as np
 import networkx as nx
 import csv
 
-def build_graph(csv_f_name)
+def build_graph(csv_f_name):
     #instancier le graph
     g = nx.Graph()
     with open(csv_f_name) as f:
@@ -22,4 +22,5 @@ def build_graph(csv_f_name)
     plt.show() # afficher
     return g
 
-g = build_graph_from_csv("miserables.csv")
+if __name__ == "__main__":
+    g = build_graph("miserables.csv")
