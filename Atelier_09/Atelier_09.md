@@ -503,7 +503,7 @@ C'est la raison pour laquelle il n'y a pas de solution au problème des sept pon
 
 La plupart des cartes du monde sont faites de telle sorte que deux pays voisins ne sont pas de la même couleur :
 
-![Carte du monde](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/carte-du-monde.jpg)
+![Carte du monde](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/carte.jpg)
 
 Cette propriété, qui n'est pas si triviale, est liée à la **coloration des graphes** : comment affecter une couleur à chacun des sommets d'un graphe, de telle sorte que deux sommets voisins n'aient jamais la même couleur.
 
