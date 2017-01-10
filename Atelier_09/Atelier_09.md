@@ -98,6 +98,18 @@ Par exemple, les deux représentations ci-dessous correspondent au même graphe 
 
 ![Différentes représentations d'un même graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/representations.jpg)
 
+#### Graphes étiquettés
+
+Il arrive souvent qu'on ajoute des étiquettes sur les arêtes d'un graphe : on parle alors de **graphe étiquetté** (ou **graphe pondéré**).
+
+Ces étiquettes permettent en général de qualifier la relation entre les deux sommets :
+- Distance entre deux villes
+- Type de relation entre deux individus
+- Capacité de transfert d'un tuyau reliant deux lieux
+
+![Graphe orienté](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-etiquettes.jpg)
+
+Dans le cadre de cette séance, on commencera par s'intéresser aux graphes non étiquettés, puis nous viendrons aux étiquettes (en particulier pour le calcul du plus court chemin).
 
 #### Graphes orientés / graphes non orientés
 
@@ -427,7 +439,17 @@ Cette famille de graphes a de nombreuses propriétés, notamment en terme de hi�
 
 ### 6. Parcours dans un graphe
 
-#### Parcours en profondeur et parcours en largeur
+Un graphe contient souvent des dizaines, voire même des centaines ou des milliers de noeuds. Il devient alors intéressant d'*explorer* ce graphe.
+
+Il existe différentes approches pour explorer un graphe : on parle souvent de **parcours**. Selon les circonstances, l'objectif pourra être de passer par tous les sommets du graphe, ou plutôt d'atteindre un sommet en particulier.
+
+#### Parcours en profondeur
+
+Un *parcours en profondeur* est une méthode assez "naturelle" de parcours d'un graphe ou d'un arbre : on avance de sommet en sommet, et on continue tant qu'on trouve des sommets qu'on n'a pas encore "visité".
+
+Lorsqu'on arrive à un sommet dont tous les voisins ont déjà été visités, on revient en arrrière jusqu'à l'intersection précédente, et on reprend l'exploration à partir de là.
+
+Ce type de parcours s'illustre bien sur un arbre :
 
 ![Parcours en profondeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-profondeur.png)
 
@@ -435,6 +457,12 @@ Cette famille de graphes a de nombreuses propriétés, notamment en terme de hi�
 
 EXO : Lister tous les sommets parcours (parcours en profondeur)
 
+
+#### Parcours en largeur
+
+Un *parcours en largeur* repose sur une approche très différente : on visite d'abord tous les sommets situés à distance 1 du sommet de départ, puis tous les sommets situés à distance 2, etc.
+
+Là encore, Ce type de parcours s'illustre bien sur un arbre :
 
 ![Parcours en largeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-largeur.png)
 
@@ -445,26 +473,86 @@ EXO : Lister tous les sommets parcourus (parcours en largeur)
 
 #### Calcul du plus court chemin
 
-On parlait de réseau routier au début de ce cours :
+Comme on l'a vu au début de cette séance, les cartes routières sont un exemple simple de graphes faisant partie de notre vie quotidienne. Et quand on parle de carte routière, on se demande généralement quel est le **plus court chemin** entre un point A et un point B.
 
-Dans un graphe
+Et comme vous l'avez sans doute remarqué si vous avez déjà pris le volant, entre les embouteillages, les sens uniques, et les différents types de voies, ce plus court chemin est rarement la ligne droite.
+
+On peut représenter toutes ces contraintes avec un graphe orienté et étiquetté par des temps de trajet :
 
 ![Parcours](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours.png)
 
 *Image : Artyom Kalinin CC-BY-SA*
 
-#### Algorithme de Dijsktra
+L'objectif est alors de trouver dans ce graphe une chaîne partant du sommet de départ et arrivant au sommet d'arrivée, de telle sorte à ce que la somme des étiquettes soit minimale.
+
+Pour calculer ce plus court chemin, on peut notamment utiliser l'**algorithme de Dijsktra**. Vous pourrez en trouver une présentation détaillée ici : https://fr.wikipedia.org/wiki/Algorithme_de_Dijkstra
 
 EXO : Calcul du plus court chemin dans un graphe étiquetté
 
 
 ### 7. Problèmes célèbres sur les graphes (avec des exos à chaque fois)
 
-Graphes planaires
+La théorie des graphes est une domaine vaste, avec des thématiques variées.
 
-Parcours eulériens (fermés, ouverts)
+Voici donc, pour ceux qui voudraient aller un peu plus loin, quelques problèmes célèbres sur les graphes.
 
-Coloration
+#### Graphes planaires
+
+Sur la figure ci-dessous, est-il possible de relier chaque point bleu (en haut) à chaque point (jaune), sans qu'aucun trait n'en croise un autre ?
+
+![K3,3](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/K33.jpg)
+
+Dans le même ordre d'idée, est-il possible de relier chacun des 5 points ci-dessous aux 4 autres, sans qu'aucun trait n'en croise un autre ?
+
+![K5](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/K5.jpg)
+
+Ces deux problèmes sont liés à une famille particulière de graphes : les **graphes planaires**. Un graphe est dit planaire s'il existe une représentation dans le plan de ce graphe telle qu'aucune arête n'en croise une autre. 
+
+Il se trouve que les deux graphes ci-dessus ne sont pas planaires, ce qu'on peut prouver grâce à la théorie des graphes. On peut donc ainsi démontrer qu'il n'y a pas de solution aux deux questions ci-dessus. 
+
+
+#### Parcours eulériens
+
+Vous avez peut-être déjà entendu parler de la ville de Königsberg ? Il s'agissait d'une ville de Prusse (aujourd'hui Kaliningrad), traversée par la rivière.
+
+Cette ville comportait notamment 7 sept ponts, reliant entre eux deux îles et les deux rives de la rivière :
+
+![Les ponts de Königsberg](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/ponts-1.png)
+
+*Image : Bogdan Giuşcă, CC-BY-SA*
+
+Selon vous, un habitant peut-il faire un trajet dans la ville en passant exactement une fois par chacun des ponts (sans traverser à la nage ;) ) ?
+
+
+Dans le même ordre d'idée (même si ce n'est pas évident a priori), pensez-vous pouvoir tracer le dessin ci-dessous sans lever votre stylo (et sans repasser deux fois par le même trait) ? Et en revenant à votre point de départ ?
+
+![Sans lever le stylo ?](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/enveloppe-1.jpg)
+
+
+Ces deux questions sont en fait liéés à la notion de **parcours eulérien** dans un graphe, c'est à dire un cycle passant exactement une fois par chacune des arêtes.
+
+Voici les graphes correspondants à ces deux situations :
+
+![Les ponts de Königsberg - Version graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/ponts-2.jpg)
+
+![Sans lever le stylo ? - Version graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/enveloppe-2.jpg)
+
+Le théorème d'Euler nous indique qu'un graphe connexe admet un parcours eulérien si et seulement si tous ses sommets sont de degré pair.
+
+Si on s'autorise à avoir une chaîne plutôt qu'un cycle (le sommet de départ et le sommet d'arrivée ne sont pas forcément identiques), on peut avoir deux sommets de degré impair.
+
+C'est la raison pour laquelle il n'y a pas de solution au problème des sept ponts de Königsberg, et pour laquelle on peut tracer une enveloppe sans lever son stylo, mais pas en revenant à son point de départ.
+
+
+#### Coloration
+
+La plupart des cartes du monde sont faites de telle sorte que deux pays voisins ne sont pas de la même couleur :
+
+![Carte du monde](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/carte.jpg)
+
+Cette propriété, qui n'est pas si triviale, est liée à la **coloration des graphes** : comment affecter une couleur à chacun des sommets d'un graphe, de telle sorte que deux sommets voisins n'aient jamais la même couleur.
+
+![Coloration de graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/coloration.png)
 
 
 ### 8. Quelques exemples concrets de l'utilisation des graphes sur des sujets de recherche
