@@ -598,9 +598,31 @@ Cette propriété, qui n'est pas si triviale, est liée à la **coloration des g
 
 
 
-### 8. Quelques exemples concrets de l'utilisation des graphes au quotidien
+### 8. Quelques exemples concrets de l'utilisation des graphes au quotidien et en recherche
 
-http://data.bnf.fr/semanticweb
+* Pour se retrouver dans le seigneur des anneaux
+[Lord of the Ring Project](http://lotrproject.com/)
+Et ces visualisations (https://flowingdata.com/2012/10/24/lord-of-the-rings-visualized/)
+
+* Détecter les influençeurs d'un réseau
+
+* Comprendre le système de société écran et de prête-nom des paradis fiscaux
+(http://www.degeneratestate.org/posts/2016/Jun/30/exploring-the-panama-papers-network/)
+
+* Cartographier les échanges d'idées entre philosophes au siècle des Lumières
+(http://republicofletters.stanford.edu/)
+
+* Analyser la teneur d'un vote et les jeux de lobby pour un vote consultatif
+(https://github.com/c24b/openscience4S/blob/master/Cartographie%20des%20comportements%20des%20electeurs.ipynb)
+
+* Faire un état de l'art de la recherche scientifique et voir les réseaux d'acteurs et d'influence
+(http://gargantext.org)
+
+* Cartographier les réseaux sociaux sémantiques sur une controverse technique
+(http://cortext.org)
+
+* Faire des recherches précises sur un sujet donné
+(http://data.bnf.fr/semanticweb)
 
 
 ### 9. Des questions : que faire ?
@@ -611,7 +633,8 @@ http://data.bnf.fr/semanticweb
 
 
 ### 10. Ressources supplémentaires
-
+- Python-course : Reprendre ce tutoriel autrement
+http://www.python-course.eu/networkx.php
 - France IOI - Chapitres sur les graphes et les arbres : http://www.france-ioi.org/algo/chapters.php (attention, il vous faudra valider les premiers niveaux pour accéder à ces ressources)
 
 #### Pour aller encore plus loin:
