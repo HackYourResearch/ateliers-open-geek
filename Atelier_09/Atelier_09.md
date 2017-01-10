@@ -178,18 +178,29 @@ plt.show()
     avait été dissimulé dans une armure dans la chambre du Duc, et sa pose avait nécessité plus d'une visite.
     Donc la coupable a menti : elle est venue plusieurs fois.
     Dans leur déclarations aux enquêteurs:
+
     Ann dit avoir rencontré Betty, Charlotte, Félicia et Georgia;
+
     Betty dit avoir rencontré Ann, Charlotte, Edith, Félicia, et Helen ;
-    Charlotte dit avoir rencontré Ann, Betty et Edith ; Edith dit avoir rencontré Betty, Charlotte et Félicia;
+
+    Charlotte dit avoir rencontré Ann, Betty et Edith ;
+
+    Edith dit avoir rencontré Betty, Charlotte et Félicia;
+
     Félicia dit avoir rencontré Ann, Betty, Edith et Helen;
+
     Georgia dit avoir rencontré Ann et Helen ;
+
     Helen dit avoir rencontré Betty, Félicia et Georgia.
 
-    Créer le graphe de relations entretenues entre les sept ex-femmes. Et trouvez la coupable!
+    Créer le graphe de relations entretenues entre les sept ex-femmes.
+    Nous verrons au cours de ce tutoriel comment trouver la coupable dans les exercices suivants
 
 - Lister les sommets
 - Lister les liens entre eux
 - Afficher le graphe
+
+**Exercice 03**: Créer une fonction build_graph(csv_f_name) qui à partir d'un fichier CSV renvoie un graph
 
 
 ### 4. Notions de voisinages
@@ -206,10 +217,18 @@ Un sommet de degré 0 (sans aucun voisin) est appelé sommet **isolé**.
 
 ![Voisins](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-2.jpg)
 
-EXO : Afficher le degré d'un sommet
+**Exercice 04**:  Créer une *fonction*  qui, à partir d'un graphe et d'un nom de sommet,
+donne l'ordre de ce sommet `get_order(graph, "Edith")`
+Testez-la sur les deux graphes à votre disposition
+=> Astuce: importer le graph "barbe_bleue" à partir de votre fichier d'exercice
+ex02.py
+`from ex02 import g as graph_barbe_bleue`
 
-EXO : Afficher la liste des voisins d'un sommet
+=> Astuce: importer la fonction "build_graph()" depuis votre fichier d'exercice ex03.py
+`from ex03 import build_graph`
 
+**Exercice 05**: Créer une fonction 'get_neighbours(graph, "Mme.Thenardier") qui à partir d'un graphe et d'un sommet afficher la liste des voisins de ce sommet
+Testez-la sur les deux graphes à votre disposition
 
 #### Somme des degrés dans un graphe
 
@@ -223,6 +242,8 @@ On peut modéliser ce problème avec un graphe défini de la manière suivante :
 - Chaque sommet représente un joueur
 - Chaque arête représente un match entre deux joueurs.
 
+**Exercice 05A**: construire le graphe de ce tournoi
+
 Parvenez-vous à dessiner un tel graphe ?
 
 ![Un exemple avec des échecs](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/echecs.jpg)
@@ -233,7 +254,7 @@ Pour s’en convaincre, il suffit de remarquer que chaque arête relie entre eux
 
 Il existe de nombreuses propriétés qui lient les différents composants d’un graphe : l’idée de cette séance n'est pas de vous en présenter un maximum, mais sachez que de nombreux chercheurs y consacrent encore leurs journées !
 
-EXO : Calculer la somme des degré des sommets dans un graphe
+**Exercice 06**: Créer une fonction get_graph_order() qui à partir d'un graphe renvoie la somme des degré des sommets de ce graphe
 
 
 #### Structures de données pour représenter un graphe
