@@ -447,11 +447,52 @@ EXO : Calcul du plus court chemin dans un graphe étiquetté
 
 ### 7. Problèmes célèbres sur les graphes (avec des exos à chaque fois)
 
+La théorie des graphes est une domaine vaste, avec des thématiques variées.
+
+Voici donc, pour ceux qui voudraient aller un peu plus loin, quelques problèmes célèbres sur les graphes.
+
+#### Parcours eulériens
+
+Vous avez peut-être déjà entendu parler de la ville de Königsberg ? Il s'agissait d'une ville de Prusse (aujourd'hui Kaliningrad), traversée par la rivière.
+
+Cette ville comportait notamment 7 sept ponts, reliant entre eux deux îles et les deux rives de la rivière :
+
+![Les ponts de Königsberg](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/ponts-1.png)
+
+*Image : Bogdan Giuşcă, CC-BY-SA*
+
+Selon vous, un habitant peut-il faire un trajet dans la ville en passant exactement une fois par chacun des ponts (sans traverser à la nage ;) ) ?
+
+
+Dans le même ordre d'idée (même si ce n'est pas évident a priori), pensez-vous pouvoir tracer le dessin ci-dessous sans lever votre stylo (et sans repasser deux fois par le même trait) ? Et en revenant à votre point de départ ?
+
+![Sans lever le stylo ?](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/enveloppe-1.jpg)
+
+
+Ces deux questions sont en fait liéés à la notion de **parcours eulérien** dans un graphe, c'est à dire un cycle passant exactement une fois par chacune des arêtes.
+
+Voici les graphes correspondants à ces deux situations :
+
+![Les ponts de Königsberg - Version graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/ponts-2.jpg)
+
+![Sans lever le stylo ? - Version graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/enveloppe-2.jpg)
+
+Le théorème d'Euler nous indique qu'un graphe connexe admet un parcours eulérien si et seulement si tous ses sommets sont de degré pair.
+
+Si on s'autorise à avoir une chaîne plutôt qu'un cycle (le sommet de départ et le sommet d'arrivée ne sont pas forcément identiques), on peut avoir deux sommets de degré impair.
+
+C'est la raison pour laquelle il n'y a pas de solution au problème des sept ponts de Königsberg, et pour laquelle on peut tracer une enveloppe sans lever son stylo, mais pas en revenant à son point de départ.
+
 Graphes planaires
 
-Parcours eulériens (fermés, ouverts)
+![K3,3](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/K33.jpg)
+
+![K5](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/K5.jpg)
+
 
 Coloration
+
+![Coloration de graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/coloration.png)
 
 
 ### 8. Quelques exemples concrets de l'utilisation des graphes sur des sujets de recherche
