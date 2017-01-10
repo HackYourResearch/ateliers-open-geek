@@ -451,6 +451,21 @@ La théorie des graphes est une domaine vaste, avec des thématiques variées.
 
 Voici donc, pour ceux qui voudraient aller un peu plus loin, quelques problèmes célèbres sur les graphes.
 
+#### Graphes planaires
+
+Sur la figure ci-dessous, est-il possible de relier chaque point bleu (en haut) à chaque point (jaune), sans qu'aucun trait n'en croise un autre ?
+
+![K3,3](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/K33.jpg)
+
+Dans le même ordre d'idée, est-il possible de relier chacun des 5 points ci-dessous aux 4 autres, sans qu'aucun trait n'en croise un autre ?
+
+![K5](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/K5.jpg)
+
+Ces deux problèmes sont liés à une famille particulière de graphes : les **graphes planaires**. Un graphe est dit planaire s'il existe une représentation dans le plan de ce graphe telle qu'aucune arête n'en croise une autre. 
+
+Il se trouve que les deux graphes ci-dessus ne sont pas planaires, ce qu'on peut prouver grâce à la théorie des graphes. On peut donc ainsi démontrer qu'il n'y a pas de solution aux deux questions ci-dessus. 
+
+
 #### Parcours eulériens
 
 Vous avez peut-être déjà entendu parler de la ville de Königsberg ? Il s'agissait d'une ville de Prusse (aujourd'hui Kaliningrad), traversée par la rivière.
@@ -483,14 +498,14 @@ Si on s'autorise à avoir une chaîne plutôt qu'un cycle (le sommet de départ 
 
 C'est la raison pour laquelle il n'y a pas de solution au problème des sept ponts de Königsberg, et pour laquelle on peut tracer une enveloppe sans lever son stylo, mais pas en revenant à son point de départ.
 
-Graphes planaires
 
-![K3,3](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/K33.jpg)
+#### Coloration
 
-![K5](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/K5.jpg)
+La plupart des cartes du monde sont faites de telle sorte que deux pays voisins ne sont pas de la même couleur :
 
+![Carte du monde](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/carte-du-monde.jpg)
 
-Coloration
+Cette propriété, qui n'est pas si triviale, est liée à la **coloration des graphes** : comment affecter une couleur à chacun des sommets d'un graphe, de telle sorte que deux sommets voisins n'aient jamais la même couleur.
 
 ![Coloration de graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/coloration.png)
 
