@@ -243,7 +243,8 @@ On peut modéliser ce problème avec un graphe défini de la manière suivante :
 - Chaque sommet représente un joueur
 - Chaque arête représente un match entre deux joueurs.
 
-**Exercice 05A**: construire le graphe de ce tournoi
+**Exercice 05A**: construire le graphe de ce tournoi.
+Que se passe-t-il?
 
 Parvenez-vous à dessiner un tel graphe ?
 
@@ -271,10 +272,52 @@ Pour les aretes, on retrouve notamment les deux approches suivantes :
 
 La première approche sera par exemple intéressante dans le cas d'un graphe contenant peu d'arêtes (on parle de graph peu *dense*, ou de graphe *creux*).
 
-EXO : Passer d'une représentation en listes à une représentation matricielle
+Très peu de langage de programmation supporte nativement le graphe comme type de données
+et Python ne fait pas exception. C'est pour cela que nous avons chargé le module complémentaire networkx.
 
-EXO : Passer d'une représentation matricielle à une représentation en listes
+Essayons de voir dans un premier temps à partir de l'un de nos graphes précédents comment afficher pour chaque noeud la liste de ses voisins: l'implémentation classique par liste de voisinage correspond à celle-ci
+```
+graph_dict = {'A': ['B', 'C'],
+            'B': ['C', 'D'],
+            'C': ['D'],
+            'D': ['C'],
+            'E': ['F'],
+            'F': ['C']}
+```
+soit un dictionnaire qui a pour clé un sommet et pour valeur une liste de sommets auxquels il est reliés
 
+De la même manière une matrice représentant un graph s'apparente à cette structure:
+```
+graph_matrix = [['A','B',1], ['A','C', 1],['F', 'A', 0], ...]
+
+```
+
+**Exercice 07** : Ecrire un script qui pour un graph donné renvoie un dictionnaire ou à chaque sommet correspond la liste des sommets auquel il est relié
+```
+def build_graph_dict(g):
+'''transformer un graphe en un dictionnaire de listes'''
+  graph = {}
+  for node in g.nodes():
+    ...
+  return graph
+```
+
+** Exercice 08 **: Ecrire un script qui pour un graph donné renvoie une matrice: soit toutes les arêtes possibles et si les sommets sont reliés ou non (0: pas reliés, 1: relié)
+
+```
+#importons la librairie
+# qui nous permet de lister toutes les combinaisons possibles de somments
+from itertools import combinations
+def build_graph_mx(g):
+'''transformer un graphe en une listes de liste'''
+  graph = []
+  all_edges = [[node1, node2] for node1, node2 in combinations(2, g.nodes())]
+  for combo in all_edges:
+
+    ...
+  return graph
+```
+** Exercice 09**:
 
 ### 5. Composantes connexes
 
