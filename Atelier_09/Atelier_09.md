@@ -157,6 +157,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 #pour le réseau
 import networkx as nx
+%matplotlib inline
 
 #instancier le graph
 g = nx.Graph()
