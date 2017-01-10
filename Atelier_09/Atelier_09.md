@@ -421,7 +421,7 @@ Proposez une solution pour renvoyer tous les chemins de A -> B!
 !(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Don't_Panic.svg/2000px-Don't_Panic.svg.png) Source WikiCommons
 La solution est par [ici](./solutions/ex10_b.py)
 
-Mais **PAS DE PANIQUE!**, `networkx` a implementé une fonction. Si vous avez trouvé vous pouvez vérifier votre résultat et
+IL existe encore  une **grosse** astuce, `networkx` a implementé une fonction. Si vous avez trouvé vous pouvez vérifier votre résultat et
 appeler la [fonction correspondante](https://networkx.readthedocs.io/en/stable/reference/generated/networkx.algorithms.simple_paths.all_simple_paths.html#networkx.algorithms.simple_paths.all_simple_paths) de networkx pour votre graphe
 
 Sinon vous pouvez toujours utiliser une fonction déjà implementée ;)
