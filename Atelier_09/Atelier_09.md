@@ -304,6 +304,7 @@ def build_graph_dict(g):
 
 ** Exercice 08 **: Ecrire un script qui pour un graph donné renvoie une matrice: soit toutes les arêtes possibles et si les sommets sont reliés ou non (0: pas reliés, 1: relié)
 
+
 ```
 #importons la librairie
 # qui nous permet de lister toutes les combinaisons possibles de somments
@@ -317,6 +318,7 @@ def build_graph_mx(g):
     ...
   return graph
 ```
+
 ** Exercice 09**:
 
 ### 5. Composantes connexes
