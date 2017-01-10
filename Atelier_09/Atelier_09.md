@@ -98,6 +98,18 @@ Par exemple, les deux représentations ci-dessous correspondent au même graphe 
 
 ![Différentes représentations d'un même graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/representations.jpg)
 
+#### Graphes étiquettés
+
+Il arrive souvent qu'on ajoute des étiquettes sur les arêtes d'un graphe : on parle alors de **graphe étiquetté** (ou **graphe pondéré**).
+
+Ces étiquettes permettent en général de qualifier la relation entre les deux sommets :
+- Distance entre deux villes
+- Type de relation entre deux individus
+- Capacité de transfert d'un tuyau reliant deux lieux
+
+![Graphe orienté](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe-etiquettes.jpg)
+
+Dans le cadre de cette séance, on commencera par s'intéresser aux graphes non étiquettés, puis nous viendrons aux étiquettes (en particulier pour le calcul du plus court chemin).
 
 #### Graphes orientés / graphes non orientés
 
@@ -382,7 +394,17 @@ Cette famille de graphes a de nombreuses propriétés, notamment en terme de hi�
 
 ### 6. Parcours dans un graphe
 
-#### Parcours en profondeur et parcours en largeur
+Un graphe contient souvent des dizaines, voire même des centaines ou des milliers de noeuds. Il devient alors intéressant d'*explorer* ce graphe.
+
+Il existe différentes approches pour explorer un graphe : on parle souvent de **parcours**. Selon les circonstances, l'objectif pourra être de passer par tous les sommets du graphe, ou plutôt d'atteindre un sommet en particulier.
+
+#### Parcours en profondeur
+
+Un *parcours en profondeur* est une méthode assez "naturelle" de parcours d'un graphe ou d'un arbre : on avance de sommet en sommet, et on continue tant qu'on trouve des sommets qu'on n'a pas encore "visité".
+
+Lorsqu'on arrive à un sommet dont tous les voisins ont déjà été visités, on revient en arrrière jusqu'à l'intersection précédente, et on reprend l'exploration à partir de là.
+
+Ce type de parcours s'illustre bien sur un arbre :
 
 ![Parcours en profondeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-profondeur.png)
 
@@ -390,6 +412,12 @@ Cette famille de graphes a de nombreuses propriétés, notamment en terme de hi�
 
 EXO : Lister tous les sommets parcours (parcours en profondeur)
 
+
+#### Parcours en largeur
+
+Un *parcours en largeur* repose sur une approche très différente : on visite d'abord tous les sommets situés à distance 1 du sommet de départ, puis tous les sommets situés à distance 2, etc.
+
+Là encore, Ce type de parcours s'illustre bien sur un arbre :
 
 ![Parcours en largeur](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours-largeur.png)
 
@@ -400,15 +428,19 @@ EXO : Lister tous les sommets parcourus (parcours en largeur)
 
 #### Calcul du plus court chemin
 
-On parlait de réseau routier au début de ce cours :
+Comme on l'a vu au début de cette séance, les cartes routières sont un exemple simple de graphes faisant partie de notre vie quotidienne. Et quand on parle de carte routière, on se demande généralement quel est le **plus court chemin** entre un point A et un point B.
 
-Dans un graphe
+Et comme vous l'avez sans doute remarqué si vous avez déjà pris le volant, entre les embouteillages, les sens uniques, et les différents types de voies, ce plus court chemin est rarement la ligne droite.
+
+On peut représenter toutes ces contraintes avec un graphe orienté et étiquetté par des temps de trajet :
 
 ![Parcours](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours.png)
 
 *Image : Artyom Kalinin CC-BY-SA*
 
-#### Algorithme de Dijsktra
+L'objectif est alors de trouver dans ce graphe une chaîne partant du sommet de départ et arrivant au sommet d'arrivée, de telle sorte à ce que la somme des étiquettes soit minimale.
+
+Pour calculer ce plus court chemin, on peut notamment utiliser l'**algorithme de Dijsktra**. Vous pourrez en trouver une présentation détaillée ici : https://fr.wikipedia.org/wiki/Algorithme_de_Dijkstra
 
 EXO : Calcul du plus court chemin dans un graphe étiquetté
 
