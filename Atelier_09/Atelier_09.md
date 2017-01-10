@@ -1,6 +1,6 @@
 # Atelier #09 :  Graphes et réseaux, principes de base
 
-*Internet, réseaux sociaux, cartes routières, infrastructures réseau, cartographies... les graphes sont partout autour de nous, et font partie de notre quotidien. Mais c’est quoi, un graphe ?* 
+*Internet, réseaux sociaux, cartes routières, infrastructures réseau, cartographies... les graphes sont partout autour de nous, et font partie de notre quotidien. Mais c’est quoi, un graphe ?*
 
 *Avec ce cours, découvrez les bases de la théorie des graphes et ses applications !*
 
@@ -21,7 +21,7 @@ Pour les participants les plus avancés, plusieurs **exercices** sur différents
 
 - Mardi 10 janvier de 19h30 à 22h30 à La Paillasse (Paris)
 
-- Formateurs : Constance de Quatrebarbes & Romain André-Lovichi
+- Formateurs : Romain André-Lovichi & Constance de Quatrebarbes
 
 ## Points abordés lors de l'atelier
 
@@ -35,7 +35,7 @@ Derrière le terme "théorie des graphes", on trouve en fait tout un tas de situ
 
 ![Cartes routières](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe_routes.jpg)
 
-- Interactions sociales 
+- Interactions sociales
 
 ![Interactions sociales](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/graphe_social.jpg)
 
@@ -61,7 +61,7 @@ En observant les différentes situations précédentes, on peut commencer à esq
 - des **points**
   - souvent associés à un libellé
   - parfois coloriés
-  
+
 - des **lignes**
   - pas toujours droites
   - avec parfois un libellé
@@ -72,7 +72,7 @@ En observant les différentes situations précédentes, on peut commencer à esq
 
 Un graphe est défini par deux ensembles
 
-- Un ensemble de **sommets** ***X*** 
+- Un ensemble de **sommets** ***X***
 Exemple : *X = {x, y, z}*
 
 - Un ensemble d'**arêtes** ***E***, constitué de paires d'éléments de ***X***
@@ -94,7 +94,7 @@ Le **voisinage** d'un sommet est l'ensemble de ses voisins
 
 Il est important de noter que cette définition ne fait référence à aucune coordonnée spatiale. Il existe donc de multiples représentations d’un même graphe.
 
-Par exemple, les deux représentations ci-dessous correspondent au même graphe : 
+Par exemple, les deux représentations ci-dessous correspondent au même graphe :
 
 ![Différentes représentations d'un même graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/representations.jpg)
 
@@ -130,20 +130,67 @@ Dans le cadre de cet atelier, on ne travaillera donc qu'avec des **graphes simpl
 
 Bibliothèques utilisées : numpy, networkx, matplotlib
 
-EXO : Importer les bibliothèques (et vérifier que ça marche)
+**Préliminaires** : [Installer et importer les bibliothèques dans un script](./solutions/install.md):
 
-Premiers exo
+voir les [instructions](./solutions/install.md)
 
-EXO : Recopier un bout de code pour afficher un graphe
+**Exercice 01**: Recopier [cet exemple](./solutions/exo1.py) pour afficher un graphe
 
-EXO : Créer un graphe à partir d'un court énoncé, qui liste les sommets (ex : personnages), et les liens entre eux (ex : X connait Y, etc.)
+```python
+#!usr/bin/python3
+#importer les libraires
+#pour afficher
+import matplotlib.pyplot as plt
+#pour le calcul
+import numpy as np
+#pour le réseau
+import networkx as nx
+
+#instancier le graph
+g = nx.Graph()
+#ajouter un noeud
+#g.add_node("paul")
+#ajouter une liste de noeud
+g.add_nodes_from(["Turgot", "Hume", "Diderot", "D'Alembert", "Rousseau"])
+#ajouter un lien
+#g.add_edge(["Diderot", "D'Alembert"])
+#ajouter une liste de liens
+g.add_edges_from([("Diderot", "D'Alembert"), ("Turgot", "Hume"),("Rousseau", "D'Alembert"), ("D'Alembert", "Hume"),("Rousseau", "Diderot")])
+# dessiner le graph en affichant les labels des noeuds
+nx.draw(g, with_labels=True)
+# enregistrer l'image comme png
+plt.savefig("graphe_philosophes.png") # save as png
+# afficher
+plt.show()
+```
+
+**Exercice 02**: Construire un graphe à partir de cet énoncé:
+
+    Dans les années 1830, le Duc de Densmore
+    (aussi surnommé Barbe Bleue pour son exceptionnel capacité à se remarier)
+    périt dans l'explosion qui détruisit son château.
+    Son testament fut détruit ; or celui-ci avait tout pour déplaire à l'une de ses sept ex-femmes.
+
+    Peu avant le crime, elles étaient toutes venues au château et elles jurèrent que ce fut la seule fois
+    où elles s'y étaient rendues.
+    Elles peuvent donc toutes être coupables, mais le dispositif ayant provoqué l'explosion avait été dissimulé dans une armure dans la chambre du Duc, et sa pose avait nécessité plus d'une visite. Donc la coupable a menti : elle est venue plusieurs fois.
+
+    Ann dit avoir rencontré Betty, Charlotte, Félicia et Georgia;
+    Betty dit avoir rencontré Ann, Charlotte, Edith, Félicia, et Helen ; Charlotte dit avoir rencontré Ann, Betty et Edith ; Edith dit avoir rencontré Betty, Charlotte et Félicia ; Félicia dit avoir rencontré Ann, Betty, Edith et Helen ; Georgia dit avoir rencontré Ann et Helen ;
+    Helen dit avoir rencontré Betty, Félicia et Georgia.
+
+    Créer le graphe de relations entretenues entre les sept ex-femmes. Et trouvez la coupable!
+
+- Lister les sommets
+- Lister les liens entre eux
+- Afficher le graphe
 
 
 ### 4. Notions de voisinages
 
 #### Voisins et degrés
 
-Le **degré** d'un sommet est : 
+Le **degré** d'un sommet est :
 
 - le nombre d'arêtes partant de ce sommet
 - le nombre de voisins de ce sommet
@@ -178,7 +225,7 @@ Non ? C’est normal : cette construction est impossible. En effet, dans un grap
 
 Pour s’en convaincre, il suffit de remarquer que chaque arête relie entre eux deux sommets : par conséquent, pour chaque arête, cette somme des degrés des sommets augmente de 2.
 
-Il existe de nombreuses propriétés qui lient les différents composants d’un graphe : l’idée de cette séance n'est pas de vous en présenter un maximum, mais sachez que de nombreux chercheurs y consacrent encore leurs journées ! 
+Il existe de nombreuses propriétés qui lient les différents composants d’un graphe : l’idée de cette séance n'est pas de vous en présenter un maximum, mais sachez que de nombreux chercheurs y consacrent encore leurs journées !
 
 EXO : Calculer la somme des degré des sommets dans un graphe
 
@@ -250,7 +297,7 @@ Une **composante connexe** d'un graphe est une sous-partie connexe maximale de c
 EXO : Tester si deux sommets sont voisins
 
 EXO : Tester si deux sommets appartiennent à la même composantes connexe (avec peut-être des indications/indices sur comment le faire ?)
- 
+
 
 #### Arbres
 
@@ -277,13 +324,13 @@ EXO : Lister tous les sommets parcours (parcours en profondeur)
 *Image : Alexander Drichel CC-BY-SA*
 
 EXO : Lister tous les sommets parcourus (parcours en largeur)
- 
+
 
 #### Calcul du plus court chemin
 
 On parlait de réseau routier au début de ce cours :
 
-Dans un graphe 
+Dans un graphe
 
 ![Parcours](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/parcours.png)
 
@@ -305,6 +352,7 @@ Coloration
 
 ### 8. Quelques exemples concrets de l'utilisation des graphes sur des sujets de recherche
 
+http://data.bnf.fr/semanticweb
 
 
 ### 9. Des questions : que faire ?
