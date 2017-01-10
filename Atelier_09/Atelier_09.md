@@ -200,7 +200,8 @@ plt.show()
 - Lister les liens entre eux
 - Afficher le graphe
 
-**Exercice 03**: Créer une fonction build_graph(csv_f_name) qui à partir d'un fichier CSV renvoie un graph
+**Exercice 03**: Créer une fonction build_graph(csv_f_name) qui à partir d'un fichier CSV renvoie un graph. Utiliser le fichier (./miserable.csv) pour construire le graphe des relations entre les personnages. Le fichier est structuré comme suit:
+Nom1, Nom2, Nombre d'apparitions conjointes, XXX
 
 
 ### 4. Notions de voisinages
