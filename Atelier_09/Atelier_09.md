@@ -341,6 +341,7 @@ Le graphe ci-dessous représente un ensemble d'individus :
 
 - Chaque sommet représente un individu
 - Si deux sommets sont reliés par une arête, les deux personnes se connaissent
+elles sont donc voisines
 
 ![Connexité](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/connexite.png)
 
@@ -366,10 +367,54 @@ Une **composante connexe** d'un graphe est une sous-partie connexe maximale de c
 - Tel que ce sous-ensemble soit connexe : pour tout couple de sommet de ce sous-ensemble, il existe une chaîne entre ces deux sommets
 - Tel qu'il ne soit pas possible d'ajouter un sommet à ce sous-ensemble tout en conservant cette connexité
 
-EXO : Tester si deux sommets sont voisins
+Exercice 09: Créez une fonction qui renvoie `True` si les deux sommets sont voisins et `False` dans le cas contraire
 
-EXO : Tester si deux sommets appartiennent à la même composantes connexe (avec peut-être des indications/indices sur comment le faire ?)
 
+**Exercice 10**: Ecrire une fonction qui renvoie `True` si deux sommets appartiennent à la même composante connexe et `False` dans le cas contraire.
+
+Explications: Ici on nous demande d'écrire une fonction qui vérifie qu'un chemin quelconque relie les deux sommets en effectuant un trajet du point A au point B qui ne doit passer repasser par le même sommet. Pour se faire, il s'agit d'implémenter:
+
+- tout d'abord une fonction `find_path` qui propose un chemin possible d'un point A à un point B par voisinage.
+Attention cet algorithme ne propose qu'un seul chemin: les résultats vont donc être aléatoires et différents à chaque appel!
+Pourquoi? Parce que l'algorithme va commencer par un voisin de manière aléatoire.
+
+![A vos neurones!](https://media3.giphy.com/media/aji7IPRbkeExO/200.gif#33) via GIPHY :(
+
+``` Un peu d'aide?
+# pseudocode par voisinage pour un seul chemin
+def find_path(g, debut, fin, chemin=[])
+  on ajoute le début au chemin
+  si cible est la même que le sommet courant:
+    #on est à la fin !
+    retourner le chemin
+  si le graphe a pour sommet le debut:
+    on a pas trouvé de chemin
+    et on évite de boucler à l'infini
+
+  pour chaque voisin du graphe en commencant par le debut:
+    si le voisin n'est pas dans le path:
+      et si  le voisin n'est pas la cible
+        ajouter le voisin dans le chemin
+        continuer à dérouler
+  une fois tout les voisins testés si le chemin n'a pas été renvoyé
+  on a pas trouvé!
+```
+![Alors?](https://media1.giphy.com/media/OueJX99V7zWla/200.gif#88)
+
+- ensuite d'étendre cette fonction pour stocker tous les chemins possibles de A -> B
+Proposez une solution pour trouver tous les chemins!
+
+- et enfin
+
+
+#algorithme par connexité
+def find_path():
+  # on génére toutes les combinaisons
+  for n in g.neighbors()
+  all_edges = [[node1, node2, bool(node2 in g.neighbors(node1))] \
+                        for node1, node2 in combinations(2, g.nodes())]
+
+```
 
 #### Arbres
 
