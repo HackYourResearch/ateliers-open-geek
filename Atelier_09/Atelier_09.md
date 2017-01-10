@@ -379,7 +379,7 @@ Une **composante connexe** d'un graphe est une sous-partie connexe maximale de c
 - Tel que ce sous-ensemble soit connexe : pour tout couple de sommet de ce sous-ensemble, il existe une chaîne entre ces deux sommets
 - Tel qu'il ne soit pas possible d'ajouter un sommet à ce sous-ensemble tout en conservant cette connexité
 
-Exercice 09: Créez une fonction qui renvoie `True` si les deux sommets sont voisins et `False` dans le cas contraire
+**Exercice 09**: Créez une fonction qui renvoie `True` si les deux sommets sont voisins et `False` dans le cas contraire
 
 
 **Exercice 10**: Ecrire une fonction qui renvoie `True` si deux sommets appartiennent à la même composante connexe et `False` dans le cas contraire.
@@ -418,7 +418,7 @@ La [solution](./solution/exo10_a.py) que l'on propose est  implique de tester le
 - ensuite d'étendre cette fonction pour stocker tous les chemins possibles de A -> B
 Proposez une solution pour renvoyer tous les chemins de A -> B!
 
-!(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Don't_Panic.svg/2000px-Don't_Panic.svg.png) Source WikiCommons
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Don't_Panic.svg/2000px-Don't_Panic.svg.png) Source WikiCommons
 La solution est par [ici](./solutions/ex10_b.py)
 
 IL existe encore  une **grosse** astuce, `networkx` a implementé une fonction. Si vous avez trouvé vous pouvez vérifier votre résultat et
@@ -475,7 +475,13 @@ Ce type de parcours s'illustre bien sur un arbre :
 
 *Image : Alexander Drichel CC-BY-SA*
 
-EXO : Lister tous les sommets parcours (parcours en profondeur)
+Exercice 11 : Ecrire une fonction qui liste tous les sommets parcourus (parcours en profondeur)
+
+Il s'agit de privilégier le parcours du graph en profondeur
+Avide d'une [solution](./solution/ex11.py)?
+
+Comme on pouvait s'y attendre, Networkx propose lui aussi une fonction toute faite: apprenez à creuser la documentation après avoir essayé de resoudre le problème par vous même.
+La documentation est par [ici](http://networkx.readthedocs.io/en/stable/reference/algorithms.traversal.html)
 
 
 #### Parcours en largeur
@@ -488,8 +494,11 @@ Là encore, Ce type de parcours s'illustre bien sur un arbre :
 
 *Image : Alexander Drichel CC-BY-SA*
 
-EXO : Lister tous les sommets parcourus (parcours en largeur)
+**Exercice 12** : Ecrire une fonction qui lister tous les sommets parcourus en privilégiant le parcours en largeur
 
+Voir la [solution proposée](./solutions/ex12.py)
+Et la documentation de networkx aussi!
+Par [ici](http://networkx.readthedocs.io/en/stable/reference/algorithms.traversal.html)
 
 #### Calcul du plus court chemin
 
@@ -507,7 +516,15 @@ L'objectif est alors de trouver dans ce graphe une chaîne partant du sommet de 
 
 Pour calculer ce plus court chemin, on peut notamment utiliser l'**algorithme de Dijsktra**. Vous pourrez en trouver une présentation détaillée ici : https://fr.wikipedia.org/wiki/Algorithme_de_Dijkstra
 
-EXO : Calcul du plus court chemin dans un graphe étiquetté
+Exercice 13 : Proposer un algorithme en python qui renvoie le plus court chemin dans un graphe étiqueté
+
+![](https://media2.giphy.com/media/N7e4sOXG9qNoI/200w.gif#0) Source: Giphy
+
+La solution [ici](./solutions/ex13.py)
+Encore une fois, d'autres se sont penchés sur le problème et networkx une fois encore a la solution pour vous
+à trouver dans la [documentation](
+http://networkx.readthedocs.io/en/stable/reference/algorithms.shortest_paths.html)
+
 
 
 ### 7. Problèmes célèbres sur les graphes (avec des exos à chaque fois)
@@ -549,7 +566,7 @@ Dans le même ordre d'idée (même si ce n'est pas évident a priori), pensez-vo
 ![Sans lever le stylo ?](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/enveloppe-1.jpg)
 
 
-Ces deux questions sont en fait liéés à la notion de **parcours eulérien** dans un graphe, c'est à dire un cycle passant exactement une fois par chacune des arêtes.
+Ces deux questions sont en fait liées à la notion de **parcours eulérien** dans un graphe, c'est à dire un cycle passant exactement une fois par chacune des arêtes.
 
 Voici les graphes correspondants à ces deux situations :
 
@@ -563,6 +580,7 @@ Si on s'autorise à avoir une chaîne plutôt qu'un cycle (le sommet de départ 
 
 C'est la raison pour laquelle il n'y a pas de solution au problème des sept ponts de Königsberg, et pour laquelle on peut tracer une enveloppe sans lever son stylo, mais pas en revenant à son point de départ.
 
+**Exercice Bonus**: Comment trouver la coupable du meurtre de barbe bleue et résoudre ainsi l'exercice 02?
 
 #### Coloration
 
@@ -575,7 +593,8 @@ Cette propriété, qui n'est pas si triviale, est liée à la **coloration des g
 ![Coloration de graphe](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/coloration.png)
 
 
-### 8. Quelques exemples concrets de l'utilisation des graphes sur des sujets de recherche
+
+### 8. Quelques exemples concrets de l'utilisation des graphes au quotidien
 
 http://data.bnf.fr/semanticweb
 
@@ -591,5 +610,9 @@ http://data.bnf.fr/semanticweb
 
 - France IOI - Chapitres sur les graphes et les arbres : http://www.france-ioi.org/algo/chapters.php (attention, il vous faudra valider les premiers niveaux pour accéder à ces ressources)
 
+#### Pour aller encore plus loin:
+
+D'autres propriétés des graphes sont très utilisées et représentent de sproblèmes classiques en ingénierie informatique tels que le clustering et la detection de
+cliques avec de nombreuses applications
 
 Fiche réalisée par Constance de Quatrebarbes et Romain André-Lovichi (licence CC-BY-SA)
