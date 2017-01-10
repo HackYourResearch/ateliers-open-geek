@@ -390,10 +390,11 @@ Explications: Ici on nous demande d'écrire une fonction qui vérifie qu'un chem
 Attention cet algorithme ne propose qu'un seul chemin: les résultats vont donc être aléatoires et différents à chaque appel!
 Pourquoi? Parce que l'algorithme va commencer par un voisin de manière aléatoire.
 
-![A vos neurones!](https://media3.giphy.com/media/aji7IPRbkeExO/200.gif#33) via GIPHY :(
+![A vos neurones!](https://media3.giphy.com/media/aji7IPRbkeExO/200.gif#33) source:GIPHY
 
-``` Un peu d'aide?
-# pseudocode par voisinage pour un seul chemin
+```
+>>> Un peu d'aide?
+# pseudocode pour trouver un chemin
 def find_path(g, debut, fin, chemin=[])
   on ajoute le début au chemin
   si cible est la même que le sommet courant:
@@ -411,12 +412,14 @@ def find_path(g, debut, fin, chemin=[])
   une fois tout les voisins testés si le chemin n'a pas été renvoyé
   on a pas trouvé!
 ```
+
 ![Alors?](https://media1.giphy.com/media/OueJX99V7zWla/200.gif#88)
 
 - ensuite d'étendre cette fonction pour stocker tous les chemins possibles de A -> B
 Proposez une solution pour trouver tous les chemins!
 
-- et enfin
+- et enfin de vérifier si le chemin entre A et B existe bien dans le graph
+
 
 
 #algorithme par connexité
@@ -506,9 +509,9 @@ Dans le même ordre d'idée, est-il possible de relier chacun des 5 points ci-de
 
 ![K5](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/K5.jpg)
 
-Ces deux problèmes sont liés à une famille particulière de graphes : les **graphes planaires**. Un graphe est dit planaire s'il existe une représentation dans le plan de ce graphe telle qu'aucune arête n'en croise une autre. 
+Ces deux problèmes sont liés à une famille particulière de graphes : les **graphes planaires**. Un graphe est dit planaire s'il existe une représentation dans le plan de ce graphe telle qu'aucune arête n'en croise une autre.
 
-Il se trouve que les deux graphes ci-dessus ne sont pas planaires, ce qu'on peut prouver grâce à la théorie des graphes. On peut donc ainsi démontrer qu'il n'y a pas de solution aux deux questions ci-dessus. 
+Il se trouve que les deux graphes ci-dessus ne sont pas planaires, ce qu'on peut prouver grâce à la théorie des graphes. On peut donc ainsi démontrer qu'il n'y a pas de solution aux deux questions ci-dessus.
 
 
 #### Parcours eulériens
