@@ -243,9 +243,7 @@ On peut modéliser ce problème avec un graphe défini de la manière suivante :
 - Chaque sommet représente un joueur
 - Chaque arête représente un match entre deux joueurs.
 
-**Exercice 05A**: construire le graphe de ce tournoi.
-Que se passe-t-il?
-
+**Exercice 05A**: Construire le graphe de ce tournoi.
 Parvenez-vous à dessiner un tel graphe ?
 
 ![Un exemple avec des échecs](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/images/echecs.jpg)
@@ -273,7 +271,7 @@ Pour les aretes, on retrouve notamment les deux approches suivantes :
 La première approche sera par exemple intéressante dans le cas d'un graphe contenant peu d'arêtes (on parle de graph peu *dense*, ou de graphe *creux*).
 
 Très peu de langage de programmation supporte nativement le graphe comme type de données
-et Python ne fait pas exception. C'est pour cela que nous avons chargé le module complémentaire networkx.
+et Python ne fait pas exception. C'est pour cela que nous avons chargé le module complémentaire networkx mais nous pouvons aussi reproduire la structure d'un graphe à travers un mode de représentation simple.
 
 Essayons de voir dans un premier temps à partir de l'un de nos graphes précédents comment afficher pour chaque noeud la liste de ses voisins: l'implémentation classique par liste de voisinage correspond à celle-ci
 ```
@@ -293,6 +291,7 @@ graph_matrix = [['A','B',1], ['A','C', 1],['F', 'A', 0], ...]
 ```
 
 **Exercice 07** : Ecrire un script qui pour un graph donné renvoie un dictionnaire ou à chaque sommet correspond la liste des sommets auquel il est relié
+
 ```
 def build_graph_dict(g):
 '''transformer un graphe en un dictionnaire de listes'''
@@ -302,8 +301,7 @@ def build_graph_dict(g):
   return graph
 ```
 
-** Exercice 08 **: Ecrire un script qui pour un graph donné renvoie une matrice: soit toutes les arêtes possibles et si les sommets sont reliés ou non (0: pas reliés, 1: relié)
-
+**Exercice 08**: Ecrire un script qui pour un graph donné renvoie une matrice: soit toutes les arêtes possibles et si les sommets sont reliés ou non (0: pas reliés, 1: relié)
 
 ```
 #importons la librairie
@@ -317,9 +315,10 @@ def build_graph_mx(g):
 
     ...
   return graph
+
 ```
 
-** Exercice 09**:
+
 
 ### 5. Composantes connexes
 
