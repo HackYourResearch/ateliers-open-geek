@@ -74,6 +74,6 @@ Mais tout dépend de comment on considère le forfait:
 - vol de données
 - intrusion dans un système informatique
 
-Maintenant que vous êtes prévenus et que vous je vous ai bien fait peur voyons les usages qui peuvent être fait.
+Maintenant que vous êtes prévenus et que vous je vous ai bien fait peur un panorama des magnifiques possibilités du webmining.
 
 ### Cas d'usage
