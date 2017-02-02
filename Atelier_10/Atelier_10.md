@@ -60,7 +60,7 @@ tout comme pour une newsletter ou une inscription à un service, l'utilisateur c
 croiser ces données avec d'autres implique de déclarer le mode de valorisation que vous aller en faire. Résolution d'adresse, extraction de relation
 
 Il existe depuis janvier 2017 (loi pour une République Numérique), une exception à des fins de recherche, elle ne couvre que les travaux de recherche publique à vocation non-commerciale: il faut pour cela être affilié à un organisme de recherche publique et les conditions d'exercices sont encore flou.
-C'est un point légal assez complexe que je vous invite à regarder avec la très bonne synthèse sur les enjeux et les questions que cela pose (scinfolex)[https://scinfolex.com/2015/07/13/le-statut-juridique-des-donnees-de-la-recherche-entre-droit-des-bases-de-donnees-et-donnees-publiques/]
+C'est un point légal assez complexe que je vous invite à regarder avec la très bonne synthèse sur les enjeux et les questions que cela pose [scinfolex](https://scinfolex.com/2015/07/13/le-statut-juridique-des-donnees-de-la-recherche-entre-droit-des-bases-de-donnees-et-donnees-publiques/)
 
 
 Par ailleurs, à terme et ce n'est pas encore legiféré par décret, ces données devront être transférées à un tiers de confiance (la BNF est présentie pour ce rôle dans le cadre des archives du web).
@@ -74,6 +74,4 @@ Mais tout dépend de comment on considère le forfait:
 - vol de données
 - intrusion dans un système informatique
 
-Maintenant que vous êtes prévenus et que vous je vous ai bien fait peur un panorama des magnifiques possibilités du webmining.
-
-### Cas d'usage
+Maintenant que vous êtes prévenus et que vous je vous ai bien fait peur, petite introduction technique.
