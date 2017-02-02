@@ -65,7 +65,7 @@ C'est un point légal assez complexe que je vous invite à regarder avec la trè
 
 Par ailleurs, à terme et ce n'est pas encore legiféré par décret, ces données devront être transférées à un tiers de confiance (la BNF est présentie pour ce rôle dans le cadre des archives du web).
 
-Pour etre tranquille, donc il vaut mieux exercer ces talents sur de données en **Open Data** et militer pour l'Open Science: à savoir l'accès à tous aux savoirs communs.
+Pour etre tranquille, donc il vaut mieux exercer ces talents sur de données en **Open Data** et militer activement pour l'Open Science: à savoir l'accès à tous aux savoirs communs pour partage réutiliation et diffusion.
 
 Ensuite dans la pratique, beaucoup de professionnels ne s'embarassent pas de ces précautions légales qui peuvent être durement punies par la loi:
 A titre indicatif: on peut condamner la personne jusqu'à 3 ans d'emprisonnement et de 45 000 euros d'amende.
