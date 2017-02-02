@@ -60,12 +60,14 @@ tout comme pour une newsletter ou une inscription à un service, l'utilisateur c
 croiser ces données avec d'autres implique de déclarer le mode de valorisation que vous aller en faire. Résolution d'adresse, extraction de relation
 
 Il existe depuis janvier 2017 (loi pour une République Numérique), une exception à des fins de recherche, elle ne couvre que les travaux de recherche publique à vocation non-commerciale: il faut pour cela être affilié à un organisme de recherche publique et les conditions d'exercices sont encore flou.
+
 C'est un point légal assez complexe que je vous invite à regarder avec la très bonne synthèse sur les enjeux et les questions que cela pose [scinfolex](https://scinfolex.com/2015/07/13/le-statut-juridique-des-donnees-de-la-recherche-entre-droit-des-bases-de-donnees-et-donnees-publiques/)
 
 
-Par ailleurs, à terme et ce n'est pas encore legiféré par décret, ces données devront être transférées à un tiers de confiance (la BNF est présentie pour ce rôle dans le cadre des archives du web).
+Par ailleurs, à terme et ce n'est pas encore legiféré par décret, ces données devront être transférées à un tiers de confiance (la BNF est présentie pour ce rôle dans le cadre des Archives du web français).
 
-Pour etre tranquille, donc il vaut mieux exercer ces talents sur de données en **Open Data** et militer activement pour l'Open Science: à savoir l'accès à tous aux savoirs communs pour partage réutiliation et diffusion.
+Pour etre tranquille, donc il vaut mieux exercer ces talents sur de données en **Open Data**.
+Ici nous militons activement pour l'Open Science: à savoir l'accès à tous aux savoirs communs pour partage réutiliation et diffusion et cela passe aussi par une legislation claire des modalités d'extraction et de manipulation des données du web.
 
 Ensuite dans la pratique, beaucoup de professionnels ne s'embarassent pas de ces précautions légales qui peuvent être durement punies par la loi:
 A titre indicatif: on peut condamner la personne jusqu'à 3 ans d'emprisonnement et de 45 000 euros d'amende.
@@ -74,4 +76,4 @@ Mais tout dépend de comment on considère le forfait:
 - vol de données
 - intrusion dans un système informatique
 
-Maintenant que vous êtes prévenus et que vous je vous ai bien fait peur, petite introduction technique.
+Maintenant vous êtes prévenus !
