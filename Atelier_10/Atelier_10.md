@@ -1,5 +1,14 @@
 # Atelier 10
 
+* intro
+* page statique
+* exo xkcd
+break
+* demonstration crawler
+* démonstration page dynamique
+* exemples d'utilisation
+
+
 ## Introduction au webmining
 
 ### Qu'est ce que le webmining?
@@ -67,7 +76,8 @@ C'est un point légal assez complexe que je vous invite à regarder avec la trè
 Par ailleurs, à terme et ce n'est pas encore legiféré par décret, ces données devront être transférées à un tiers de confiance (la BNF est présentie pour ce rôle dans le cadre des Archives du web français).
 
 Pour etre tranquille, donc il vaut mieux exercer ces talents sur de données en **Open Data**.
-Ici nous militons activement pour l'Open Science: à savoir l'accès à tous aux savoirs communs pour partage réutiliation et diffusion et cela passe aussi par une legislation claire des modalités d'extraction et de manipulation des données du web.
+
+Ici nous militons activement pour l'Open Science: à savoir l'accès à tous aux savoirs communs pour partage réutiliation et diffusion: cela passe aussi par une législation claire des modalités d'extraction et de manipulation des données du web pour faire science ensemble et de manière transparente.
 
 Ensuite dans la pratique, beaucoup de professionnels ne s'embarassent pas de ces précautions légales qui peuvent être durement punies par la loi:
 A titre indicatif: on peut condamner la personne jusqu'à 3 ans d'emprisonnement et de 45 000 euros d'amende.
