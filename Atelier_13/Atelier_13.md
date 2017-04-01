@@ -20,37 +20,37 @@ Historique
 
 Concepts: généralisation, abstraction, régularisation, réduction
 
-## Démarche
-
 Point de départ de l'actualité: grosses donnés, grosses ordinateurs, itérer.
+
+## Démarche
 
 Discuter des exemples concrets. Pour chaque exemple, à quel intuition mathématique très simple ça correspond le plus.
 
 Exercices de intelligence collectif: on vote pour comment classifier les problèmes.
 
-Jouer avec le meta-jeu: nous votons pour classifier les exemples d'apprentissage automatique ; comparer avec le score individuel.
+Jouer avec le meta-jeu: nous votons pour classifier les cas d'apprentissage automatique ; comparer avec le score individuel.
 
 ## Identifier le problème
 
-###Non supervisé
+### Non supervisé
 Trouver des régularités dans un ensemble à partir d'un modèle pré-établi.
 
 Canard X castor X ornithorynque, équipes de football.
 
 ![](http://cubiclebot.com/wp-content/uploads/2010/06/tumblr_l3uy4q3d631qzpwi0o1_.jpg)
 
-En géneral, toute méthode de décomposition ou réduction de matrices.
+En général, toute méthode de décomposition ou réduction de matrices.
 
 Classification par proximité, clusterisation, réduction de dimensions, compression, PCA (analyse de composant principal).
 
 On peut penser qui ça correspond à une mesure, un critère, défini implicitement ou explicitement.
 
-### Supervised classification
+### Classification supervisé
 Quand la réponse est discrète
 
 Arbre de décision, ...
 
-### Supervised regression
+### Régression supervisé
 Quand la réponse est continue
 
 Interpolation, ...
@@ -95,15 +95,17 @@ Topiques:
 Il faut comprendre comment construire l'architecture du réseau... et [ça se corse](https://culurciello.github.io/tech/2016/06/04/nets.html)!
 
 
-### Passons à la pratique
+## Passons à la pratique
 
-Reconnaitre des numéros écrits à la main
+### Reconnaitre des numéros écrits à la main
 [Digits Classification](http://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html)
 
 [MNIST filters](http://scikit-learn.org/stable/auto_examples/neural_networks/plot_mnist_filters.html)
 
 [MNIST MLP](https://github.com/fchollet/keras/blob/master/examples/mnist_mlp.py)
 
-Distinguer entre des chats et des chiens
+### Distinguer entre des chats et des chiens
+
 [Donnés](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition)
+
 [Tutorial with Keras](https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html)
