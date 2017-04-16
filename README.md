@@ -27,9 +27,11 @@ Liste des ateliers 2016/2017 :
 
 * [Atelier #09 (mardi 10 janvier 2017) : "Séance Python" - Graphes et réseaux, principes de base](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/Atelier_09.md)
 
-* [Atelier #10 (samedi 21 janvier 2017) : "Séance culture générale geek" : Savoir prendre un peu de recul, analyse de controverses en SHS et principe des méta-analyses en sciences du vivant](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_10/Atelier_10.md)
+* [Atelier #10 (samedi 18 février 2017) : "Séance culture générale geek" : Open Access, Open Research Data en pratique](http://hackyourphd.org/2017/02/180217-atelier-opengeek-11-open-accessopen-research-data-pratique/)
 
-* [Atelier #11 (mardi 7 février 2017) : "Séance Python" - Webmining, principes de base](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_11/Atelier_11.md)
+* [Atelier #11 (mardi 7 février 2017) : "Séance Python" - Webmining, principes de base](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_11/Atelier_10.md)
+
+* [Atelier #12 (mardi 21 mars 2017) : "Séance Python" - Introduction au Machine Learning](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_11/Atelier_13.md)
 
 * [Atelier #13 (samedi 22 avril 2017) : "Séance culture générale geek" - Zotero Avancé – les styles bibliographiques : comprendre et contribuer](http://hackyourphd.org/2017/03/220417-atelier-opengeek-13-zotero-avance-styles-bibliographiques-comprendre-contribuer/)
 
