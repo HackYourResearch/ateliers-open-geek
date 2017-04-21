@@ -19,11 +19,11 @@ Liste des ateliers 2016/2017 :
 
 * [Atelier #05 (samedi 30 octobre 2016) : "Séance culture générale geek" - Faire face à la masse d'infos : la biblio c'est fantastique ! Zotero + style de référence](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_05/Atelier_05.md)
 
-* [Atelier #06 (mardi 15 novembre 2016) : "Séance Python" - Apprendre à compter avec Python](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_06/Atelier_06.md)
+* [Atelier #06 (mardi 15 novembre 2016) : "Séance Python" - Apprendre à compter avec Python](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Archives/atelier5.ipynb)
 
-* [Atelier #07 (samedi 26 novembre 2016) : "Séance culture générale geek" - Contribution et contrôles de version : découverte des Wikis et de Git/GitHub](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_07/Atelier_07.md)
+* [Atelier #07 (samedi 26 novembre 2016) : "Séance culture générale geek" - Contribution et contrôles de version : découverte des Wikis et de Git/GitHub](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Archives/Atelier%233.md)
 
-* [Atelier #08 (mardi 13 décembre 2016) : "Séance Python" - Visualiser en Python (matplotlib)](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_08/Atelier_08.md)
+* [Atelier #08 (mardi 13 décembre 2016) : "Séance Python" - Visualiser en Python (matplotlib)](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Archives/Atelier_7/atelier7.ipynb)
 
 * [Atelier #09 (mardi 10 janvier 2017) : "Séance Python" - Graphes et réseaux, principes de base](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_09/Atelier_09.md)
 
