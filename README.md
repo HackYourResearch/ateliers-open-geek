@@ -15,7 +15,7 @@ Liste des ateliers 2016/2017 :
 
 * [Atelier #03 (mardi 18 octobre 2016) : "Séance Python" - La découverte du textmining, quelques exemples en sciences sociales et génétique réseaux](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_03_textmining/Atelier_03.md)
 
-* [Atelier #04 (mardi 25 octobre 2016) : "Séance Python" -](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_04_base_python/Atelier_04.md)
+* [Atelier #04 (mardi 25 octobre 2016) : "Séance R" - Introduction](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_04_base_r/Atelier_04.md)
 
 * [Atelier #05 (samedi 30 octobre 2016) : "Séance culture générale geek" - Faire face à la masse d'infos : la biblio c'est fantastique ! Zotero + style de référence](https://github.com/HackYourPhd/ateliers-open-geek/blob/master/Atelier_05_biblio_zotero/Atelier_05.md)
 
