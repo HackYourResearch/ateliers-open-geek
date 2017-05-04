@@ -302,7 +302,7 @@ _Après_
         <name-part name="family" font-variant="small-caps"/>
       </name>
       ...
-      ```
+```
 
 ## Macro conditionnelle
 
@@ -322,6 +322,7 @@ Attributs possibles pour les éléments `if` et `else-if`. NB on peut indiquer p
     *   `match="any"` = OU = la condition se réalise si au moins un des critères est rempli ex : `<if type="book thesis" match="any">` la condition se réalise si le document est de type livre OU thèse
     *   `match="all"` = ET = la condition se réalise si TOUS les critères sont remplis
     *   `match="none"`= NON = la condition se réalise si AUCUN des critères n’est rempli ex : `<if variable="volume" match="none">` la condition se réalise si la variable volume est absente, i. e. si le champ Volume de la notice Zotero est vide
+
 
 **Exercice de style _Nature_.**
 
