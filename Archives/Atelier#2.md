@@ -45,7 +45,7 @@ Les **langages** informatiques sont les "couches d'abstractions" qui permettent 
  - [cartes perforées](http://fr.wikipedia.org/wiki/Carte_perfor%C3%A9e) (soyez heureux d'avoir un clavier au lieu d'une poinçonneuse !)
  - (explosion de langages pour des usages plus ou moins spécifiques)
  - Ceux que vous verrez dans ces ateliers :
- 
+
    -  MarkDown
    -  [Python](https://www.python.org/)
    -  [R](http://cran.r-project.org/)
@@ -66,7 +66,7 @@ linux|terminal emulator,xterm,...|se loguer|bash, tcsh,...
 ### L'arborescence des fichiers
 C'est une façon de se représenter et d'organiser l'information stockée sur le disque dur  
 **Il vaut mieux toujours savoir où on est dans cette arborescence !**
-  
+
 **Concepts clef** :
 
 - racine : c'est le point de départ de l'organisation des informations (particularité de windows : il peut y en avoir plusieurs)
@@ -132,6 +132,3 @@ linux|nautilus,gnome commander,...|commande|/
 - pas le nom d'un autre truc utile
 
 **Remarque** : toutes les opérations que vous faites avec un gestionnaire sont faisable en ligne de commande (et souvent c'est plus pratique quand on a plein d'opérations à effectuer). Attention par contre, on a pas droit à l'erreur donc il vaut mieux avoir un système de suivi de version pour ses documents !
-
-
-

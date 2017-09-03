@@ -4,14 +4,13 @@
 ## D'où vient votre Ordinateur
 
 #### Automatiser des opérations
-On est en tant qu'être human très mauvais pour répéter plein de fois une instruction sans faire d'erreur. Et on trouve ça très pénible  
+On est en tant qu'être humain très mauvais pour répéter plein de fois une instruction sans faire d'erreurs. Et on trouve ça très pénible  
 Exemples :
  - faire plein d'additions à la main
  - recopier un livre
  - serrer de la même façon toute la journée les mêmes boulons
 
  ![temps modernes](images/Modern_Times_poster.jpg)
-
 
 ---
 
@@ -42,7 +41,7 @@ Un automate est défini par un ensemble d'état et de règles de transitions ent
 
 [**La machine de Turing**](https://fr.wikipedia.org/wiki/Machine_de_Turing)  
 Objet théorique défini par [Alan Turing](https://fr.wikipedia.org/wiki/Alan_Turing)  
-Le truc minimal qui permette d'implémenter n'importe quel programme.
+Le truc minimal qui permet d'implémenter n'importe quel programme.
 
 **Les machines à registres**  
 Tout est expliqué par [Daniel Dennett](https://fr.wikipedia.org/wiki/Daniel_Dennett) [ici](http://sites.tufts.edu/rodrego/files/2011/03/Secrets-of-Computer-Power-Revealed-2008.pdf)
@@ -92,12 +91,13 @@ Il faut choisir le langage en fonction du problème à résoudre.
 
 Avantages de python :
   + conçu pour être (relativement) facile à lire et à écrire
-  + open source
+  + *open source*
   + langage généraliste : on peut tout faire avec python
   + grosse communauté : plein de gens ont déjà fait plein de programmes en python qu'ils mettent à disposition de tous
 
 
 ### La ligne de commande
+
 C'est l'interface privilégiée avec l'ordinateur quand on veut le soumettre à notre volonté.
 Elle utilise un langage qui permet de communiquer avec l'ordinateur (de façon assez frustre, entendons-nous) c'est-à-dire d'envoyer des instructions à l'ordinateur en tapant directement la commande à effectuer et de voir l'output de ces instructions s'afficher à l'écran.
 
@@ -137,10 +137,11 @@ ipython
 
 ### L'arborescence des fichiers
 C'est une façon de se représenter et d'organiser l'information stockée sur le disque dur  
+
 **Il vaut mieux toujours savoir où on est dans cette arborescence !**
 
 **Concepts clef** :
-- hierarchie : comme pour une adresse postale, afin d'indentifier quelqu'un à qui remettre un document, on part de l'échelle la plus haute et on spécifie un contenant particulier à chaque niveau d'organisation. Par exemple, on vous trouve sur terre, dans tel pays, dans telle ville, dans telle rue, dans tel bâtiment, dans telle pièce.
+- **hierarchie** : comme pour une adresse postale, afin d'indentifier quelqu'un à qui remettre un document, on part de l'échelle la plus haute et on spécifie un contenant particulier à chaque niveau d'organisation. Par exemple, on vous trouvez sur terre, dans tel pays, dans telle ville, dans telle rue, dans tel bâtiment, dans telle pièce.
 - **racine** : c'est le point de départ de l'organisation des informations (particularité de windows : il peut y en avoir plusieurs)
 - **dossier** ou **repertoire** : c'est un contenant qui peut contenir des fichiers ou d'autres répertoires
 - **fichier** : en simplifiant ça correspond à une zone de mémoire où sont stockées des informations (texte,video,données, script,...)
