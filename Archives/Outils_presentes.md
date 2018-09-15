@@ -1,4 +1,4 @@
-#Liste et présentation des outils des ateliers OpenGeek
+# Liste et présentation des outils des ateliers OpenGeek
 
 ## Outils pour le MarkDown : les éditeurs
 
@@ -6,7 +6,9 @@
 
 - [Mou](http://25.io/mou/). Téléchargeable est installable. Il permet de visualiser en direct ce qui est rédigé en MarkDown. L'outil propose de nombreuses options comme la création de vos thèmes, de changer le CSS ...
 
-- [Sublime Text](http://www.sublimetext.com). Cet éditeur de texte vous permettra aussi d'éditeur du MarkDown ou d'autres langages.
+- [Sublime Text](http://www.sublimetext.com). Cet éditeur de texte vous permettra aussi d'éditer du MarkDown ou d'autres langages.
+
+- [Visual Code](http://www.visualcode.com). Cet éditeur de texte vous permettra aussi d'éditer du MarkDown ou d'autres langages.
 
 Pour avoir un aperçu en temps réel du résultat Markdown, il suffit de suivre quelques étapes :
 
